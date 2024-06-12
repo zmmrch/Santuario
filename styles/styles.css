@@ -16,6 +16,17 @@ p {
     color: #25295A;
 }
 
+.nav-link {
+    color: #25295A;
+}
+
+.nav-item, .nav, .nav-underline {
+    color: #25295A;
+    font-weight: bold;
+    text-decoration: underline #ACA7CF;
+    text-underline-offset: 30px;
+}
+
 header {
     padding-bottom: 2%;
 }
@@ -51,12 +62,21 @@ header {
 
 .imagenSeparador {
     background-image: url("../imagenes/Pagina Inicial/SEPARADOR\ 1967X139.jpg");
+    background-size: cover;
     height: 139px;
     margin-bottom: 2%;
 }
 
 .imagenPrincipalDonaciones {
     background-image: url("../imagenes/donaciones/BANNER\ DONACIONES\ 1967X312.jpg");
+    background-size: cover;
+    height: 312px;
+    margin-bottom: 2%;
+}
+
+.imagenMuroInfoSantos {
+    background-image: url("../imagenes/muro_inf_santos/BANER\ MURO\ INFORMATIVO\ 1967X312.jpg");
+    background-size: cover;
     height: 312px;
     margin-bottom: 2%;
 }
