@@ -8,6 +8,14 @@ Tipografia: Times New Roman*/
     font-family: 'Times New Roman', Times, serif;
 }
 
+a {
+    text-decoration: none;
+}
+
+p {
+    color: #25295A;
+}
+
 header {
     padding-bottom: 2%;
 }
@@ -32,7 +40,7 @@ header {
 
 .imagenParallax {
     background-image: url("../imagenes/Pagina Inicial/EFECTO\ PARALAJE\ IGLESIA\ \ -REFORMAS\ DEL\ SANTUARIO\ 1967X3158.jpg");
-    height: 600px;
+    height: 800px;
     /* Create a parallax effect */
     background-attachment: fixed;
     background-position: bottom;
@@ -44,7 +52,13 @@ header {
 .imagenSeparador {
     background-image: url("../imagenes/Pagina Inicial/SEPARADOR\ 1967X139.jpg");
     height: 139px;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
+}
+
+.imagenPrincipalDonaciones {
+    background-image: url("../imagenes/donaciones/BANNER\ DONACIONES\ 1967X312.jpg");
+    height: 312px;
+    margin-bottom: 2%;
 }
 
 #santosDeLaSemana {
@@ -58,7 +72,8 @@ header {
     text-underline-offset: 30px;
 }
 
-#vozDelAlma {
+#vozDelAlma,
+#donaciones {
     text-align: center;
     color: #25295A; 
     font-weight: bold;
@@ -66,7 +81,7 @@ header {
     justify-items: center;
     text-decoration: underline #ACA7CF;
     text-underline-offset: 30px;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
 }
 
 #muroInformativo {
@@ -123,7 +138,10 @@ header {
     color: white;
 }
 
-.botonVerMas {
+.botonVerMas,
+.botonDonaciones,
+.botonDatosBancarios,
+.botonInicio {
     background-color: #25295A;
     color: white;
     width: 180px;
@@ -141,7 +159,7 @@ header {
 .verMas {
     display: flex;
     justify-content: center;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
 }
 
 .verReformasSantuario {
@@ -149,6 +167,18 @@ header {
     justify-content: center;
 }
 
+.datosBancarios {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+.Donaciones,
+.btnInicio {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+}
 
 /* Estilos para dispositivos móviles */
 @media only screen and (max-width: 768px) {
@@ -156,6 +186,10 @@ header {
         display: inline-block;
         width: 35%;
         text-align: center;
+    }
+
+    .p {
+        margin-top: 5%;
     }
 
     .bi {
@@ -168,12 +202,6 @@ header {
         padding-top: 5%;
         margin-left: 20%;
         margin-right: 20%;
-    }
-
-    .imagenSeparador {
-        background-image: url("../imagenes/Pagina Inicial/SEPARADOR\ 1967X139.jpg");
-        
-        margin-bottom: 5%;
     }
 
     .card-title {
@@ -196,9 +224,16 @@ header {
 
     .imagenSeparador {
         background-image: url("../imagenes/Pagina Inicial/SEPARADOR\ 1967X139.jpg");
-        background-size: contain;
+        background-size:cover;
         background-repeat: no-repeat;
-        margin-bottom: 5%;
+        height: 75px;
+    }
+
+    .imagenPrincipalDonaciones {
+        background-image: url("../imagenes/donaciones/BANNER\ DONACIONES\ 1967X312.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 150px;
     }
 
     #santosDeLaSemana,
@@ -207,10 +242,25 @@ header {
         text-underline-offset: 15px;
     }
 
+    #vozDelAlma {
+        font-size: 90%;
+        text-underline-offset: 15px;
+        margin-bottom: 8%;
+    }
+
+    .verMas {
+        margin-bottom: 10%;
+    }
+
     h3 {
-        font-size: 95%;
+        font-size: 90%;
         margin-right: 10%;
         padding-right: 5%;
+    }
+
+    .d-block {
+        height: 170px;
+        width: auto;
     }
 
     .carousel-caption {
@@ -227,6 +277,17 @@ header {
     .footer {
         font-size: 1.5vw;
         margin-top: 1%;
+    }
+
+    .botonDonaciones {
+        display: flex;
+        justify-content: center;
+        margin-top: 15%;
+        margin-bottom: 15%;
+    }
+
+    .botonReformasSantuario {
+        margin-top: 5%;
     }
 }
 
