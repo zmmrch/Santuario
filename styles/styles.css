@@ -1,0 +1,232 @@
+/*Codigos de colores del sitio------------------------------------------------------
+Violeta: #ACA7CF
+Azul: #25295A
+Blanco:
+Tipografia: Times New Roman*/
+
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    padding-bottom: 2%;
+}
+
+#logo {
+    width: 12%;
+    padding-left: 2.5%;
+}
+
+.bi {
+    color: #ACA7CF !important;
+    font-size: 25px;
+}
+
+.imagenProvinciaAndina {
+    display: flex;
+    padding-top: 5%;
+    justify-content: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.imagenParallax {
+    background-image: url("../imagenes/Pagina Inicial/EFECTO\ PARALAJE\ IGLESIA\ \ -REFORMAS\ DEL\ SANTUARIO\ 1967X3158.jpg");
+    height: 600px;
+    /* Create a parallax effect */
+    background-attachment: fixed;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size:cover; 
+    margin-bottom: 2%;
+}
+
+.imagenSeparador {
+    background-image: url("../imagenes/Pagina Inicial/SEPARADOR\ 1967X139.jpg");
+    height: 139px;
+    margin-bottom: 5%;
+}
+
+#santosDeLaSemana {
+    padding-top: 5%;
+    text-align: center;
+    color: #25295A; 
+    font-weight: bold;
+    justify-content: center;
+    justify-items: center;
+    text-decoration: underline #ACA7CF;
+    text-underline-offset: 30px;
+}
+
+#vozDelAlma {
+    text-align: center;
+    color: #25295A; 
+    font-weight: bold;
+    justify-content: center;
+    justify-items: center;
+    text-decoration: underline #ACA7CF;
+    text-underline-offset: 30px;
+    margin-bottom: 5%;
+}
+
+#muroInformativo {
+    text-align: center;
+    color: #25295A; 
+    font-weight: bold;
+    justify-content: center;
+    justify-items: center;
+    text-decoration: underline #ACA7CF;
+    text-underline-offset: 30px;
+}
+
+#carouselExampleCaptions2 {
+    padding-top: 5%;
+    margin-left: 15%;
+    margin-right: 10%;
+    align-items: start;
+}
+
+.card-title {
+    font-weight: bold;
+    color: #25295A;
+}
+
+.card-text {
+    color: #25295A;
+}
+
+.card {
+    width: auto;
+    border-color: #ACA7CF;
+}
+
+.card-img-top {
+    width: 100%;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon,
+.carousel-indicators {
+  filter: invert(100%);
+}
+
+.carousel-caption {
+    position:absolute; 
+    text-align: start;
+    margin-right: 20%;
+    padding-bottom: 5%;
+    font-weight: bold;
+}
+
+.botones {
+    background-color: #25295A;
+    color: white;
+}
+
+.botonVerMas {
+    background-color: #25295A;
+    color: white;
+    width: 180px;
+    height: 30px;
+}
+
+.botonReformasSantuario{
+    background-color: #25295A;
+    color: white;
+    width: 200px;
+    height: 30px;
+    margin-bottom: 5%;
+}
+
+.verMas {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+.verReformasSantuario {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Estilos para dispositivos móviles */
+@media only screen and (max-width: 768px) {
+    #logo {
+        display: inline-block;
+        width: 35%;
+        text-align: center;
+    }
+
+    .bi {
+        font-size: 80%;
+    }
+
+    .imagenProvinciaAndina {
+        display: inline-block;
+        text-align: center;
+        padding-top: 5%;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    .imagenSeparador {
+        background-image: url("../imagenes/Pagina Inicial/SEPARADOR\ 1967X139.jpg");
+        
+        margin-bottom: 5%;
+    }
+
+    .card-title {
+        font-size: 90%;
+        font-weight: bold;
+        color: #25295A;
+    }
+
+    .card-text {
+        font-size: 80%;
+        color: #25295A;
+    }
+
+    #carouselExampleCaptions2 {
+        padding-top: 5%;
+        margin-left: 25%;
+        margin-right: 8%;
+        align-items: center;
+    }
+
+    .imagenSeparador {
+        background-image: url("../imagenes/Pagina Inicial/SEPARADOR\ 1967X139.jpg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-bottom: 5%;
+    }
+
+    #santosDeLaSemana,
+    #muroInformativo {
+        font-size: 90%;
+        text-underline-offset: 15px;
+    }
+
+    h3 {
+        font-size: 95%;
+        margin-right: 10%;
+        padding-right: 5%;
+    }
+
+    .carousel-caption {
+        position:absolute; 
+        bottom: 0px;
+        font-size: 78%;
+        text-align: start;
+    }
+
+    .carousel-item {
+        width: 150%;
+    }
+
+    .footer {
+        font-size: 1.5vw;
+        margin-top: 1%;
+    }
+}
+
