@@ -56,6 +56,13 @@ header {
     margin-bottom: 2%;
 }
 
+.imagenSeparadorReformaSantuario {
+    background-image: url("../imagenes/reformas_santuario/SEPARADOR\ REFORMAS\ DEL\ SANTUARIO\ 1967X139.jpg");
+    background-size: cover;
+    height: 139px;
+    margin-bottom: 2%;
+}
+
 .imagenPrincipalDonaciones {
     background-image: url("../imagenes/donaciones/BANNER\ DONACIONES\ 1967X312.jpg");
     background-size: cover;
@@ -65,6 +72,13 @@ header {
 
 .imagenMuroInfoSantos {
     background-image: url("../imagenes/muro_inf_santos/BANER\ MURO\ INFORMATIVO\ 1967X312.jpg");
+    background-size: cover;
+    height: 312px;
+    margin-bottom: 2%;
+}
+
+.imagenReformasSantuario {
+    background-image: url("../imagenes/reformas_santuario/BANNER\ REFORMAS\ DEL\ SANTUARIO\ 1967X312.jpg");
     background-size: cover;
     height: 312px;
     margin-bottom: 2%;
@@ -82,7 +96,8 @@ header {
 }
 
 #vozDelAlma,
-#donaciones {
+#donaciones,
+#refSantuario {
     text-align: center;
     color: #25295A;
     font-weight: bold;
@@ -163,6 +178,14 @@ header {
     width: 200px;
     height: 30px;
     margin-bottom: 5%;
+}
+
+.botonVerGaleriaFotos {
+    background-color: #25295A;
+    color: white;
+    width: 180px;
+    height: 30px;
+    margin-top: 20%;
 }
 
 .verMas {
@@ -287,7 +310,7 @@ select:focus {
         text-align: center;
     }
 
-    .p {
+    p {
         margin-top: 5%;
     }
 
@@ -343,7 +366,8 @@ select:focus {
     }
 
     #santosDeLaSemana,
-    #muroInformativo {
+    #muroInformativo,
+    #refSantuario {
         font-size: 90%;
         text-underline-offset: 15px;
     }
