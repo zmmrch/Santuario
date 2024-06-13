@@ -40,7 +40,7 @@ header {
 
 .imagenParallax {
     background-image: url("../imagenes/Pagina Inicial/EFECTO\ PARALAJE\ IGLESIA\ \ -REFORMAS\ DEL\ SANTUARIO\ 1967X3158.jpg");
-    height: 800px;
+    height: 1000px;
     /* Create a parallax effect */
     background-attachment: fixed;
     background-position: bottom;
@@ -189,6 +189,7 @@ header {
     margin-bottom: 2%;
 }
 
+/*Animated transition tabs*/
 .made-with {
     background: #ACA7CF;
     color: #25295A;
@@ -219,8 +220,8 @@ select:focus {
   -webkit-flex-wrap: wrap;
   -moz-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 30%;
+  margin-right: 30%;
   overflow: hidden; }
   .tabs [class^="tab"] label,
   .tabs [class*=" tab"] label {
@@ -276,7 +277,7 @@ select:focus {
       margin-left: 100%; }
     .tabs .tab-2:last-child [type="radio"]:checked + div {
       margin-left: -100%; }
-
+/*FIN - Animated transition tabs*/
 
 /* Estilos para dispositivos móviles */
 @media only screen and (max-width: 768px) {
@@ -334,6 +335,13 @@ select:focus {
         height: 150px;
     }
 
+    .imagenMuroInfoSantos {
+        background-image: url("../imagenes/muro_inf_santos/BANER\ MURO\ INFORMATIVO\ 1967X312.jpg");
+        background-size: cover;
+        height: 156px;
+        margin-bottom: 2%;
+    }
+
     #santosDeLaSemana,
     #muroInformativo {
         font-size: 90%;
@@ -387,5 +395,11 @@ select:focus {
     .botonReformasSantuario {
         margin-top: 5%;
     }
+
+    .tabs {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
 }
 
