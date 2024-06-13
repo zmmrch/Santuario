@@ -84,6 +84,25 @@ header {
     margin-bottom: 2%;
 }
 
+.imagenBienvenidosSantuario {
+    background-image: url("../imagenes/bienvenidos/BANNER\ BIENVENIDOS\ AL\ SANTUIUARIO\ 1967X312.jpg");
+    background-size: cover;
+    height: 312px;
+    margin-bottom: 2%;
+}
+
+.imagenSeparadorBienvenidos {
+    background-image: url("../imagenes/bienvenidos/SEPARADOR\ BIENVENIDOS\ AL\ SANTUARIO\ 1967X139.jpg");
+    background-size: cover;
+    height: 139px;
+    margin-bottom: 2%;
+}
+
+.cruz {
+    width: 40px; 
+    height: auto;
+}
+
 #santosDeLaSemana {
     padding-top: 5%;
     text-align: center;
@@ -97,7 +116,8 @@ header {
 
 #vozDelAlma,
 #donaciones,
-#refSantuario {
+#refSantuario,
+#refReligiosos {
     text-align: center;
     color: #25295A;
     font-weight: bold;
@@ -302,12 +322,26 @@ select:focus {
       margin-left: -100%; }
 /*FIN - Animated transition tabs*/
 
+iframe {
+    width: 1024px;
+    height: 800px;
+}
+
+#cardReligiosos {
+    width: auto;
+}
+
 /* Estilos para dispositivos móviles */
 @media only screen and (max-width: 768px) {
     #logo {
         display: inline-block;
         width: 35%;
         text-align: center;
+    }
+
+    iframe {
+        width: 600px;
+        height: 300px;
     }
 
     p {
@@ -324,6 +358,10 @@ select:focus {
         padding-top: 5%;
         margin-left: 20%;
         margin-right: 20%;
+    }
+
+    #cardReligiosos {
+        width: 18rem;
     }
 
     .card-title {
@@ -365,11 +403,38 @@ select:focus {
         margin-bottom: 2%;
     }
 
+    .imagenReformasSantuario {
+        background-image: url("../imagenes/reformas_santuario/BANNER\ REFORMAS\ DEL\ SANTUARIO\ 1967X312.jpg");
+        background-size: cover;
+        height: 156px;
+        margin-bottom: 2%;
+    }
+
+    .imagenSeparadorReformaSantuario {
+        background-image: url("../imagenes/reformas_santuario/SEPARADOR\ REFORMAS\ DEL\ SANTUARIO\ 1967X139.jpg");
+        background-size: cover;
+        height: 75px;
+        margin-bottom: 2%;
+    }
+
+    .imagenBienvenidosSantuario {
+        background-image: url("../imagenes/bienvenidos/BANNER\ BIENVENIDOS\ AL\ SANTUIUARIO\ 1967X312.jpg");
+        background-size: cover;
+        height: 75px;
+        margin-bottom: 2%;
+    }
+
     #santosDeLaSemana,
     #muroInformativo,
     #refSantuario {
         font-size: 90%;
         text-underline-offset: 15px;
+    }
+
+    #refReligiosos {
+        font-size: 90%;
+        text-underline-offset: 15px;
+        margin-bottom: 8%;
     }
 
     #vozDelAlma {
