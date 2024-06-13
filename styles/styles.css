@@ -332,7 +332,7 @@ iframe {
 }
 
 /* Estilos para dispositivos móviles */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 992px) {
     #logo {
         display: inline-block;
         width: 35%;
