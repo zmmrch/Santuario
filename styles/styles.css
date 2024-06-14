@@ -427,19 +427,22 @@ iframe {
     #santosDeLaSemana,
     #muroInformativo,
     #refSantuario {
-        font-size: 90%;
+        display: flex;
+        line-height: 1.5em;
         text-underline-offset: 15px;
     }
 
     #refReligiosos {
-        font-size: 90%;
+        display: flex;
+        line-height: 1.5em;
         text-underline-offset: 15px;
         margin-bottom: 8%;
     }
 
     #vozDelAlma {
-        font-size: 80%;
-        text-underline-offset: 15px;
+        display: flex;
+        line-height: 1.5em;
+        text-underline-offset: 5px;
         margin-bottom: 8%;
     }
 
