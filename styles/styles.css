@@ -393,6 +393,7 @@ iframe {
         background-image: url("../imagenes/Pagina Inicial/SEPARADOR\ 1967X139.jpg");
         background-size:cover;
         background-repeat: no-repeat;
+        background-position: right;
         height: 75px;
     }
 
@@ -400,12 +401,14 @@ iframe {
         background-image: url("../imagenes/donaciones/BANNER\ DONACIONES\ 1967X312.jpg");
         background-size: cover;
         background-repeat: no-repeat;
+        background-position: center;
         height: 150px;
     }
 
     .imagenMuroInfoSantos {
         background-image: url("../imagenes/muro_inf_santos/BANER\ MURO\ INFORMATIVO\ 1967X312.jpg");
         background-size: cover;
+        background-position: right;
         height: 156px;
         margin-bottom: 2%;
     }
@@ -420,6 +423,7 @@ iframe {
     .imagenSeparadorReformaSantuario {
         background-image: url("../imagenes/reformas_santuario/SEPARADOR\ REFORMAS\ DEL\ SANTUARIO\ 1967X139.jpg");
         background-size: cover;
+        background-position: right;
         height: 75px;
         margin-bottom: 2%;
     }
@@ -427,7 +431,23 @@ iframe {
     .imagenBienvenidosSantuario {
         background-image: url("../imagenes/bienvenidos/BANNER\ BIENVENIDOS\ AL\ SANTUIUARIO\ 1967X312.jpg");
         background-size: cover;
+        background-position: right;
+        height: 150px;
+        margin-bottom: 2%;
+    }
+
+    .imagenSeparadorBienvenidos {
+        background-image: url("../imagenes/bienvenidos/SEPARADOR\ BIENVENIDOS\ AL\ SANTUARIO\ 1967X139.jpg");
+        background-size: cover;
+        background-position: right;
         height: 75px;
+        margin-bottom: 2%;
+    }
+
+    .imagenPrincipalVidaDeFe {
+        background-image: url("../imagenes/vida_de_fe/BANNER\ VIDA\ DE\ FÉ\ 1967X312.jpg");
+        background-size: cover;
+        height: 150px;
         margin-bottom: 2%;
     }
 
