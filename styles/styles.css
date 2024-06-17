@@ -357,8 +357,15 @@ iframe {
 
 #mySacramentos,
 #myBautismo,
-#myComunion {
+#myComunion,
+#myConfirmacion {
     display: none;
+}
+
+#descripcionSacramentos {
+    margin-left: 20%; 
+    margin-right: 20%; 
+    text-align: justify;
 }
 
 .tabcontent {
@@ -540,7 +547,8 @@ iframe {
 
     #mySacramentos,
     #myBautismo,
-    #myComunion {
+    #myComunion,
+    #myConfirmacion {
         display: none;
         font-size: 80%;
     }
@@ -558,10 +566,10 @@ iframe {
         vertical-align: middle;
     }
 
-    /* .footer {
+    .footer {
         font-size: 1.5vw;
         margin-top: 1%;
-    } */
+    }
 
     .botonDonaciones {
         display: flex;

@@ -116,7 +116,7 @@
         <button class="tablink" onclick="Comunion(); openPage('myComunion')">
           PRIMERA COMUNIÓN
         </button>
-        <button class="tablink" onclick="">CONFIRMACIÓN</button>
+        <button class="tablink" onclick="Confirmacion(); openPage('myConfirmacion')">CONFIRMACIÓN</button>
         <button class="tablink" onclick="">MATRIMONIO</button>
         <button class="tablink" onclick="">UNCIÓN DE LOS ENFERMOS</button>
       </div>
@@ -125,7 +125,8 @@
     <!--Seccion: BAUTISMO---------------------------------------------------------------------------------------------->
       <div class="container-fluid text-center-left">
         <div class="tabcontent" id="myBautismo">
-            <div class="col"></div>
+            <div class="row">
+                <div class="col"></div>
             <div class="col-12">
                 <h5 style="text-align: left">¿QUÉ ES?</h5>
             <p>
@@ -203,6 +204,7 @@
             </p>
             </div>
             <button class="botonInicio mt-5 mb-5 align-right">Contacto</button>
+            </div>
         </div>
       </div>
     </div>
@@ -210,7 +212,7 @@
     <!--Seccion: PRIMERA COMUNION---------------------------------------------------------------------------------------------->
     <div class="tabcontent" id="myComunion">
       <div class="container-fluid">
-        <div class="row">
+        <div class="row" >
           <div class="col"></div>
           <div class="col-12">
             <h5 style="text-align: left">¿QUÉ ES?</h5>
@@ -316,6 +318,70 @@
       </div>
     </div>
 
+    <!--Seccion: CONFIRMACION---------------------------------------------------------------------------------------------->
+     <div class="tabcontent" id="myConfirmacion">
+        <div class="container-fluid">
+          <div class="row"  >
+            <div class="col"></div>
+            <div class="col-12">
+              <h5 style="text-align: left">¿QUÉ ES?</h5>
+              <p>
+                Es el cuarto sacramento de iniciación cristiana. En este sacramento, los fieles reciben el don del Espíritu Santo, fortaleciendo así su vínculo con la comunidad cristiana y
+                completando la gracia recibida en el Bautismo.
+              </p>
+              <p>
+                Durante la Confirmación, el Otbispo impone las manos sobre la persona, invocando al Espíritu Santo y confirmando su fe en Jesucristo. También se unge al confirmado con óleo
+                sagrado como signo de la plenitud del Espíritu Santo que reciben en este sacramento..
+              </p>
+              <p>La Confirmación es un momento importante en la vida de nuestra familia católica, ya que les da la oportunidad de renovar y fortalecer su compromiso con Cristo y con la Iglesia.
+                Además, capacita a los confirmados para ser testigos valientes de la fe en el mundo y para participar plenamente en la misión de la Iglesia de llevar el Evangelio a todos los
+                rincones de la tierra.</p>
+              <h5>¿QUIÉNES PUEDEN RECIBIR ÉSTE SACRAMENTO?</h5>
+              <p>
+                La Confirmación se recibe después de la Primera Comunión. Aquí hay algunas pautas sobre quiénes pueden recibir el sacramento de la Confirmación:
+              </p>
+              <p>
+                Todos los católicos que han hecho la primera comunión y han alcanzado la edad de los 14 años, son candidatos potenciales para recibir el sacramento de la Confirmación.
+                Normalmente, este sacramento se recibe en la adolescencia, pero también puede ser recibido por adultos que no lo hayan recibido anteriormente.  
+              </p>
+              <h5>¿CÓMO RECIBIR LA CONFIRMACIÓN?</h5>
+              <p>
+                Para recibir el sacramento de la Confirmación, se sigue un proceso que implica los siguientes pasos:
+              </p>
+              <p>
+                Inscripción en el programa de Confirmación: El primer paso es contactar con las oficinas de nuestro santuario y expresar el deseo de recibir el sacramento de la Confirmación.
+                Te vamos a proveer la información sobre el proceso de inscripción en el programa de preparación para la Confirmación.
+              </p>
+              <p>
+                Participación en clases de formación catequética: Los candidatos a la Confirmación deben participar en nuestro programa de formación catequética que les ayudará a
+                profundizar su comprensión de la fe católica y prepararlos para recibir el sacramento. Esto puede incluir clases de catequesis, estudios bíblicos, retiros espirituales y actividades
+                de servicio comunitario.
+              </p>
+              <p>
+                Participación en clases de formación catequética: Los candidatos a la Confirmación deben participar en nuestro programa de formación catequética que les ayudará a
+                profundizar su comprensión de la fe católica y prepararlos para recibir el sacramento. Esto puede incluir clases de catequesis, estudios bíblicos, retiros espirituales y actividades
+                de servicio comunitario.
+              </p>
+              <p>
+                Confirmación litúrgica: La Confirmación se celebra durante una ceremonia litúrgica especial presidida por nuestro Obispo. Durante la ceremonia, el Obispo impone las manos
+                sobre cada persona que está haciendo su ritual de confirmación, e invoca al Espíritu Santo y unge al candidato con óleo sagrado (crisma) en la frente como signo del don del
+                Espíritu Santo y le desea la Paz.
+              </p>
+              <p>
+                Compromiso continuo con la fe: Después de recibir la Confirmación, es importante que los confirmados continúen creciendo en su fe católica, participando en la vida
+                sacramental de la Iglesia, practicando la oración y la lectura de la Biblia, y sirviendo a los demás en la comunidad.
+              </p>
+              <p>
+                Para recibir el sacramento de la Confirmación en la Iglesia Católica, es necesario participar en un proceso de preparación catequética y espiritual, culminando en una ceremonia
+                litúrgica especial donde se recibe el don del Espíritu Santo. <b>Si quieres hacer el sacramento independientemente de la edad, y necesitas saber los requisitos para hacer la
+                    confirmación, contactanos dando clik al botón de Contacto.</b>
+              </p>
+              <button class="botonInicio mt-5 mb-5 align-right">Contacto</button>
+            </div>
+          </div>
+        </div>
+    </div>
+
     <!--Seccion: Boton "Ver reformas del santuario"-->
     <div class="btnInicio">
       <a href="../index.html"><button class="botonInicio">Inicio</button></a>
@@ -389,6 +455,19 @@
             let y = document.getElementById("imagenPrincipal");
             y.style.backgroundImage =
             "url('../imagenes/vida_de_fe/BANNER PRIMERA COMUNION 1967X312.jpg')";
+        }
+
+        function Confirmacion() {
+            let x = document.getElementById("myConfirmacion");
+            if (x.style.display === "block") {
+            x.style.display = "none";
+            } else {
+            x.style.display = "block";
+            }
+
+            let y = document.getElementById("imagenPrincipal");
+            y.style.backgroundImage =
+            "url('../imagenes/vida_de_fe/BANNER CONFIRMACION 1967X312.jpg')";
         }
 
         function openPage(pageName, elmnt, color) {
