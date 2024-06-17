@@ -361,6 +361,13 @@ iframe {
     display: none;
 }
 
+.tabcontent {
+    color:#25295A;
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
+}
+
 .footer {
     position:relative;
     left: 0;

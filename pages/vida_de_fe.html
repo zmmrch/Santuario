@@ -122,7 +122,8 @@
       </div>
     </div>
 
-    <div class="container-fluid">
+    <!--Seccion: BAUTISMO---------------------------------------------------------------------------------------------->
+      <div class="container-fluid text-center-left">
         <div class="tabcontent" id="myBautismo">
             <div class="col"></div>
             <div class="col-12">
@@ -201,18 +202,7 @@
               ><br />
             </p>
             </div>
-        </div>
-    </div>
-
-    <!--Seccion: BAUTISMO---------------------------------------------------------------------------------------------->
-    
-      <div class="container-fluid text-center-left">
-        <div class="row">
-          
-          
-            
             <button class="botonInicio mt-5 mb-5 align-right">Contacto</button>
-          </div>
         </div>
       </div>
     </div>
@@ -320,7 +310,7 @@
                 contactanos dando clik al botón de Contacto.</b
               ><br />
             </p>
-            <button class="mt-5 align-items-right">Contacto</button>
+            <button class="botonInicio mt-5 mb-5 align-right">Contacto</button>
           </div>
         </div>
       </div>
@@ -363,43 +353,65 @@
     ></script>
 
     <script>
-      function sacramentos() {
-        let x = document.getElementById("mySacramentos");
-        let v = document.getElementById("imagenPrincipal");
-        v.style.backgroundImage =
-          "url('../imagenes/vida_de_fe/BANNER VIDA DE FÉ 1967X312.jpg')";
-        if (x.style.display === "inline-block") {
-          x.style.display = "none";
-        } else {
-          x.style.display = "inline-block";
-        }
-      }
-
-      function bautismo() {
-        let x = document.getElementById("myBautismo");
-        if (x.style.display === "block") {
-          x.style.display = "none";
-        } else {
-          x.style.display = "block";
+        function sacramentos() {
+            let x = document.getElementById("mySacramentos");
+            let v = document.getElementById("imagenPrincipal");
+            v.style.backgroundImage =
+            "url('../imagenes/vida_de_fe/BANNER VIDA DE FÉ 1967X312.jpg')";
+            if (x.style.display === "inline-block") {
+            x.style.display = "none";
+            } else {
+            x.style.display = "inline-block";
+            }
         }
 
-        let y = document.getElementById("imagenPrincipal");
-        y.style.backgroundImage =
-          "url('../imagenes/vida_de_fe/BANNER BAUTISMO 1967X312.jpg')";
-      }
+        function bautismo() {
+            let x = document.getElementById("myBautismo");
+            if (x.style.display === "block") {
+            x.style.display = "none";
+            } else {
+            x.style.display = "block";
+            }
 
-      function Comunion() {
-        let x = document.getElementById("myComunion");
-        if (x.style.display === "block") {
-          x.style.display = "none";
-        } else {
-          x.style.display = "block";
+            let y = document.getElementById("imagenPrincipal");
+            y.style.backgroundImage =
+            "url('../imagenes/vida_de_fe/BANNER BAUTISMO 1967X312.jpg')";
         }
 
-        let y = document.getElementById("imagenPrincipal");
-        y.style.backgroundImage =
-          "url('../imagenes/vida_de_fe/BANNER PRIMERA COMUNION 1967X312.jpg')";
-      }
+        function Comunion() {
+            let x = document.getElementById("myComunion");
+            if (x.style.display === "block") {
+            x.style.display = "none";
+            } else {
+            x.style.display = "block";
+            }
+
+            let y = document.getElementById("imagenPrincipal");
+            y.style.backgroundImage =
+            "url('../imagenes/vida_de_fe/BANNER PRIMERA COMUNION 1967X312.jpg')";
+        }
+
+        function openPage(pageName, elmnt, color) {
+            // Hide all elements with class="tabcontent" by default */
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+
+            // Remove the background color of all tablinks/buttons
+            tablinks = document.getElementsByClassName("tablink");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].style.backgroundColor = "";
+            }
+
+            // Show the specific tab content
+            document.getElementById(pageName).style.display = "block";
+
+            // Add the specific color to the button used to open the tab content
+            elmnt.style.backgroundColor = color;
+        }
+
     </script>
   </body>
 </html>
