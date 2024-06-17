@@ -1,111 +1,405 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
+  <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     <title>Santuario de Lourdes</title>
     <link rel="icon" type="image/x-icon" href="" />
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
     <!-- Bootstrap icons-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
     <!-- link con el archivo de estilos de CSS-->
     <link rel="stylesheet" href="../styles/styles.css" />
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <!--Navbar------------------------------------------------------------------------------------------------------------------------------------------------------>
-        <nav class="navbar bg-body-tertiary">
-            <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
-                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
-                    aria-labelledby="offcanvasNavbarLabel">
-                    <div class="offcanvas-header">
-                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">SANTUARIO DE LOURDES</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                    </div>
-                    <div class="offcanvas-body">
-                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">BIENVENIDOS AL SANTUARIO</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">VIDA DE FE</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">GRUPOS PASTORALES</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">GRUPOS DE LABOR SOCIAL</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">OBRAS DEL SANTUARIO</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">HORARIOS Y CONTACTO</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">RADIO PARROQUIAL</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <a href="../index.html" id="logo"><img src="../imagenes/LOGO NSL 238.5664 X 133.2427.png" alt="" class="img-fluid"></a>
-                <div class="d-flex justify-content-end gap-4 mt-3">
-                    <a class="" href="#!"><i class="bi bi-facebook"></i></a>
-                    <a class="" href="#!"><i class="bi bi-instagram"></i></a>
-                    <a class="" href="#!"><i class="bi bi-youtube"></i></a>
-                </div>
+      <!--Navbar------------------------------------------------------------------------------------------------------------------------------------------------------>
+      <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                SANTUARIO DE LOURDES
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
             </div>
-        </nav>
-        <!--Fin Navbar------------------------------------------------------------------------------------------------------------------------------------------------>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">BIENVENIDOS AL SANTUARIO</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">VIDA DE FE</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">GRUPOS PASTORALES</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">GRUPOS DE LABOR SOCIAL</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">OBRAS DEL SANTUARIO</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">HORARIOS Y CONTACTO</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">RADIO PARROQUIAL</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <a href="../index.html" id="logo"
+            ><img
+              src="../imagenes/LOGO NSL 238.5664 X 133.2427.png"
+              alt=""
+              class="img-fluid"
+          /></a>
+          <div class="d-flex justify-content-end gap-4 mt-3">
+            <a class="" href="#!"><i class="bi bi-facebook"></i></a>
+            <a class="" href="#!"><i class="bi bi-instagram"></i></a>
+            <a class="" href="#!"><i class="bi bi-youtube"></i></a>
+          </div>
+        </div>
+      </nav>
+      <!--Fin Navbar------------------------------------------------------------------------------------------------------------------------------------------------>
     </header>
 
     <!--Seccion: imagen principal vida de fe-->
-    <div class="imagenPrincipalVidaDeFe"></div>
+    <div class="imagenPrincipalVidaDeFe" id="imagenPrincipal"></div>
 
+    <!--Seccion: vida de fe--------------------------------------------------------------------------------------------------------------------------------->
+    <div class="container-fluid">
+      <h2 id="donaciones">VIDA DE FE</h2>
+      <div class="btnVidaDeFe text-center mt-5 mb-5">
+        <a href="javascript:void(0);" onclick="sacramentos()">
+            <button class="botonSacramentos">SACRAMENTOS</button>
+        </a>
+        <button class="botonSacramentos">SERVICIO SACERDOTAL</button>
+        <button class="botonSacramentos">CINERARIO</button>
+      </div>
 
+      <div class="container-fluid text-center mb-5" id="mySacramentos">
+        <button class="tablink" onclick="bautismo(); openPage('myBautismo')">
+          BAUTISMO
+        </button>
+        <button class="tablink" onclick="Comunion(); openPage('myComunion')">
+          PRIMERA COMUNIÓN
+        </button>
+        <button class="tablink" onclick="">CONFIRMACIÓN</button>
+        <button class="tablink" onclick="">MATRIMONIO</button>
+        <button class="tablink" onclick="">UNCIÓN DE LOS ENFERMOS</button>
+      </div>
+    </div>
 
+    <div class="container-fluid">
+        <div class="tabcontent" id="myBautismo">
+            <div class="col"></div>
+            <div class="col-12">
+                <h5 style="text-align: left">¿QUÉ ES?</h5>
+            <p>
+              Es el primer sacramento y el punto de entrada a la comunidad
+              cristiana. El bautismo es un sacramento de gran profundidad
+              espiritual, y Dios obra por medio de el dando muerte al pecado y
+              resurrección a una nueva vida en Cristo. Este sacramento es un
+              acto de gracia divina, donde el Espíritu Santo infunde vida en el
+              alma del bautizado, marcándolo como hijo adoptivo de Dios y
+              heredero del Reino de los Cielos. A través del bautismo, se
+              establece un vínculo indestructible con la Iglesia, cuerpo místico
+              de Cristo, y se nos otorga la responsabilidad de vivir una vida
+              conforme al Evangelio, testimoniando así nuestra fe en Cristo y
+              participando plenamente en la comunión de los santos.
+            </p>
+            <h5>¿QUIÉNES PUEDEN RECIBIR ÉSTE SACRAMENTO?</h5>
+            <p>
+              El bautismo puede ser recibido por cualquier persona que desee
+              entrar en la comunidad de la Iglesia Católica y que esté dispuesta
+              a aceptar la fé cristiana. Normalmente, el bautismo se administra
+              a bebés y niños/as pequeños, pero tambien pueden acceder a este
+              sacramento los adolescentes o adultos que aún no han sido
+              bautizados. En el caso de los bebés y niños/as, sus padres y
+              padrinos asumen la responsabilidad de educarlos en la fe católica
+              hasta que sean capaces de hacer una profesión de fe por sí mismos.
+              Los adultos que buscan el bautismo deben pasar por un período de
+              preparación y formación catequética antes de recibir el
+              sacramento.
+            </p>
+            <h5>¿CÓMO RECIBIR EL BAUTISMO?</h5>
+            <p>
+              Para bebés y niños/as hasta los 7 años: Uno de los padres debe
+              acercarse o ponerse en contaco con la oficina parroquial en
+              nuestro Santuario. En segunda instancia, tanto los padres, junto
+              con los padrinos, que son elegidos para ayudar en la educación
+              religiosa del niño/a, asisten a una preparación catequética y a
+              una reunión con el sacerdote, diácono o laico para hablar sobre el
+              significado del sacramento y las responsabilidades que conlleva.
+            </p>
+            <p>
+              Para niños/as mayores de 7 años y adolescentes: Si un niño/a mayor
+              o adolescente desea ser bautizado, generalmente también se
+              requiere que los padres o tutores legales estén involucrados en el
+              proceso. El niño/a puede recibir catequesis y preparación
+              espiritual adaptada a su edad antes de recibir el sacramento.
+            </p>
+            <p>
+              Para adultos no bautizados: Los adultos que deseen ser bautizados
+              deben participar en un proceso de formación catequética llamado
+              CATECUMENAL. Este proceso implica educación religiosa, reflexión
+              espiritual, participación en la comunidad parroquial y preparación
+              para el sacramento. los sacramentos de iniciación: bautismo,
+              confirmación y comunión.
+            </p>
+            <p>
+              En todos los casos, el bautismo se celebra normalmente durante una
+              ceremonia litúrgica en el Santuario, donde el agua es derramada
+              sobre su cabeza mientras se pronuncian las palabras sacramentales.
+              Es importante recordar que el bautismo es un sacramento de
+              iniciación en la fe cristiana y que implica un compromiso continuo
+              con la vida cristiana y la comunidad de la Iglesia.
+            </p>
+            <h5 class="mt-3 mb-3">REQUISITOS</h5>
+            <p>
+              *DNI de quien se bautiza, de los padres y de los padrinos.<br />
+              *Padrinos bautizados.<br />
+              *Realizar el curso prebautismal (se hace 1 hora antes del bautismo
+              y la preininscripción se debe hacer 8 días antes del bautismo).<br />
+              *Ir a la secretaria para llevar los papeles y realizar la
+              preinscripción al curso prebautismal.<br />
+              <b
+                >Si quieres hacer el sacramento independientemente de la edad,
+                contactanos dando clik al botón de Contacto.</b
+              ><br />
+            </p>
+            </div>
+        </div>
+    </div>
 
+    <!--Seccion: BAUTISMO---------------------------------------------------------------------------------------------->
+    
+      <div class="container-fluid text-center-left">
+        <div class="row">
+          
+          
+            
+            <button class="botonInicio mt-5 mb-5 align-right">Contacto</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Seccion: PRIMERA COMUNION---------------------------------------------------------------------------------------------->
+    <div class="tabcontent" id="myComunion">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col"></div>
+          <div class="col-12">
+            <h5 style="text-align: left">¿QUÉ ES?</h5>
+            <p>
+              Es el segundo sacramento de iniciación cristiana. Es el momento en
+              que un niño/a, generalmente entre los 7 y los 14 años de edad,
+              recibe por primera vez el sacramento de la Eucaristía, es decir,
+              el Cuerpo y la Sangre de Jesucristo bajo las especies del pan y
+              del vino consagrados. Es un paso importante en la vida espiritual
+              de un niño/a, ya que representa su plena participación en la vida
+              de la Iglesia y en la recepción de los sacramentos. Antes de
+              recibir la Primera Comunión, el niño/a suele participar en clases
+              de catequesis y preparación espiritual, donde aprende sobre la
+              Eucaristía, la importancia de la fe y la vida cristiana.
+            </p>
+            <p>
+              La ceremonia de Primera Comunión es generalmente celebrada durante
+              una misa especial, donde el niño/a recibe el cuerpo de Cristo por
+              primera vez. Es un momento de gran alegría y celebración para el
+              niño/a, su familia y nuestro Santuario. A partir de este momento,
+              el niño/a puede participar plenamente en la celebración de la
+              Eucaristía y crecer en su relación con Cristo y la Iglesia.
+            </p>
+            <h5>¿QUIÉNES PUEDEN RECIBIR ÉSTE SACRAMENTO?</h5>
+            <p>
+              La Primera Comunión está destinada a aquellos que han sido
+              bautizados y han alcanzado la edad de razón, generalmente entre
+              los 7 y los 14 años de edad. La edad exacta puede variar según las
+              prácticas de la parroquia o diócesis local.
+            </p>
+            <p>
+              Además del requisito de edad, es importante que el niño/a haya
+              recibido una adecuada preparación catequética y espiritual para
+              comprender el significado y la importancia de la Eucaristía. Esto
+              puede incluir asistir a clases de catequesis y tener una
+              comprensión básica de la fe católica y los sacramentos.
+            </p>
+            <p>
+              En circunstancias especiales, como en el caso de personas que se
+              convierten al catolicismo en la edad adulta, también pueden
+              recibir la Primera Comunión después de completar el proceso de
+              formación adecuado, que suele incluir el <b>CATECUMENO</b> y la
+              recepción de otros sacramentos de iniciación, como el bautismo y
+              la confirmación.
+            </p>
+            <h5>¿CÓMO RECIBIR EL BAUTISMO?</h5>
+            <p>
+              Para recibir la primera comunión en nuestro Santuario, se sigue un
+              proceso que implica varios pasos:
+            </p>
+            <p>
+              Inscripción y preparación catequética: Los padres suelen inscribir
+              al niño en nuestro programa de catequesdis. Contactanos para
+              recibir la formación necesaria. Durante este tiempo, el niño/a
+              participa en clases de catequesis donde aprende sobre la
+              Eucaristía, el significado de la Primera Comunión y la importancia
+              de la fe católica en su vida.
+            </p>
+            <p>
+              Asistencia a la catequesis y retiros espirituales?: Es importante
+              que el niño/a asista a las clases de catequesis y participe en
+              retiros espirituales destinados a profundizar su comprensión de la
+              fe y su relación con Dios.
+            </p>
+            <p>
+              Confesión sacramental: Antes de recibir la Primera Comunión, el
+              niño/a debe participar en el sacramento de la reconciliación o
+              confesión, donde tiene la oportunidad de arrepentirse de sus
+              pecados y recibir el perdón de Dios.
+            </p>
+            <p>
+              Preparación litúrgica: El niño/a también puede recibir instrucción
+              sobre cómo participar adecuadamente en la liturgia de la
+              Eucaristía, incluyendo el significado de los diferentes ritos y
+              gestos, como la genuflexión y la reverencia.
+            </p>
+            <p>
+              Celebración de la Primera Comunión: La Primera Comunión se celebra
+              durante una misa especial, donde el niño/a recibe por primera vez
+              el cuerpo de Cristo bajo la forma de la hostia consagrada. Es un
+              momento de gran alegría y celebración para el niño/a, su familia y
+              la comunidad parroquial.
+            </p>
+            <p>
+              Es importante recordar que la Primera Comunión es un sacramento
+              sagrado que requiere una preparación adecuada y una disposición
+              espiritual adecuada por parte del niño/a y su familia.
+            </p>
+            <h5 class="mt-3 mb-3">REQUISITOS</h5>
+            <p>
+              *DNI de quien se bautiza, de los padres y de los padrinos.<br />
+              *Partida de bautismo.<br />
+              *Catequesis.<br />
+              *Obra social.<br />
+              <b
+                >Si quieres hacer el sacramento independientemente de la edad,
+                contactanos dando clik al botón de Contacto.</b
+              ><br />
+            </p>
+            <button class="mt-5 align-items-right">Contacto</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!--Seccion: Boton "Ver reformas del santuario"-->
     <div class="btnInicio">
-        <a href="../index.html"><button class="botonInicio">Inicio</button></a>
+      <a href="../index.html"><button class="botonInicio">Inicio</button></a>
     </div>
 
     <!--Seccion: Footer-->
     <footer class="footer">
-        <img src="../imagenes/FOOTER 1967X106.png" alt="" class="img-fluid">
-        <div class="container-fluid">
-            <div class="text-center">
-                <div class="align-items-center" style="color: #25295A;">
-                    copyright©2024santuariodelourdesXXXXX??????
-                </div>
-                <div class="align-items-center" style="color: #25295A;">
-                    Información legal | Política de privacidad
-                </div>
-                <div class="align-items-center mt-3" style="color: #ACA7CF;">
-                    Desarrollo de página hecho por LOVELACE Digital arts. Créditos para banco de imágenes freepik y
-                    pexel
-                </div>
-            </div>
+      <img src="../imagenes/FOOTER 1967X106.png" alt="" class="img-fluid" />
+      <div class="container-fluid">
+        <div class="text-center">
+          <div class="align-items-center" style="color: #25295a">
+            copyright©2024santuariodelourdesXXXXX??????
+          </div>
+          <div class="align-items-center" style="color: #25295a">
+            Información legal | Política de privacidad
+          </div>
+          <div class="align-items-center mt-3" style="color: #aca7cf">
+            Desarrollo de página hecho por LOVELACE Digital arts. Créditos para
+            banco de imágenes freepik y pexel
+          </div>
         </div>
+      </div>
     </footer>
 
     <!-- Separate Popper and Bootstrap JS ------------------------------------------------------------------------------------------------------------------------------>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
-        crossorigin="anonymous"></script>
-    
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
 
+    <script>
+      function sacramentos() {
+        let x = document.getElementById("mySacramentos");
+        let v = document.getElementById("imagenPrincipal");
+        v.style.backgroundImage =
+          "url('../imagenes/vida_de_fe/BANNER VIDA DE FÉ 1967X312.jpg')";
+        if (x.style.display === "inline-block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "inline-block";
+        }
+      }
+
+      function bautismo() {
+        let x = document.getElementById("myBautismo");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+
+        let y = document.getElementById("imagenPrincipal");
+        y.style.backgroundImage =
+          "url('../imagenes/vida_de_fe/BANNER BAUTISMO 1967X312.jpg')";
+      }
+
+      function Comunion() {
+        let x = document.getElementById("myComunion");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+
+        let y = document.getElementById("imagenPrincipal");
+        y.style.backgroundImage =
+          "url('../imagenes/vida_de_fe/BANNER PRIMERA COMUNION 1967X312.jpg')";
+      }
+    </script>
+  </body>
 </html>

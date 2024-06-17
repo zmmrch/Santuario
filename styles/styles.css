@@ -8,6 +8,10 @@ Tipografia: Times New Roman*/
     font-family: 'Times New Roman', Times, serif;
 }
 
+h5{
+    font-weight: bold;
+}
+
 a {
     text-decoration: none;
 }
@@ -338,6 +342,33 @@ iframe {
     width: auto;
 }
 
+.botonSacramentos,
+.tablink {
+    display: inline-block;
+    background-color: white;
+    border: none;
+    text-align: center;
+    padding-left: 5%;
+}
+
+.btnSacramentos {
+    display: inline-block;
+}
+
+#mySacramentos,
+#myBautismo,
+#myComunion {
+    display: none;
+}
+
+.footer {
+    position:relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
 /* Estilos para dispositivos móviles */
 @media only screen and (max-width: 992px) {
     #logo {
@@ -447,6 +478,7 @@ iframe {
     .imagenPrincipalVidaDeFe {
         background-image: url("../imagenes/vida_de_fe/BANNER\ VIDA\ DE\ FÉ\ 1967X312.jpg");
         background-size: cover;
+        background-position: center;
         height: 150px;
         margin-bottom: 2%;
     }
@@ -499,10 +531,30 @@ iframe {
         width: 150%;
     }
 
+    #mySacramentos,
+    #myBautismo,
+    #myComunion {
+        display: none;
+        font-size: 80%;
+    }
+
     .footer {
+        position:relative;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        color: white;
+        text-align: center;
+    }
+
+    #imgFooter {
+        vertical-align: middle;
+    }
+
+    /* .footer {
         font-size: 1.5vw;
         margin-top: 1%;
-    }
+    } */
 
     .botonDonaciones {
         display: flex;
