@@ -358,7 +358,8 @@ iframe {
 #mySacramentos,
 #myBautismo,
 #myComunion,
-#myConfirmacion {
+#myConfirmacion,
+#myMatrimonio {
     display: none;
 }
 
@@ -548,7 +549,8 @@ iframe {
     #mySacramentos,
     #myBautismo,
     #myComunion,
-    #myConfirmacion {
+    #myConfirmacion,
+    #myMatrimonio {
         display: none;
         font-size: 80%;
     }

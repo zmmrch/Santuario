@@ -100,8 +100,8 @@
 
     <!--Seccion: vida de fe--------------------------------------------------------------------------------------------------------------------------------->
     <div class="container-fluid">
-      <h2 id="donaciones">VIDA DE FE</h2>
       <div class="btnVidaDeFe text-center mt-5 mb-5">
+        <h2 id="donaciones">VIDA DE FE</h2>  
         <a href="javascript:void(0);" onclick="sacramentos()">
             <button class="botonSacramentos">SACRAMENTOS</button>
         </a>
@@ -117,7 +117,7 @@
           PRIMERA COMUNIÓN
         </button>
         <button class="tablink" onclick="Confirmacion(); openPage('myConfirmacion')">CONFIRMACIÓN</button>
-        <button class="tablink" onclick="">MATRIMONIO</button>
+        <button class="tablink" onclick="Matrimonio(); openPage('myMatrimonio')">MATRIMONIO</button>
         <button class="tablink" onclick="">UNCIÓN DE LOS ENFERMOS</button>
       </div>
     </div>
@@ -127,83 +127,84 @@
         <div class="tabcontent" id="myBautismo">
             <div class="row">
                 <div class="col"></div>
-            <div class="col-12">
-                <h5 style="text-align: left">¿QUÉ ES?</h5>
-            <p>
-              Es el primer sacramento y el punto de entrada a la comunidad
-              cristiana. El bautismo es un sacramento de gran profundidad
-              espiritual, y Dios obra por medio de el dando muerte al pecado y
-              resurrección a una nueva vida en Cristo. Este sacramento es un
-              acto de gracia divina, donde el Espíritu Santo infunde vida en el
-              alma del bautizado, marcándolo como hijo adoptivo de Dios y
-              heredero del Reino de los Cielos. A través del bautismo, se
-              establece un vínculo indestructible con la Iglesia, cuerpo místico
-              de Cristo, y se nos otorga la responsabilidad de vivir una vida
-              conforme al Evangelio, testimoniando así nuestra fe en Cristo y
-              participando plenamente en la comunión de los santos.
-            </p>
-            <h5>¿QUIÉNES PUEDEN RECIBIR ÉSTE SACRAMENTO?</h5>
-            <p>
-              El bautismo puede ser recibido por cualquier persona que desee
-              entrar en la comunidad de la Iglesia Católica y que esté dispuesta
-              a aceptar la fé cristiana. Normalmente, el bautismo se administra
-              a bebés y niños/as pequeños, pero tambien pueden acceder a este
-              sacramento los adolescentes o adultos que aún no han sido
-              bautizados. En el caso de los bebés y niños/as, sus padres y
-              padrinos asumen la responsabilidad de educarlos en la fe católica
-              hasta que sean capaces de hacer una profesión de fe por sí mismos.
-              Los adultos que buscan el bautismo deben pasar por un período de
-              preparación y formación catequética antes de recibir el
-              sacramento.
-            </p>
-            <h5>¿CÓMO RECIBIR EL BAUTISMO?</h5>
-            <p>
-              Para bebés y niños/as hasta los 7 años: Uno de los padres debe
-              acercarse o ponerse en contaco con la oficina parroquial en
-              nuestro Santuario. En segunda instancia, tanto los padres, junto
-              con los padrinos, que son elegidos para ayudar en la educación
-              religiosa del niño/a, asisten a una preparación catequética y a
-              una reunión con el sacerdote, diácono o laico para hablar sobre el
-              significado del sacramento y las responsabilidades que conlleva.
-            </p>
-            <p>
-              Para niños/as mayores de 7 años y adolescentes: Si un niño/a mayor
-              o adolescente desea ser bautizado, generalmente también se
-              requiere que los padres o tutores legales estén involucrados en el
-              proceso. El niño/a puede recibir catequesis y preparación
-              espiritual adaptada a su edad antes de recibir el sacramento.
-            </p>
-            <p>
-              Para adultos no bautizados: Los adultos que deseen ser bautizados
-              deben participar en un proceso de formación catequética llamado
-              CATECUMENAL. Este proceso implica educación religiosa, reflexión
-              espiritual, participación en la comunidad parroquial y preparación
-              para el sacramento. los sacramentos de iniciación: bautismo,
-              confirmación y comunión.
-            </p>
-            <p>
-              En todos los casos, el bautismo se celebra normalmente durante una
-              ceremonia litúrgica en el Santuario, donde el agua es derramada
-              sobre su cabeza mientras se pronuncian las palabras sacramentales.
-              Es importante recordar que el bautismo es un sacramento de
-              iniciación en la fe cristiana y que implica un compromiso continuo
-              con la vida cristiana y la comunidad de la Iglesia.
-            </p>
-            <h5 class="mt-3 mb-3">REQUISITOS</h5>
-            <p>
-              *DNI de quien se bautiza, de los padres y de los padrinos.<br />
-              *Padrinos bautizados.<br />
-              *Realizar el curso prebautismal (se hace 1 hora antes del bautismo
-              y la preininscripción se debe hacer 8 días antes del bautismo).<br />
-              *Ir a la secretaria para llevar los papeles y realizar la
-              preinscripción al curso prebautismal.<br />
-              <b
-                >Si quieres hacer el sacramento independientemente de la edad,
-                contactanos dando clik al botón de Contacto.</b
-              ><br />
-            </p>
-            </div>
-            <button class="botonInicio mt-5 mb-5 align-right">Contacto</button>
+                <div class="col-6">
+                    <h5 style="text-align: left">¿QUÉ ES?</h5>
+                <p>
+                Es el primer sacramento y el punto de entrada a la comunidad
+                cristiana. El bautismo es un sacramento de gran profundidad
+                espiritual, y Dios obra por medio de el dando muerte al pecado y
+                resurrección a una nueva vida en Cristo. Este sacramento es un
+                acto de gracia divina, donde el Espíritu Santo infunde vida en el
+                alma del bautizado, marcándolo como hijo adoptivo de Dios y
+                heredero del Reino de los Cielos. A través del bautismo, se
+                establece un vínculo indestructible con la Iglesia, cuerpo místico
+                de Cristo, y se nos otorga la responsabilidad de vivir una vida
+                conforme al Evangelio, testimoniando así nuestra fe en Cristo y
+                participando plenamente en la comunión de los santos.
+                </p>
+                <h5>¿QUIÉNES PUEDEN RECIBIR ÉSTE SACRAMENTO?</h5>
+                <p>
+                El bautismo puede ser recibido por cualquier persona que desee
+                entrar en la comunidad de la Iglesia Católica y que esté dispuesta
+                a aceptar la fé cristiana. Normalmente, el bautismo se administra
+                a bebés y niños/as pequeños, pero tambien pueden acceder a este
+                sacramento los adolescentes o adultos que aún no han sido
+                bautizados. En el caso de los bebés y niños/as, sus padres y
+                padrinos asumen la responsabilidad de educarlos en la fe católica
+                hasta que sean capaces de hacer una profesión de fe por sí mismos.
+                Los adultos que buscan el bautismo deben pasar por un período de
+                preparación y formación catequética antes de recibir el
+                sacramento.
+                </p>
+                <h5>¿CÓMO RECIBIR EL BAUTISMO?</h5>
+                <p>
+                Para bebés y niños/as hasta los 7 años: Uno de los padres debe
+                acercarse o ponerse en contaco con la oficina parroquial en
+                nuestro Santuario. En segunda instancia, tanto los padres, junto
+                con los padrinos, que son elegidos para ayudar en la educación
+                religiosa del niño/a, asisten a una preparación catequética y a
+                una reunión con el sacerdote, diácono o laico para hablar sobre el
+                significado del sacramento y las responsabilidades que conlleva.
+                </p>
+                <p>
+                Para niños/as mayores de 7 años y adolescentes: Si un niño/a mayor
+                o adolescente desea ser bautizado, generalmente también se
+                requiere que los padres o tutores legales estén involucrados en el
+                proceso. El niño/a puede recibir catequesis y preparación
+                espiritual adaptada a su edad antes de recibir el sacramento.
+                </p>
+                <p>
+                Para adultos no bautizados: Los adultos que deseen ser bautizados
+                deben participar en un proceso de formación catequética llamado
+                CATECUMENAL. Este proceso implica educación religiosa, reflexión
+                espiritual, participación en la comunidad parroquial y preparación
+                para el sacramento. los sacramentos de iniciación: bautismo,
+                confirmación y comunión.
+                </p>
+                <p>
+                En todos los casos, el bautismo se celebra normalmente durante una
+                ceremonia litúrgica en el Santuario, donde el agua es derramada
+                sobre su cabeza mientras se pronuncian las palabras sacramentales.
+                Es importante recordar que el bautismo es un sacramento de
+                iniciación en la fe cristiana y que implica un compromiso continuo
+                con la vida cristiana y la comunidad de la Iglesia.
+                </p>
+                <h5 class="mt-3 mb-3">REQUISITOS</h5>
+                <p>
+                *DNI de quien se bautiza, de los padres y de los padrinos.<br />
+                *Padrinos bautizados.<br />
+                *Realizar el curso prebautismal (se hace 1 hora antes del bautismo
+                y la preininscripción se debe hacer 8 días antes del bautismo).<br />
+                *Ir a la secretaria para llevar los papeles y realizar la
+                preinscripción al curso prebautismal.<br />
+                <b
+                    >Si quieres hacer el sacramento independientemente de la edad,
+                    contactanos dando clik al botón de Contacto.</b
+                ><br />
+                </p>
+                <button class="botonInicio mt-5 mb-5 align-right">Contacto</button>
+                </div>
+                <div class="col"></div>
             </div>
         </div>
       </div>
@@ -214,7 +215,7 @@
       <div class="container-fluid">
         <div class="row" >
           <div class="col"></div>
-          <div class="col-12">
+          <div class="col-6">
             <h5 style="text-align: left">¿QUÉ ES?</h5>
             <p>
               Es el segundo sacramento de iniciación cristiana. Es el momento en
@@ -314,6 +315,7 @@
             </p>
             <button class="botonInicio mt-5 mb-5 align-right">Contacto</button>
           </div>
+          <div class="col"></div>
         </div>
       </div>
     </div>
@@ -323,7 +325,7 @@
         <div class="container-fluid">
           <div class="row"  >
             <div class="col"></div>
-            <div class="col-12">
+            <div class="col-6">
               <h5 style="text-align: left">¿QUÉ ES?</h5>
               <p>
                 Es el cuarto sacramento de iniciación cristiana. En este sacramento, los fieles reciben el don del Espíritu Santo, fortaleciendo así su vínculo con la comunidad cristiana y
@@ -378,6 +380,73 @@
               </p>
               <button class="botonInicio mt-5 mb-5 align-right">Contacto</button>
             </div>
+            <div class="col"></div>
+          </div>
+        </div>
+    </div>
+
+    <!--Seccion: MATRIMONIO---------------------------------------------------------------------------------------------->
+    <div class="tabcontent" id="myMatrimonio">
+        <div class="container-fluid">
+          <div class="row"  >
+            <div class="col"></div>
+            <div class="col-6">
+              <h5 style="text-align: left">¿QUÉ ES?</h5>
+              <p>
+                Es el cuarto sacramento de iniciación cristiana. En este sacramento, los fieles reciben el don del Espíritu Santo, fortaleciendo así su vínculo con la comunidad cristiana y
+                completando la gracia recibida en el BautismoEl sacramento del matrimonio es un acto sagrado y trascendental, donde la gracia divina se derrama sobre la unión de un hombre y una mujer. Es una alianza santa, modelada
+                según el amor eterno entre Cristo y su Iglesia. En este sacramento, los esposos se convierten en instrumentos de la gracia de Dios, prometiendo mutuamente un amor que refleje
+                el amor incondicional y sacrificial de Cristo. El matrimonio es una llamada a la santificación, donde los cónyuges se comprometen a ayudarse mutuamente en su camino hacia
+                la santidad, a través de la oración, el perdón, la generosidad y el servicio desinteresado. Esta unión sagrada, sellada por Dios mismo, trasciende lo terrenal y se convierte en un
+                testimonio vivo del amor divino en el mundo.
+              </p>
+              <h5>¿QUIÉNES PUEDEN RECIBIR ÉSTE SACRAMENTO?</h5>
+              <p>
+                Para contraer el sacramento del matrimonio, es necesario que los contrayentes hayan sido bautizados en la Iglesia Católica, así como haber recibido los sacramentos de la
+                primera comunión y la confirmación . Estos tres sacramentos de iniciación cristiana son considerados fundamentales para la vida sacramental católica y se requieren como
+                preparación previa para el matrimonio sacramental. De igual manera, aquellos que deseen recibir el sacramento del matrimonio deben cumplir adicionalmente con los requisitos
+                establecidos por la ley canónica de la Iglesia católica y estar dispuestos a comprometerse con los principios y enseñanzas del matrimonio católico. Estos requisitos incluyen:
+              </p>
+              <p>
+                <b style="color: #aca7cf;">Capacidad para contraer matrimonio:</b> Los contrayentes deben ser capaces de comprender y asumir los compromisos del matrimonio. Esto implica tener la capacidad mental
+                y física necesaria para tomar decisiones de manera libre y consciente.  
+              </p>
+              <p><b style="color: #aca7cf;">Intención de contraer matrimonio:</b> Los contrayentes deben tener la intención de contraer matrimonio de acuerdo con las enseñanzas de la Iglesia Católica y estar dispuestos
+                a vivir en una unión fiel y permanente.</p>
+              <p><b style="color: #aca7cf;">Libertad para contraer matrimonio:</b> Los contrayentes deben estar libres de cualquier impedimento que invalide el matrimonio, como el vínculo de un matrimonio anterior, el
+                impedimento de parentesco, el impedimento de edad, etc.</p>  
+              <p>Preparación adecuada: Los contrayentes deben recibir una preparación adecuada para el matrimonio, que puede incluir la participación en programas de formación
+                matrimonial, asesoramiento pastoral y preparación espiritual.</p>  
+              <h5>¿CÓMO RECIBIR LA MATRIMONIO?</h5>
+              <p>
+                Para recibir el sacramento del matrimonio en nuestro Santuario, se sigue un proceso que implica los siguientes pasos:
+              </p>
+              <p>
+                <b style="color: #aca7cf;"></b>Preparación matrimonial: Los contrayentes deben participar en un programa de preparación matrimonial, incluye cursos de formación y sesiones de asesoramiento pastoral.
+                Este tiempo de preparación les ayuda a comprender mejor el significado del matrimonio cristiano y a reflexionar sobre su compromiso mutuo.
+              </p>
+              <p>
+                <b style="color: #aca7cf;">Requisitos legales:</b> Los contrayentes deben cumplir con los requisitos legales establecidos por las leyes civiles y eclesiásticas en su lugar de residencia. Esto puede incluir
+                obtener una licencia de matrimonio civil y cumplir con los documentos requeridos por la Iglesia.
+              </p>
+              <p>
+                <b style="color: #aca7cf;">Entrevista con el sacerdote:</b> Los contrayentes se deben reunir con el parroco o sacerdote encargado de prepararlos para el matrimonio. Durante esta entrevista, discuten
+                aspectos prácticos del matrimonio y completan los formularios necesarios.
+              </p>
+              <p>
+                <b style="color: #aca7cf;">Celebración del matrimonio:</b> La ceremonia de matrimonio se lleva a cabo en presencia del sacerdote y, preferiblemente, en el contexto de una misa. Durante la ceremonia, los
+                contrayentes intercambian sus votos y reciben la bendición de Dios sobre su unión.
+              </p>
+              <p>
+                <b style="color: #aca7cf;">Registro del matrimonio:</b> Después de la ceremonia, se registra el matrimonio en los archivos parroquiales y se emite un certificado de matrimonio oficial.
+              </p>
+              <p>
+                Es importante recordar que el matrimonio católico es una decisión seria y sagrada que implica un compromiso de por vida entre los esposos, con la gracia de Dios como
+                fundamento. <b>Si necesitas saber los requisitos y quieres comenzar a hacer el proceso para poder casarte, contactanos dando clik al botón de Contacto</b>.
+              </p>
+              <button class="botonInicio mt-5 mb-5 align-right">Contacto</button>
+            </div>
+            <div class="col"></div>
           </div>
         </div>
     </div>
@@ -468,6 +537,19 @@
             let y = document.getElementById("imagenPrincipal");
             y.style.backgroundImage =
             "url('../imagenes/vida_de_fe/BANNER CONFIRMACION 1967X312.jpg')";
+        }
+
+        function Matrimonio() {
+            let x = document.getElementById("myMatrimonio");
+            if (x.style.display === "block") {
+            x.style.display = "none";
+            } else {
+            x.style.display = "block";
+            }
+
+            let y = document.getElementById("imagenPrincipal");
+            y.style.backgroundImage =
+            "url('../imagenes/vida_de_fe/BANNER MATRIMONIO 1967X312.jpg')";
         }
 
         function openPage(pageName, elmnt, color) {
