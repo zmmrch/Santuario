@@ -100,20 +100,44 @@
 
     <h2 id="donaciones">VIDA DE FE</h2> 
 
-    <div class="container-fluid text-center align-items-center">
-        <button class="tablink" onclick="sacramentos(); openPage('Home', this, '#ACA7CF')" style="text-align: center; padding: 5px 45px; padding-left: 3%;">SACRAMENTOS</button>
-        <button class="tablink text-center" onclick="servsac(); openPage('ServSacerd', this, '#ACA7CF')" id="btnServSac" style="text-align: center; padding: 5px 45px;">SERVICIO SACERDOTAL</button>
-        <button class="tablink text-center" onclick="openPage('Contact', this, 'blue')">CINERARIO</button>
+    <div class="container-fluid mb-3">
+        <div class="navbar">
+          <div class="list">
+            <li class="list-item">
+              <a href="javascript:void(0);"  onclick="sacramentos(); openPage('Home')">SACRAMENTOS</a>
+            </li>
+            <li class="list-item">
+              <a href="javascript:void(0);"  onclick="servsac(); openPage('ServSacerd')" id="btnServSac">SERVICIO SACERDOTAL</a>
+            </li>
+            <li class="list-item">
+              <a href="javascript:void(0);"  onclick="ciner(); openPage('Cinerario')" id="btnServSac">CINERARIO</a>
+            </li>
+          </div>
+        </div>
     </div>
-
     
-    <div class="container-fluid text-center align-items-center">
+    <div class="container-fluid text-center">
         <div id="Home" class="tabcontent">
-            <button class="tablink2" onclick="bautismo(); openPage2('Home1', this, 'red')">BAUTISMO</button>
-            <button class="tablink2" onclick="Comunion(); openPage2('News1', this, 'green')">PRIMERA COMUNIÓNL</button>
-            <button class="tablink2" onclick="openPage2('Contact1', this, 'blue')">CONFIRMACIÓN</button>
-            <button class="tablink2" onclick="openPage2('Contact2', this, 'blue')">MATRIMONIO</button>
-            <button class="tablink2" onclick="openPage2('Contact3', this, 'blue')">UNCIÓN DE LOS ENFERMOS</button>
+
+          <div class="navbar">
+            <div class="list">
+              <li class="list-item">
+                <a href="javascript:void(0);" onclick="bautismo(); openPage2('Home1')">BAUTISMO</a>
+              </li>
+              <li class="list-item">
+                <a href="javascript:void(0);" onclick="Comunion(); openPage2('News1')">PRIMERA COMUNIÓN</a>
+              </li>
+              <li class="list-item">
+                <a href="javascript:void(0);" onclick="Confirmacion(); openPage2('Contact1')">CONFIRMACIÓN</a>
+              </li>
+              <li class="list-item">
+                <a href="javascript:void(0);" onclick="Matrimonio(); openPage2('Contact2')">MATRIMONIO</a>
+              </li>
+              <li class="list-item">
+                <a href="javascript:void(0);" onclick="Uncion(); openPage2('Contact3')">UNCIÓN DE LOS ENFERMOS</a>
+              </li>
+            </div>
+          </div>
             
             <div id="Home1" class="tabcontent2">
                 <h3>BAUTISMO</h3>
@@ -129,6 +153,16 @@
                 <h3>CONFIRMACIÓN</h3>
                 <p>Get in touch, or swing by for a cup of coffee.</p>
             </div>
+
+            <div id="Contact2" class="tabcontent2">
+              <h3>MATRIMONIO</h3>
+              <p>Get in touch, or swing by for a cup of coffee.</p>
+            </div>
+
+            <div id="Contact3" class="tabcontent2">
+              <h3>UNCION</h3>
+              <p>Get in touch, or swing by for a cup of coffee.</p>
+            </div>
     
         </div>
     </div>
@@ -136,160 +170,42 @@
     <div class="tabcontent" id="ServSacerd" >
         <div class="row">
             <div class="col"></div>
-            <div class="col-6" >
+            <div class="col-lg">
                 <p class="mb-5">En nuestro Santuario, brindamos los sacramentos de la Eucaristía, la Confesión y la Unción de los enfermos a aquellos que no puedan asistir a la iglesia debido a circunstancias
-                    de fuerza mayor, como enfermedad o edad avanzada. Un sacerdote o un ministro designado realizará las visitas domiciliarias para ofrecer estos sacramentos. La asistencia de
-                    los enfermos forma parte de nuestra misión pastoral, destinada a proporcionar consuelo y fortaleza espiritual durante momentos difíciles. Es importante destacar que para recibir
-                    este servicio, es necesario residir dentro del radio parroquial. <b>Si necesitas servicio sacerdotal, contactanos dando clik al botón de Contacto.</b></p>
-                    <button class="botonInicio">Radio parroquial</button>
-                    <button class="botonInicio">Contacto</button> 
+                  de fuerza mayor, como enfermedad o edad avanzada. Un sacerdote o un ministro designado realizará las visitas domiciliarias para ofrecer estos sacramentos. La asistencia de
+                  los enfermos forma parte de nuestra misión pastoral, destinada a proporcionar consuelo y fortaleza espiritual durante momentos difíciles. Es importante destacar que para recibir
+                  este servicio, es necesario residir dentro del radio parroquial. <b>Si necesitas servicio sacerdotal, contactanos dando clik al botón de Contacto.</b></p>
+                <button class="botonInicio">Radio parroquial</button>
+                <button class="botonInicio">Contacto</button> 
             </div>
             <div class="col"></div>
         </div>
     </div>
-    
+
+    <div class="tabcontent" id="Cinerario" >
+      <div class="row">
+          <div class="col"></div>
+          <div class="col-lg" >
+              <p class="mb-5">Queridos fieles de nuestra comunidad, les informamos del servicio de cinerario en nuestra Santuario. El cinerario es un servicio litúrgico en el cual se acoge y custodia las cenizas
+                  de los fieles que han fallecido y han optado por la cremación. En este proceso, las cenizas son colocadas en un lugar sagrado dentro de la iglesia, donde pueden recibir oraciones
+                  y reverencia por parte de la comunidad de fieles. Este servicio lo ofrecemos con el objetivo de brindar apoyo espiritual y consuelo a quienes han perdido a sus seres queridos.</p>
+              <p>Además, deseamos recordarles que de acuerdo con las directrices de la Iglesia Católica, las cenizas deben ser colocadas en un lugar sagrado, como un cementerio o una iglesia,
+                  dentro de un período razonable de tiempo después de la cremación. Se recomienda que las cenizas sean depositadas en un lugar adecuado, como signo de respeto por el cuerpo
+                  humano y en reconocimiento de la fe en la resurrección de los muertos.</p>
+              <p>Les animamos a que, si desean utilizar nuestro servicio de cinerario, se pongan en contacto con nosotros para obtener más información y orientación sobre el proceso. Que esta
+                 práctica nos ayude a honrar la vida de nuestros seres queridos y a encontrar consuelo en nuestra fe en la vida eterna junto a Dios.</p>  
+                <button class="botonInicio">Radio parroquial</button>
+                <button class="botonInicio">Contacto</button> 
+          </div>
+          <div class="col"></div>
+      </div>
+    </div>
 
     <div id="Contact" class="tabcontent">
         <h3>Contact</h3>
         <p>Get in touch, or swing by for a cup of coffee.</p>
     </div>
-
-
-  
-
-
-    <!--Seccion: vida de fe--------------------------------------------------------------------------------------------------------------------------------->
-    <!-- <div class="container-fluid">
-      <h2 id="donaciones">VIDA DE FE</h2> 
-      <div class="row text-center mt-5 mb-5" id="sacram">
-        <div class="col"></div> 
-        <div class="col-12">
-            <a href="javascript:void(0);" onclick="sacramentos(); openPage('sacram')">
-                <button class="tablink">SACRAMENTOS</button>
-            </a>
-            <a href="javascript:void(0);" onclick="servsac(); openPage('ServSac')">
-                <button class="tablink">SERVICIO SACERDOTAL</button>
-            </a>
-            
-            <button class="botonSacramentos">CINERARIO</button>
-        </div>
-        <div class="col"></div>
-      </div>
-    </div> -->
-
-    <!--Seccion: botones sacramentos-->
-    <!-- <div class="container-fluid text-center mb-5" id="mySacramentos">
-        <p class="mb-5">En esta sección, te invitamos a adentrarte en el corazón de nuestra fe católica a través de los sacramentos, descubriendo cómo vivirlos y recibirlos en nuestra parroquia para
-            fortalecer tu conexión espiritual con la gracia divina.</p>
-        <button class="tablink" onclick="bautismo(); openPage('myBautismo')">BAUTISMO</button>
-        <button class="tablink" onclick="Comunion(); openPage('myComunion')">PRIMERA COMUNIÓN</button>
-        <button class="tablink" onclick="Confirmacion(); openPage('myConfirmacion')">CONFIRMACIÓN</button>
-        <button class="tablink" onclick="Matrimonio(); openPage('myMatrimonio')">MATRIMONIO</button>
-        <button class="tablink" onclick="Uncion(); openPage('myUncion')">UNCIÓN DE LOS ENFERMOS</button>
-    </div> -->
-    <!--Seccion: bautismo-->
-    <!-- <div class="tabcontent" id="myBautismo">
-        <div class="container-fluid">
-            <div class="row">
-              <div class="col"></div>
-              <div class="col-6">   
-                <h3 class="mt-3 mb-3">REQUISITOS</h3>   
-                <p>*DNI de quien se bautiza, de los padres y de los padrinos.<br/>
-                    *Padrinos bautizados.<br/>
-                    *Realizar el curso prebautismal (se hace 1 hora antes del bautismo y la preininscripción se debe hacer 8 días antes del bautismo).<br/>
-                    *Ir a la secretaria para llevar los papeles y realizar la preinscripción al curso prebautismal.<br/>
-                    <b>Si quieres hacer el sacramento independientemente de la edad, contactanos dando clik al botón de Contacto.</b><br/></p>    
-                    <button>Contacto</button> 
-              </div>
-              <div class="col"></div>
-            </div>
-        </div>  
-    </div> -->
-    <!--Seccion: comunion-->
-    <!-- <div class="tabcontent" id="myComunion">
-        <div class="container-fluid">
-            <div class="row">
-              <div class="col"></div>
-              <div class="col-6">   
-                <h3 class="mt-3 mb-3">REQUISITOS</h3>   
-                <p>*DNI de quien se bautiza, de los padres y de los padrinos.<br/>
-                    *Padrinos bautizados.<br/>
-                    *Realizar el curso prebautismal (se hace 1 hora antes del bautismo y la preininscripción se debe hacer 8 días antes del bautismo).<br/>
-                    *Ir a la secretaria para llevar los papeles y realizar la preinscripción al curso prebautismal.<br/>
-                    <b>Si quieres hacer el sacramento independientemente de la edad, contactanos dando clik al botón de Contacto.</b><br/></p>    
-                    <button>Contacto</button> 
-              </div>
-              <div class="col"></div>
-            </div>
-        </div>  
-    </div> -->
-    <!--Seccion: confirmacion-->
-    <!-- <div class="tabcontent" id="myConfirmacion">
-        <div class="container-fluid">
-            <div class="row">
-              <div class="col"></div>
-              <div class="col-6">   
-                <h3 class="mt-3 mb-3">REQUISITOS</h3>   
-                <p>*DNI de quien se bautiza, de los padres y de los padrinos.<br/>
-                    *Padrinos bautizados.<br/>
-                    *Realizar el curso prebautismal (se hace 1 hora antes del bautismo y la preininscripción se debe hacer 8 días antes del bautismo).<br/>
-                    *Ir a la secretaria para llevar los papeles y realizar la preinscripción al curso prebautismal.<br/>
-                    <b>Si quieres hacer el sacramento independientemente de la edad, contactanos dando clik al botón de Contacto.</b><br/></p>    
-                    <button>Contacto</button> 
-              </div>
-              <div class="col"></div>
-            </div>
-        </div>  
-    </div> -->
-    <!--Seccion: matrimonio-->
-    <!-- <div class="tabcontent" id="myMatrimonio">
-        <div class="container-fluid">
-            <div class="row">
-              <div class="col"></div>
-              <div class="col-6">   
-                <h3 class="mt-3 mb-3">REQUISITOS</h3>   
-                <p>*DNI de quien se bautiza, de los padres y de los padrinos.<br/>
-                    *Padrinos bautizados.<br/>
-                    *Realizar el curso prebautismal (se hace 1 hora antes del bautismo y la preininscripción se debe hacer 8 días antes del bautismo).<br/>
-                    *Ir a la secretaria para llevar los papeles y realizar la preinscripción al curso prebautismal.<br/>
-                    <b>Si quieres hacer el sacramento independientemente de la edad, contactanos dando clik al botón de Contacto.</b><br/></p>    
-                    <button>Contacto</button> 
-              </div>
-              <div class="col"></div>
-            </div>
-        </div>  
-    </div> -->
-    <!--Seccion: uncion-->
-    <!-- <div class="tabcontent" id="myUncion">
-        <div class="container-fluid">
-            <div class="row">
-              <div class="col"></div>
-              <div class="col-6">   
-                <h3 class="mt-3 mb-3">REQUISITOS</h3>   
-                <p>*DNI de quien se bautiza, de los padres y de los padrinos.<br/>
-                    *Padrinos bautizados.<br/>
-                    *Realizar el curso prebautismal (se hace 1 hora antes del bautismo y la preininscripción se debe hacer 8 días antes del bautismo).<br/>
-                    *Ir a la secretaria para llevar los papeles y realizar la preinscripción al curso prebautismal.<br/>
-                    <b>Si quieres hacer el sacramento independientemente de la edad, contactanos dando clik al botón de Contacto.</b><br/></p>    
-                    <button>Contacto</button> 
-              </div>
-              <div class="col"></div>
-            </div>
-        </div>  
-    </div> -->
-        
-    <!--Seccion: botones sacramentos-->
-    <!-- <div class="tabcontent" id="ServSac">
-        <p class="mb-5">En nuestro Santuario, brindamos los sacramentos de la Eucaristía, la Confesión y la Unción de los enfermos a aquellos que no puedan asistir a la iglesia debido a circunstancias
-            de fuerza mayor, como enfermedad o edad avanzada. Un sacerdote o un ministro designado realizará las visitas domiciliarias para ofrecer estos sacramentos. La asistencia de
-            los enfermos forma parte de nuestra misión pastoral, destinada a proporcionar consuelo y fortaleza espiritual durante momentos difíciles. Es importante destacar que para recibir
-            este servicio, es necesario residir dentro del radio parroquial. <b>Si necesitas servicio sacerdotal, contactanos dando clik al botón de Contacto.</b></p>
-    </div>
-         -->
-
-    
-
-    
+   
 
     <!--Seccion: Boton "Ver reformas del santuario"-->
     <div class="btnInicio">
@@ -418,6 +334,19 @@
             let y = document.getElementById("imagenPrincipal");
             y.style.backgroundImage =
             "url('../imagenes/vida_de_fe/BANNER SERVICIO SACERDOTAL 1967X312.jpg')";
+        }
+
+        function ciner(){
+            // let x = document.getElementById("ServSac");
+            // if (x.style.display === "block") {
+            // x.style.display = "none";
+            // } else {
+            // x.style.display = "block";
+            // }
+
+            let y = document.getElementById("imagenPrincipal");
+            y.style.backgroundImage =
+            "url('../imagenes/vida_de_fe/BANNER CINERARIO 1967X312.jpg')";
         }
         
 
