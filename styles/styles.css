@@ -344,7 +344,7 @@ iframe {
 
 .botonSacramentos,
 .tablink,
-.tablink2 {
+.tablink2{
     display: inline-block;
     background-color: white;
     border: none;
@@ -352,18 +352,18 @@ iframe {
     padding-left: 5%;
 }
 
-.btnSacramentos {
+/* .btnSacramentos {
     display: inline-block;
-}
+} */
 
-#mySacramentos,
+/* #mySacramentos,
 #myBautismo,
 #myComunion,
 #myConfirmacion,
 #myMatrimonio,
 #myUncion {
     display: none;
-}
+} */
 
 #descripcionSacramentos {
     margin-left: 20%; 
@@ -380,7 +380,7 @@ iframe {
 }
 
 .footer {
-    position:relative;
+    position: relative;
     left: 0;
     bottom: 0;
     width: 100%;
