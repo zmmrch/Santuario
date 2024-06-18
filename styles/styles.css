@@ -343,7 +343,8 @@ iframe {
 }
 
 .botonSacramentos,
-.tablink {
+.tablink,
+.tablink2 {
     display: inline-block;
     background-color: white;
     border: none;
@@ -359,7 +360,8 @@ iframe {
 #myBautismo,
 #myComunion,
 #myConfirmacion,
-#myMatrimonio {
+#myMatrimonio,
+#myUncion {
     display: none;
 }
 
@@ -369,7 +371,8 @@ iframe {
     text-align: justify;
 }
 
-.tabcontent {
+.tabcontent,
+.tabcontent2 {
     color:#25295A;
     display: none;
     padding: 100px 20px;
@@ -550,7 +553,8 @@ iframe {
     #myBautismo,
     #myComunion,
     #myConfirmacion,
-    #myMatrimonio {
+    #myMatrimonio,
+    #myUncion {
         display: none;
         font-size: 80%;
     }
