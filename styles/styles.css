@@ -240,7 +240,7 @@ header {
 .btnInicio {
     display: flex;
     justify-content: center;
-    margin-bottom: 2%;
+    margin-bottom: 5%;
 }
 
 /*Animated transition tabs*/
@@ -379,8 +379,7 @@ iframe {
     height: 100%;
 }
 
-
-/**/
+/*--------------------*/
 
 .navbar {
     display: flex;
@@ -422,24 +421,14 @@ a {
     transform: scaleX(1);
 }
 
+/*--------------------*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#Home1,
+#News1 {
+    text-align: left;
+    margin-left: 15%;
+    margin-right: 15%;
+}
 
 .footer {
     position: relative;
@@ -450,7 +439,7 @@ a {
 }
 
 /* Estilos para dispositivos móviles */
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 768px) {
     #logo {
         display: inline-block;
         width: 35%;
@@ -611,7 +600,7 @@ a {
         width: 150%;
     }
 
-    #mySacramentos,
+    /* #mySacramentos,
     #myBautismo,
     #myComunion,
     #myConfirmacion,
@@ -619,24 +608,44 @@ a {
     #myUncion {
         display: none;
         font-size: 80%;
+    } */
+
+    .container-fluid {
+       padding: 10px; /* Adjust padding for smaller screens */
+    }
+  
+    .navbar .list {
+       display: flex; /* Make the list items display horizontally */
+       flex-wrap: wrap; /* Allow items to wrap onto multiple lines */
+       text-align: center;
+       justify-content: center;
+    }
+  
+    .list-item {
+       text-align: center; /* Center the text of list items */
+       flex-wrap: wrap;
     }
 
     .footer {
-        position:relative;
-        left: 0;
-        bottom: 0;
-        width: 100%;
-        color: white;
-        text-align: center;
+       position:relative;
+       left: 0;
+       bottom: 0;
+       width: 100%;
+       color: white;
+       text-align: center;
+    }
+
+    #vidaDeFe {
+        margin-bottom: 5%;
     }
 
     #imgFooter {
-        vertical-align: middle;
+       vertical-align: middle;
     }
 
     .footer {
-        font-size: 1.5vw;
-        margin-top: 1%;
+       font-size: 1.5vw;
+       margin-top: 1%;
     }
 
     .botonDonaciones {
