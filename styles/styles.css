@@ -352,19 +352,6 @@ iframe {
     padding-left: 5%;
 }
 
-/* .btnSacramentos {
-    display: inline-block;
-} */
-
-/* #mySacramentos,
-#myBautismo,
-#myComunion,
-#myConfirmacion,
-#myMatrimonio,
-#myUncion {
-    display: none;
-} */
-
 #descripcionSacramentos {
     margin-left: 20%; 
     margin-right: 20%; 
@@ -424,7 +411,10 @@ a {
 /*--------------------*/
 
 #Home1,
-#News1 {
+#News1,
+#Contact1,
+#Contact2,
+#Contact3 {
     text-align: left;
     margin-left: 15%;
     margin-right: 15%;
@@ -599,16 +589,6 @@ a {
     .carousel-item {
         width: 150%;
     }
-
-    /* #mySacramentos,
-    #myBautismo,
-    #myComunion,
-    #myConfirmacion,
-    #myMatrimonio,
-    #myUncion {
-        display: none;
-        font-size: 80%;
-    } */
 
     .container-fluid {
        padding: 10px; /* Adjust padding for smaller screens */
