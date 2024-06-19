@@ -109,6 +109,13 @@ header {
     margin-bottom: 2%;
 }
 
+.imagenPrincipalGrupos {
+    background-image: url("../imagenes/grupos/GRUPOS\ DEL\ SANTUARIO\ 1967X312.jpg");
+    background-size: cover;
+    height: 312px;
+    margin-bottom: 2%;
+}
+
 .cruz {
     width: 40px; 
     height: auto;
@@ -414,7 +421,8 @@ a {
 #News1,
 #Contact1,
 #Contact2,
-#Contact3 {
+#Contact3,
+#grupoPastoral {
     text-align: left;
     margin-left: 15%;
     margin-right: 15%;
@@ -538,6 +546,13 @@ a {
         background-image: url("../imagenes/vida_de_fe/BANNER\ VIDA\ DE\ FÉ\ 1967X312.jpg");
         background-size: cover;
         background-position: center;
+        height: 150px;
+        margin-bottom: 2%;
+    }
+
+    .imagenPrincipalGrupos {
+        background-image: url("../imagenes/grupos/GRUPOS\ DEL\ SANTUARIO\ 1967X312.jpg");
+        background-size: cover;
         height: 150px;
         margin-bottom: 2%;
     }
