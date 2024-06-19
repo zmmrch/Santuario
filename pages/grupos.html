@@ -103,18 +103,17 @@
         <div class="navbar">
           <div class="list">
             <li class="list-item">
-              <a href="javascript:void(0);"  onclick="openPage('grupoPastoral')"><b>GRUPOS PASTORALES</b></a>
+              <a href="javascript:void(0);"  onclick="message(); openPage('grupoPastoral')"><b>GRUPOS PASTORALES</b></a>
             </li>
             <li class="list-item">
               <a href="javascript:void(0);"  onclick="openPage('grupoLaborSocial')"><b>GRUPOS DE LABOR SOCIAL</b></a>
             </li>
           </div>
         </div>
-        <div class="row mt-5">
+        <div class="row">
             <div class="col"></div>
             <div class="col-6">
-                <p class="text-center"><i>"Donde están dos o tres reunidos en mi nombre, allí estoy yo en medio de ellos (Mt 18: 20)"</i></p>
-                <p class="text-center align-items-center">Encuentra los detalles sobre nuestros grupos de oración y de labor social. Podrás conocer cómo participar y contribuir en las actividades de nuestra comunidad parroquial en el
+                <p class="text-center align-items-center" id="message"><i>"Donde están dos o tres reunidos en mi nombre, allí estoy yo en medio de ellos (Mt 18: 20)"</i><br>Encuentra los detalles sobre nuestros grupos de oración y de labor social. Podrás conocer cómo participar y contribuir en las actividades de nuestra comunidad parroquial en el
                     Santuario Nuestra Señora de Lourdes. Nuestros grupos de oración y los grupos de labor social son expresiones concretas de nuestra fe en acción, donde buscamos vivir el Evangelio
                     en nuestra vida cotidiana y ser testigos del amor de Cristo en el mundo.</p>
             </div>
@@ -464,8 +463,14 @@
         function gruposPastorales(){
             let y = document.getElementById("imagenPrincipal");
             y.style.backgroundImage =
-            "url('../imagenes/grupos/GRUPOS PASTORALES 1967X312.jpg')";
-        }
+            "url('../imagenes/grupos/GRUPOS PASTORALES 1967X312.jpg')"
+        }  
+
+        function message(){
+            let t = document.getElementById("message");
+            t.innerHTML =
+            '<p>En nuestros grupos de oración, nos reunimos como familia espiritual que somos, compartiendo momentos de amor con Dios. Aquí, nos unimos en oración, fortaleciendo nuestra fe y dejando que el amor divino nos guíe en cada paso de nuestro camino. Únete a nosotros y experimenta la belleza y la alegría de la oración en comunidad.</p>'
+        } 
 
       </script>
     
