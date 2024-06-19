@@ -637,6 +637,11 @@ a {
 
     .botonReformasSantuario {
         margin-top: 5%;
+        background-color: #25295A;
+        color: white;
+        width: 200px;
+        height: 30px;
+        margin-bottom: 5%;
     }
 
     .tabs {
