@@ -116,6 +116,13 @@ header {
     margin-bottom: 2%;
 }
 
+.imagenPrincipalHorarios {
+    background-image: url("../imagenes/horarios/HORARIO\ 1967X312.jpg");
+    background-size: cover;
+    height: 312px;
+    margin-bottom: 2%;
+}
+
 .cruz {
     width: 40px; 
     height: auto;
