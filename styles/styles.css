@@ -504,8 +504,8 @@ a {
         display: inline-block;
         text-align: center;
         padding-top: 5%;
-        margin-left: 20%;
-        margin-right: 20%;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
     #cardReligiosos {
@@ -595,6 +595,13 @@ a {
 
     .imagenPrincipalGrupos {
         background-image: url("../imagenes/grupos/GRUPOS\ DEL\ SANTUARIO\ 1967X312.jpg");
+        background-size: cover;
+        height: 150px;
+        margin-bottom: 2%;
+    }
+
+    .imagenPrincipalHorarios {
+        background-image: url("../imagenes/horarios/HORARIO\ 1967X312.jpg");
         background-size: cover;
         height: 150px;
         margin-bottom: 2%;
@@ -705,6 +712,10 @@ a {
     .tabs {
         margin-left: 10%;
         margin-right: 10%;
+    }
+
+    #horarios {
+        font-size: 1rem;
     }
 
 }
