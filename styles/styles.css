@@ -123,6 +123,13 @@ header {
     margin-bottom: 2%;
 }
 
+.imagenPrincipalRadioParroquial {
+    background-image: url("../imagenes/radio_parroquial/12-RADIO\ PARROQUIAL.jpg");
+    background-size: cover;
+    height: 312px;
+    margin-bottom: 2%;
+}
+
 .cruz {
     width: 40px; 
     height: auto;
@@ -163,12 +170,12 @@ header {
     text-underline-offset: 30px;
 }
 
-#carouselExampleCaptions2 {
+/*#carouselExampleCaptions2 {
     padding-top: 5%;
     margin-left: 15%;
     margin-right: 10%;
     align-items: start;
-}
+}*/
 
 .card-title {
     font-weight: bold;
@@ -188,7 +195,7 @@ header {
     width: 100%;
 }
 
-.carousel-control-next-icon,
+/*.carousel-control-next-icon,
 .carousel-control-prev-icon,
 .carousel-indicators {
   filter: invert(100%);
@@ -200,7 +207,7 @@ header {
     margin-right: 20%;
     padding-bottom: 5%;
     font-weight: bold;
-}
+}*/
 
 .botones {
     background-color: #25295A;
@@ -430,10 +437,38 @@ a {
 #Contact1,
 #Contact2,
 #Contact3,
+#Contact4,
+#formContacto,
 #grupoPastoral {
     text-align: left;
     margin-left: 15%;
     margin-right: 15%;
+    margin-top: -5%;
+}
+
+#listHorarios {
+    font-size: 1.5rem;
+}
+
+#horarios {
+    font-size: 1.2rem;
+}
+
+#titulosHorarios {
+    color: #ACA7CF;
+}
+
+#navbarHorarios {
+    font-size: 1.2rem;
+}
+
+/*Slideshow-----------------------------------------*/
+ 
+/*FIN Slideshow-----------------------------------------*/
+
+.form-control {
+    border-color: #25295A;
+    border-radius: 0;
 }
 
 .footer {
@@ -488,12 +523,12 @@ a {
         color: #25295A;
     }
 
-    #carouselExampleCaptions2 {
+    /* #carouselExampleCaptions2 {
         padding-top: 5%;
         margin-left: 25%;
         margin-right: 8%;
         align-items: center;
-    }
+    } */
 
     .imagenSeparador {
         background-image: url("../imagenes/Pagina Inicial/SEPARADOR\ 1967X139.jpg");
@@ -602,7 +637,7 @@ a {
         width: auto;
     }
 
-    .carousel-caption {
+    /* .carousel-caption {
         position:absolute;
         bottom: 0px;
         font-size: 78%;
@@ -611,7 +646,7 @@ a {
 
     .carousel-item {
         width: 150%;
-    }
+    } */
 
     .container-fluid {
        padding: 10px; /* Adjust padding for smaller screens */

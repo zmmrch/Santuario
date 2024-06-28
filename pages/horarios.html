@@ -46,13 +46,13 @@
                                 <a class="nav-link" href="#">GRUPOS DE LABOR SOCIAL</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">OBRAS DEL SANTUARIO</a>
+                                <a class="nav-link" href="./reformas_santuario.html">OBRAS DEL SANTUARIO</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="./pages/horarios.html">HORARIOS Y CONTACTO</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">RADIO PARROQUIAL</a>
+                                <a class="nav-link" href="./radio_parroquial.html">RADIO PARROQUIAL</a>
                             </li>
                         </ul>
                     </div>
@@ -69,25 +69,26 @@
     </header>
 
     <!--Seccion: imagen principal donaciones-->
-    <div class="imagenPrincipalHorarios"></div>
+    <div class="imagenPrincipalHorarios" id="imagenPrincipalHorarios"></div>
 
-    <div class="container-fluid">
+    <div class="container-fluid mb-5">
         <div class="navbar">
-          <div class="list">
+          <div class="list" id="listHorarios">
             <li class="list-item">
-              <a href="javascript:void(0);"  onclick="openPage('Home')">HORARIOS</a>
+              <a href="javascript:void(0);" onclick="horarios(); openPage('Home')">HORARIOS</a>
             </li>
             <li class="list-item">
-              <a href="javascript:void(0);"  onclick="openPage('ServSacerd')" id="btnServSac">CONTACTO</a>
+              <a href="javascript:void(0);" onclick="contacto(); openPage('formContacto')">CONTACTO</a>
             </li>
           </div>
         </div>
     </div>
 
     <div class="container-fluid text-center">
-        <div id="Home" class="tabcontent">
+        <!-- Sección:  HORARIOS----------------------------------------------------------------------------------------------->
+        <div id="Home" class="tabcontent" style="margin-top: -5%;">
             <div class="container-fluid">
-                <div class="navbar">
+                <div class="navbar" id="navbarHorarios">
                   <div class="list">
                     <li class="list-item">
                       <a href="javascript:void(0);" onclick="openPage2('Home1')">MISAS</a>
@@ -110,72 +111,112 @@
                   </div>
                 </div>
               </div>
-        </div>
 
-        <div id="Home1" class="tabcontent2">
+              <div id="Home1" class="tabcontent2">
+                <div class="col"></div>
+                <div class="col-lg text-center">
+                  <h5 class="mt-5" id="titulosHorarios">HORARIOS MISAS</h5>
+                  <p id="horarios">De lunes a sábados Misa de:<br> 8.00 - 17.00 hs.</p>
+                  <p id="horarios">Domingos Misa de:<br> 8.00 - 9.30 - 11.00 - 12.30 - 17.30 - 19.00 hs.</p>
+                  <p id="horarios">Días 11 de cada mes Misa de:<br> 8.00 - 9.30 - 11.00 - 12.30 - 17.30 - 19.00 hs.</p>
+                </div>
+                <div class="col"></div>       
+            </div>
+    
+            <div id="News1" class="tabcontent2">
+                <div class="col"></div>
+                <div class="col-lg text-center">
+                  <h5 class="mt-5" id="titulosHorarios">HORARIOS CONFESIONES</h5>
+                  <p id="horarios">De lunes a sábados DURANTE la Misa de:<br> 8.00 - 17.00 hs.</p>
+                  <p id="horarios">Domingos DURANTE la Misa de:<br> 8.00 - 9.30 - 11.00 - 12.30 - 17.30 - 19.00 hs.</p>
+                  <p id="horarios">Días 11 de cada mes DURANTE la Misa de:<br> 8.00 - 9.30 - 11.00 - 12.30 - 17.30 - 19.00 hs.</p>
+                </div>
+                <div class="col"></div>       
+            </div>
+    
+            <div id="Contact1" class="tabcontent2">
+                <div class="col"></div>
+                <div class="col-lg text-center">
+                  <h5 class="mt-5" id="titulosHorarios">HORARIOS DE ATENCIÓN SACERDOTAL</h5>
+                  <p id="horarios">De lunes a viernes desde:<br> 10.00 a 12.00 hs. y 16.00 a 18.00 hs.</p>
+                </div>
+                <div class="col"></div>       
+            </div>
+    
+            <div id="Contact2" class="tabcontent2">
+                <div class="col"></div>
+                <div class="col-lg text-center">
+                  <h5 class="mt-5" id="titulosHorarios">HORARIOS DE REZO DEL SANTO ROSARIO</h5>
+                  <p id="horarios">De lunes a sábados<br> 000.000 hs.</p>
+                  <p id="horarios">Domingos<br> 000.000 hs.</p>
+                  <p id="horarios">Días 11 de cada mes Misa de:<br> 000.000 hs.</p>
+                </div>
+                <div class="col"></div>       
+            </div>
+    
+            <div id="Contact3" class="tabcontent2">
+                <div class="col"></div>
+                <div class="col-lg text-center">
+                  <h5 class="mt-5" id="titulosHorarios">HORARIO BENDICIÓN DE LOS ENFERMOS</h5>
+                  <p id="horarios">De lunes a sábados<br> 000.000 hs.</p>
+                  <p id="horarios">Domingos<br> 000.000 hs.</p>
+                  <p id="horarios">Días 11 de cada mes Misa de:<br> 000.000 hs.</p>
+                </div>
+                <div class="col"></div>       
+            </div>
+    
+            <div id="Contact4" class="tabcontent2">
+                <div class="col"></div>
+                <div class="col-lg text-center">
+                  <h5 class="mt-5" id="titulosHorarios">HORARIO DE LA SECRETARÍA PARROQUIAL</h5>
+                  <p id="horarios">Lunes de:<br> 16.00 a 18.30 hs.</p>
+                  <p id="horarios">Martes a Domingo de:<br> 9.00 a 12.00 y 16.00 a 18.30 hs.</p>
+                </div>
+                <div class="col"></div>       
+            </div>
+        </div>
+        
+        <!-- Sección:  CONTACTO------------------------------------------------------------------------------------------------->
+        <div id="formContacto" class="tabcontent">
             <div class="col"></div>
             <div class="col-lg text-center">
-              <h5>HORARIOS MISAS</h5>
-              <p>De lunes a sábados Misa de:<br> 8.00 - 17.00 hs.</p>
-              <p>Domingos Misa de:<br> 8.00 - 9.30 - 11.00 - 12.30 - 17.30 - 19.00 hs.</p>
-              <p>Días 11 de cada mes Misa de:<br> 8.00 - 9.30 - 11.00 - 12.30 - 17.30 - 19.00 hs.</p>
+              <h5 class="mb-3" id="titulosHorarios">SECRETARÍA PARROQUIAL</h5>
+              <p id="horarios"><b>Para mayor información contáctanos</b><br></p>
+              <p id="horarios">de lunes a viernes en nuestros horarios al:</p>
+              <p id="horarios">Teléfono: 4757-2130</p>
+              <p id="horarios">Whatsapp: +54 9 11 5940-1198</p>
+              <p id="horarios">Mail: santuarionsl@gmail.com</p>
             </div>
             <div class="col"></div>       
-        </div>
-
-        <div id="News1" class="tabcontent2">
-            <div class="col"></div>
-            <div class="col-lg text-center">
-              <h5>HORARIOS CONFESIONES</h5>
-              <p>De lunes a sábados DURANTE la Misa de:<br> 8.00 - 17.00 hs.</p>
-              <p>Domingos DURANTE la Misa de:<br> 8.00 - 9.30 - 11.00 - 12.30 - 17.30 - 19.00 hs.</p>
-              <p>Días 11 de cada mes DURANTE la Misa de:<br> 8.00 - 9.30 - 11.00 - 12.30 - 17.30 - 19.00 hs.</p>
+            <div class="row">
+                <div class="col"></div>
+                <div class="col-sm">
+                    <form class="mt-5">
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">NOMBRE</label>  
+                            <input class="form-control" type="text" aria-label="default input example">  
+                            <label for="exampleInputEmail1" class="form-label mt-5">MAIL</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <label for="exampleInputEmail1" class="form-label mt-5">ASUNTO</label>  
+                            <input class="form-control" type="text" aria-label="default input example"> 
+                            <div class="mt-5">
+                                <label for="exampleFormControlTextarea1" class="form-label">MENSAJE</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+                        </div>
+                        <div class="btnInicio">
+                            <a class="botonInicio text-center" href="mailto:santuarionsl@gmail.com">Enviar</a>
+                        </div>
+                    </form>
+                </div>
+                <div class="col"></div>
             </div>
-            <div class="col"></div>       
         </div>
+    </div>
 
-        <div id="Contact1" class="tabcontent2">
-            <div class="col"></div>
-            <div class="col-lg text-center">
-              <h5>HORARIOS DE ATENCIÓN SACERDOTAL</h5>
-              <p>De lunes a viernes desde:<br> 10.00 a 12.00 hs. y 16.00 a 18.00 hs.</p>
-            </div>
-            <div class="col"></div>       
-        </div>
-
-        <div id="Contact2" class="tabcontent2">
-            <div class="col"></div>
-            <div class="col-lg text-center">
-              <h5>HORARIOS DE REZO DEL SANTO ROSARIO</h5>
-              <p>De lunes a sábados<br> 000.000 hs.</p>
-              <p>Domingos<br> 000.000 hs.</p>
-              <p>Días 11 de cada mes Misa de:<br> 000.000 hs.</p>
-            </div>
-            <div class="col"></div>       
-        </div>
-
-        <div id="Contact3" class="tabcontent2">
-            <div class="col"></div>
-            <div class="col-lg text-center">
-              <h5>HORARIO BENDICIÓN DE LOS ENFERMOS</h5>
-              <p>De lunes a sábados<br> 000.000 hs.</p>
-              <p>Domingos<br> 000.000 hs.</p>
-              <p>Días 11 de cada mes Misa de:<br> 000.000 hs.</p>
-            </div>
-            <div class="col"></div>       
-        </div>
-
-        <div id="Contact4" class="tabcontent2">
-            <div class="col"></div>
-            <div class="col-lg text-center">
-              <h5>HORARIO DE LA SECRETARÍA PARROQUIAL</h5>
-              <p>Lunes de:<br> 16.00 a 18.30 hs.</p>
-              <p>Martes a Domingo de:<br> 9.00 a 12.00 y 16.00 a 18.30 hs.</p>
-            </div>
-            <div class="col"></div>       
-        </div>
-
-
+    <!--Seccion: Boton "Ver reformas del santuario"-->
+    <div class="btnInicio">
+        <a href="../index.html"><button class="botonInicio">Inicio</button></a>
     </div>
     
     <!--Seccion: Footer-->
@@ -206,6 +247,19 @@
         crossorigin="anonymous"></script>
     
     <script>
+        
+        function contacto() {
+            let y = document.getElementById("imagenPrincipalHorarios");
+            y.style.backgroundImage =
+            "url('../imagenes/horarios/CONTACTO 1967X312.jpg')";
+        }
+
+        function horarios() {
+            let y = document.getElementById("imagenPrincipalHorarios");
+            y.style.backgroundImage =
+            "url('../imagenes/horarios/HORARIO 1967X312.jpg')";
+        }
+
         function openPage(pageName, elmnt, color) {
             // Hide all elements with class="tabcontent" by default */
             var i, tabcontent, tablinks;
