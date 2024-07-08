@@ -432,6 +432,8 @@ a {
 
 /*--------------------*/
 
+#Home,
+#News,
 #Home1,
 #News1,
 #Contact1,
@@ -443,8 +445,9 @@ a {
     text-align: left;
     margin-left: 15%;
     margin-right: 15%;
-    margin-top: -5%;
+    margin-top: -3%;
 }
+
 
 #listHorarios {
     font-size: 1.5rem;
@@ -462,9 +465,9 @@ a {
     font-size: 1.2rem;
 }
 
-/*Slideshow-----------------------------------------*/
+/*Slideshow---*/
  
-/*FIN Slideshow-----------------------------------------*/
+/*FIN Slideshow--*/
 
 .form-control {
     border-color: #25295A;
@@ -479,7 +482,7 @@ a {
     text-align: center;
 }
 
-/* Estilos para dispositivos móviles */
+/* Estilos para dispositivos móviles --------------------------------------------------------------------------------------------*/
 @media only screen and (max-width: 768px) {
     #logo {
         display: inline-block;
@@ -522,13 +525,6 @@ a {
         font-size: 80%;
         color: #25295A;
     }
-
-    /* #carouselExampleCaptions2 {
-        padding-top: 5%;
-        margin-left: 25%;
-        margin-right: 8%;
-        align-items: center;
-    } */
 
     .imagenSeparador {
         background-image: url("../imagenes/Pagina Inicial/SEPARADOR\ 1967X139.jpg");
@@ -644,17 +640,6 @@ a {
         width: auto;
     }
 
-    /* .carousel-caption {
-        position:absolute;
-        bottom: 0px;
-        font-size: 78%;
-        text-align: start;
-    }
-
-    .carousel-item {
-        width: 150%;
-    } */
-
     .container-fluid {
        padding: 10px; /* Adjust padding for smaller screens */
     }
@@ -718,5 +703,27 @@ a {
         font-size: 1rem;
     }
 
+    #Home,
+    #News,
+    #Home1,
+    #News1,
+    #Contact1,
+    #Contact2,
+    #Contact3,
+    #Contact4,
+    #formContacto,
+    #grupoPastoral {
+        text-align: left;
+        margin-left: -4%;
+        margin-right: -4%;
+        margin-top: -15%;
+    }
+
+    #ServSacerd,
+    #Cinerario {
+        margin-top: -20%;
+    }
+
+ 
 }
 
