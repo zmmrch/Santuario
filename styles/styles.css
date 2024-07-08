@@ -679,9 +679,9 @@ a {
 
     .textoBanner {
         font-size: 14px !important;
-        text-align: start;
-        align-items: center;
-        color: wheat;
+        text-align: start !important;
+        align-items: center !important;
+        color: wheat !important;
     }
 
     #santosDeLaSemana,
