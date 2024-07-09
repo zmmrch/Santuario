@@ -88,7 +88,7 @@ header {
 }
 
 .imagenMuroInfoSantos {
-    background-image: url("../imagenes/muro_inf_santos/BANER\ MURO\ INFORMATIVO\ 1967X312.jpg");
+    background-image: url("../imagenes/muro_inf_santos/SANTOS\ 1967X312.jpg");
     background-size: cover;
     height: 312px;
     margin-bottom: 2%;
@@ -144,7 +144,7 @@ header {
 }
 
 .cruz {
-    width: 40px; 
+    width: 40px;
     height: auto;
 }
 
@@ -387,8 +387,8 @@ iframe {
 }
 
 #descripcionSacramentos {
-    margin-left: 20%; 
-    margin-right: 20%; 
+    margin-left: 20%;
+    margin-right: 20%;
     text-align: justify;
 }
 
@@ -484,7 +484,7 @@ a {
 }
 
 /*Slideshow---*/
- 
+
 /*FIN Slideshow--*/
 
 .form-control {
@@ -500,7 +500,7 @@ a {
     margin-bottom: 16px;
     padding: 20px 8px 20px 20px;
   }
-  
+
   /* Display the columns below each other instead of side by side on small screens */
   @media screen and (max-width: 650px) {
     .column {
@@ -508,30 +508,32 @@ a {
       display: block;
     }
   }
-  
+
   /* Add some shadows to create a card effect */
   .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-left: 5%;
+    margin-right: 5%;
   }
-  
+
   /* Some left and right padding inside the container */
   .container {
     padding: 0 16px;
   }
-  
+
   /* Clear floats */
   .container::after, .row::after {
     content: "";
     clear: both;
     display: table;
   }
-  
+
   .title {
     color: #25295A;
     font-size: 1.5rem;
     font-weight: bold;
   }
-  
+
   .button {
     border: none;
     outline: 0;
@@ -543,7 +545,7 @@ a {
     cursor: pointer;
     width: 100%;
   }
-  
+
   .button:hover {
     background-color: #ACA7CF;
   }
@@ -600,7 +602,7 @@ a {
         color: #25295A;
     }
 
-   
+
     .imagenSeparador {
         background-image: url("../imagenes/Pagina Inicial/SEPARADOR\ 1967X139.jpg");
         background-size:cover;
@@ -618,9 +620,9 @@ a {
     }
 
     .imagenMuroInfoSantos {
-        background-image: url("../imagenes/muro_inf_santos/BANER\ MURO\ INFORMATIVO\ 1967X312.jpg");
+        background-image: url("../imagenes/muro_inf_santos/SANTOS\ 1967X312.jpg");
         background-size: cover;
-        background-position: right;
+        background-position: center;
         height: 156px;
         margin-bottom: 2%;
     }
@@ -732,14 +734,14 @@ a {
     .container-fluid {
        padding: 10px; /* Adjust padding for smaller screens */
     }
-  
+
     .navbar .list {
        display: flex; /* Make the list items display horizontally */
        flex-wrap: wrap; /* Allow items to wrap onto multiple lines */
        text-align: center;
        justify-content: center;
     }
-  
+
     .list-item {
        text-align: center; /* Center the text of list items */
        flex-wrap: wrap;
@@ -813,6 +815,5 @@ a {
         margin-top: -20%;
     }
 
- 
-}
 
+}
