@@ -12,8 +12,13 @@ h5{
     font-weight: bold;
 }
 
-h2 {
+h2, h5, h6 {
     color: #25295A;
+}
+
+h6 {
+    align-items: center; 
+    text-align: justify;
 }
 
 a {
@@ -159,6 +164,9 @@ header {
     text-underline-offset: 30px;
 }
 
+#fichaSantos {
+}
+
 #vozDelAlma,
 #donaciones,
 #refSantuario,
@@ -182,45 +190,6 @@ header {
     text-decoration: underline #ACA7CF;
     text-underline-offset: 30px;
 }
-
-/*#carouselExampleCaptions2 {
-    padding-top: 5%;
-    margin-left: 15%;
-    margin-right: 10%;
-    align-items: start;
-}*/
-
-/* .card-title {
-    font-weight: bold;
-    color: #25295A;
-}
-
-.card-text {
-    color: #25295A;
-}
-
-.card {
-    width: auto;
-    border-color: #ACA7CF;
-}
-
-.card-img-top {
-    width: 100%;
-} */
-
-/*.carousel-control-next-icon,
-.carousel-control-prev-icon,
-.carousel-indicators {
-  filter: invert(100%);
-}
-
-.carousel-caption {
-    position:absolute;
-    text-align: start;
-    margin-right: 20%;
-    padding-bottom: 5%;
-    font-weight: bold;
-}*/
 
 .botones {
     background-color: #25295A;
@@ -448,6 +417,7 @@ a {
     transform: scaleX(1);
 }
 
+
 /*--------------------*/
 
 #Home,
@@ -459,7 +429,8 @@ a {
 #Contact3,
 #Contact4,
 #formContacto,
-#grupoPastoral {
+#grupoPastoral,
+#grupoLaborSocial {
     text-align: left;
     margin-left: 15%;
     margin-right: 15%;
@@ -532,6 +503,15 @@ a {
     color: #25295A;
     font-size: 1.5rem;
     font-weight: bold;
+    line-height: 90%;
+    padding-top: 5%;
+  }
+
+  .title2 {
+    color: #25295A;
+    font-size: 1rem;
+    line-height: 120%;
+    margin-top: -3% !important;
   }
 
   .button {
@@ -549,6 +529,7 @@ a {
   .button:hover {
     background-color: #ACA7CF;
   }
+
 
 .footer {
     position: relative;
@@ -799,7 +780,8 @@ a {
     #Contact3,
     #Contact4,
     #formContacto,
-    #grupoPastoral {
+    #grupoPastoral,
+    #grupoLaborSocial {
         text-align: left;
         margin-left: -4%;
         margin-right: -4%;
@@ -810,6 +792,259 @@ a {
     #Cinerario {
         margin-top: -20%;
     }
+}
+
+/* Estilos para dispositivos tablet --------------------------------------------------------------------------------------------*/
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    #logo {
+        display: inline-block;
+        width: 25%;
+        text-align: center;
+    }
+
+    iframe {
+        width: 600px;
+        height: 300px;
+    }
+
+    p {
+        margin-top: 5%;
+    }
+
+    .bi {
+        font-size: 80%;
+    }
+
+    .imagenProvinciaAndina {
+        display: inline-block;
+        text-align: center;
+        padding-top: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .card-title {
+        font-size: 90%;
+        font-weight: bold;
+        color: #25295A;
+    }
+
+    .card-text {
+        font-size: 80%;
+        color: #25295A;
+    }
 
 
+    .imagenSeparador {
+        background-image: url("../imagenes/Pagina Inicial/SEPARADOR\ 1967X139.jpg");
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: right;
+        height: 75px;
+    }
+
+    .imagenPrincipalDonaciones {
+        background-image: url("../imagenes/donaciones/BANNER\ DONACIONES\ 1967X312.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 150px;
+    }
+
+    .imagenMuroInfoSantos {
+        background-image: url("../imagenes/muro_inf_santos/SANTOS\ 1967X312.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 156px;
+        margin-bottom: 2%;
+    }
+
+    .imagenReformasSantuario {
+        background-image: url("../imagenes/reformas_santuario/BANNER\ REFORMAS\ DEL\ SANTUARIO\ 1967X312.jpg");
+        background-size: cover;
+        height: 156px;
+        margin-bottom: 2%;
+    }
+
+    .imagenSeparadorReformaSantuario {
+        background-image: url("../imagenes/reformas_santuario/SEPARADOR\ REFORMAS\ DEL\ SANTUARIO\ 1967X139.jpg");
+        background-size: cover;
+        background-position: right;
+        height: 75px;
+        margin-bottom: 2%;
+    }
+
+    .imagenBienvenidosSantuario {
+        background-image: url("../imagenes/bienvenidos/BANNER\ BIENVENIDOS\ AL\ SANTUIUARIO\ 1967X312.jpg");
+        background-size: cover;
+        background-position: right;
+        height: 150px;
+        margin-bottom: 2%;
+    }
+
+    .imagenSeparadorBienvenidos {
+        background-image: url("../imagenes/bienvenidos/SEPARADOR\ BIENVENIDOS\ AL\ SANTUARIO\ 1967X139.jpg");
+        background-size: cover;
+        background-position: right;
+        height: 75px;
+        margin-bottom: 2%;
+    }
+
+    .imagenPrincipalVidaDeFe {
+        background-image: url("../imagenes/vida_de_fe/BANNER\ VIDA\ DE\ FÉ\ 1967X312.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 150px;
+        margin-bottom: 2%;
+    }
+
+    .imagenPrincipalGrupos {
+        background-image: url("../imagenes/grupos/GRUPOS\ DEL\ SANTUARIO\ 1967X312.jpg");
+        background-size: cover;
+        height: 150px;
+        margin-bottom: 2%;
+    }
+
+    .imagenPrincipalHorarios {
+        background-image: url("../imagenes/horarios/HORARIO\ 1967X312.jpg");
+        background-size: cover;
+        height: 150px;
+        margin-bottom: 2%;
+    }
+
+    .textoBanner {
+        font-size: 10px !important;
+        text-align: start !important;
+        align-items: center !important;
+        color: wheat !important;
+    }
+
+    .textoBanner1 {
+        font-size: 10px !important;
+        text-align: start !important;
+        margin-right: 1% !important;
+        color: wheat !important;
+    }
+
+    #santosDeLaSemana,
+    #muroInformativo,
+    #refSantuario {
+        display: flex;
+        line-height: 1.5em;
+        text-underline-offset: 15px;
+    }
+
+    #refReligiosos {
+        display: flex;
+        line-height: 1.5em;
+        text-underline-offset: 15px;
+        margin-bottom: 8%;
+    }
+
+    #vozDelAlma {
+        display: flex;
+        line-height: 1.5em;
+        text-underline-offset: 5px;
+        margin-bottom: 8%;
+    }
+
+    .verMas {
+        margin-bottom: 10%;
+    }
+
+    h3 {
+        font-size: 90%;
+        margin-right: 10%;
+        padding-right: 5%;
+    }
+
+    .d-block {
+        height: 170px;
+        width: auto;
+    }
+
+    .container-fluid {
+       padding: 10px; /* Adjust padding for smaller screens */
+    }
+
+    .navbar .list {
+       display: flex; /* Make the list items display horizontally */
+       flex-wrap: wrap; /* Allow items to wrap onto multiple lines */
+       text-align: center;
+       justify-content: center;
+    }
+
+    .list-item {
+       text-align: center; /* Center the text of list items */
+       flex-wrap: wrap;
+    }
+
+    .footer {
+       position:relative;
+       left: 0;
+       bottom: 0;
+       width: 100%;
+       color: white;
+       text-align: center;
+    }
+
+    #vidaDeFe {
+        margin-bottom: 5%;
+    }
+
+    #imgFooter {
+       vertical-align: middle;
+    }
+
+    .footer {
+       font-size: 1.5vw;
+       margin-top: 1%;
+    }
+
+    .botonDonaciones {
+        display: flex;
+        justify-content: center;
+        margin-top: 15%;
+        margin-bottom: 15%;
+    }
+
+    .botonReformasSantuario {
+        margin-top: 5%;
+        background-color: #25295A;
+        color: white;
+        width: 250px;
+        height: 30px;
+        margin-bottom: 5%;
+    }
+
+    .tabs {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    #horarios {
+        font-size: 1rem;
+    }
+
+    #Home,
+    #News,
+    #Home1,
+    #News1,
+    #Contact1,
+    #Contact2,
+    #Contact3,
+    #Contact4,
+    #formContacto,
+    #grupoPastoral,
+    #grupoLaborSocial {
+        text-align: left;
+        margin-left: -4%;
+        margin-right: -4%;
+        margin-top: -15%;
+    }
+
+    #ServSacerd,
+    #Cinerario {
+        margin-top: -20%;
+    }
 }
