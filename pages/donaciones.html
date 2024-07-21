@@ -42,7 +42,7 @@
                                 <a class="nav-link" href="./grupos.html">GRUPOS PASTORALES</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">GRUPOS DE LABOR SOCIAL</a>
+                                <a class="nav-link" href="./grupos.html">GRUPOS DE LABOR SOCIAL</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="./reformas_santuario.html">OBRAS DEL SANTUARIO</a>
@@ -75,8 +75,9 @@
         <h2 id="donaciones">DONACIONES</h2>
         <!--Seccion: Boton "Ver reformas del santuario"-->
         <div class="datosBancarios">
-            <button class="botonDatosBancarios">Datos Bancarios</button>
+            <button class="botonDatosBancarios" data-bs-toggle="modal" data-bs-target="#exampleModal">Datos Bancarios</button>
         </div>
+
         <div class="container text-center-left">
             <div class="row">
               <div class="col"></div>
@@ -106,18 +107,40 @@
         <a href="../index.html"><button class="botonInicio">Inicio</button></a>
     </div>
 
+     <!-- Modal -->
+     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">DATOS BANCARIOS</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <h5>Nº de cuenta: CC en pesos 085-006953/9</h5>
+                <h5>Nº CBU: <strong>0720085420000000695390</strong></h5>
+                <h5>Alias: <strong>TROPA.YUYO.BIBLIA</strong></h5>
+                <h5>Razón Social: Parroquia Ntra Sra de Lourdes</h5>
+                <h5>CUIT / CUIL: 30-52898910-8</h5>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="botonInicio" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
     <!--Seccion: Footer-->
     <footer class="footer">
-        <img src="../imagenes/FOOTER 1967X106.png" alt="" class="img-fluid">
+        <img src="../imagenes/FOOTER 1967X106.png" alt="" class="img-fluid" id="imgFooter">
         <div class="container-fluid">
             <div class="text-center">
-                <div class="align-items-center" style="color: #25295A;">
-                    copyright©2024santuariodelourdesXXXXX??????
+                <div class="align-items-center" id="footerCopy">
+                    copyright©2024 santuariodelourdes.org.ar
                 </div>
-                <div class="align-items-center" style="color: #25295A;">
+                <div class="align-items-center" id="footerCopy">
                     Información legal | Política de privacidad
                 </div>
-                <div class="align-items-center mt-3" style="color: #ACA7CF;">
+                <div class="align-items-center mt-3" id="footerLoveLace">
                     Desarrollo de página hecho por LOVELACE Digital arts. Créditos para banco de imágenes freepik y
                     pexel
                 </div>

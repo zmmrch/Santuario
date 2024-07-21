@@ -539,6 +539,15 @@ a {
     text-align: center;
 }
 
+#footerCopy {
+    color: #25295A;
+}
+
+#footerLoveLace {
+    color: #ACA7CF;
+}
+
+
 /* Estilos para dispositivos móviles --------------------------------------------------------------------------------------------*/
 @media only screen and (max-width: 768px) {
     #logo {
@@ -795,7 +804,7 @@ a {
 }
 
 /* Estilos para dispositivos tablet --------------------------------------------------------------------------------------------*/
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
+@media only screen and (min-width: 992px) and (max-width: 1500px) {
     #logo {
         display: inline-block;
         width: 25%;
@@ -913,18 +922,14 @@ a {
     }
 
     .textoBanner {
-        font-size: 10px !important;
-        text-align: start !important;
-        align-items: center !important;
+        font-size: 14px !important;
         color: wheat !important;
     }
 
     .textoBanner1 {
-        font-size: 10px !important;
-        text-align: start !important;
-        margin-right: 1% !important;
+        font-size: 14px !important;
         color: wheat !important;
-    }
+    } 
 
     #santosDeLaSemana,
     #muroInformativo,
