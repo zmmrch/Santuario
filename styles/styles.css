@@ -782,6 +782,13 @@ a {
         margin-bottom: 2%;
     }
 
+    .imagenPrincipalRadioParroquial {
+        background-image: url("../imagenes/radio_parroquial/12-RADIO\ PARROQUIAL.jpg");
+        background-size: cover;
+        height: 150px;
+        margin-bottom: 2%;
+    }
+
     .textoBanner {
         font-size: 10px !important;
         text-align: start !important;
@@ -916,6 +923,25 @@ a {
     #ServSacerd,
     #Cinerario {
         margin-top: -20%;
+    }
+
+    #santosDeLaSemana {
+        padding-top: 5%;
+        text-align: center;
+        color: #25295A;
+        font-weight: bold;
+        justify-content: center;
+        justify-items: center;
+        text-decoration: underline #ACA7CF;
+        text-underline-offset: 30px;
+    }
+    
+    #fichaSantos {
+        align-items: center;
+    }
+    
+    #seccionAzulSantos {
+        background-color: #25295A; color: white; border-radius: 10px; padding: 5%; line-height: 130%; font-size: 1.1rem;
     }
 }
 
