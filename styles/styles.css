@@ -240,6 +240,11 @@ header {
     margin-bottom: 2%;
 }
 
+.card-img-top {
+    width: 100%;
+    object-fit: fill;
+}
+
 .cruz {
     width: 40px;
     height: auto;

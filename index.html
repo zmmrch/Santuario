@@ -11,6 +11,9 @@
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
   <!-- Bootstrap icons-->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
+  <!-- Swiffy -->
+  <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>
+  <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous">
   <!-- link con el archivo de estilos de CSS-->
   <link rel="stylesheet" href="./styles/styles.css" />
 </head>
@@ -177,212 +180,242 @@
     <img src="./imagenes/LOGOS AGUSTINOS DE LA ASUNCIÓN JUNTOS  711.1616 X 113.2414.png" alt="" class="img-fluid">
   </div>
 
-  <!--Seccion: Santos del Mes------------------------------------------------------------------------------------------------------------------------------------>
-  <div class="container-fluid">
-    <h2 id="santosDeLaSemana">SANTOS DEL MES</h2>
-    <div id="carouselExampleCaptionsNews" class="carousel slide" data-bs-ride="carousel slide">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleCaptionsNews" data-bs-slide-to="0" class="active"
-          aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptionsNews" data-bs-slide-to="1"
-          aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptionsNews" data-bs-slide-to="2"
-          aria-label="Slide 3"></button>
+  <!--Seccion: Santos de la Semana------------------------------------------------------------------------------------------------------------------------------------>
+  <div class="container-lg">
+    <h2 id="santosDeLaSemana" class="mb-5">SANTOS DEL MES</h2>
+    <div class="swiffy-slider slider-item-show2 slider-item-reveal slider-nav-outside slider-nav-round slider-nav-visible slider-indicators-outside slider-indicators-round slider-indicators-dark slider-nav-animation slider-nav-animation-fadein slider-item-first-visible">
+      <ul class="slider-container py-4">
+          <li class="slide-visible">
+              <div class="card shadow h-100">
+                  <div class="ratio ratio-4x3">
+                      <img src="./imagenes/Santos/1 agosto 320 x 320.jpg" class="card-img-top" loading="lazy" alt="..." style="object-fit: cover;">
+                  </div>
+                  <div class="card-body p-3 p-xl-5">
+                      <h3 class="card-title h5">1 AGOSTO<br>SAN ALFONSO MARÍA DE LIGORIO </h3>
+                      <p class="card-text">Memoria de san Alfonso María de Ligorio, obispo y
+                        doctor de la Iglesia, que insigne por el celo de las
+                        almas, por sus escritos, por su palabra y ejemplo,
+                        trabajó infatigablemente predicando y escribiendo
+                        libros, en especial sobre teología moral...</p>
+                  </div>
+                  <div><a href="./pages/1_agosto.html"><button class="button">Ver más</button></a></div>
+              </div>
+          </li>
+          <li class="slide-visible">
+              <div class="card shadow h-100">
+                  <div class="ratio ratio-4x3">
+                      <img src="./imagenes/Santos/2 agosto320 x 320.jpg" class="card-img-top" loading="lazy" alt="...">
+                  </div>
+                  <div class="card-body p-3 p-xl-5">
+                      <h3 class="card-title h5">2 AGOSTO<br>NUESTRA SEÑORA DE LOS ÁNGELES</h3>
+                      <p class="card-text">La Virgen María es la Madre de Jesucristo. Por esta
+                        razón, ha sido venerada siempre como la criatura
+                        más excelsa, por encima de todos los Santos y de los
+                        Ángeles. Por ser Madre de Dios es justamente Reina
+                        y Señora de los Ángeles...</p>
+                  </div>
+                  <div><a href="./pages/2_agosto.html"><button class="button">Ver más</button></a></div>
+              </div>
+          </li>
+          <li>
+              <div class="card shadow h-100">
+                  <div class="ratio ratio-4x3">
+                      <img src="./imagenes/Santos/3 agosto 320 x 320.jpg" class="card-img-top" loading="lazy" alt="...">
+                  </div>
+                  <div class="card-body p-3 p-xl-5">
+                      <h3 class="card-title h5">3 AGOSTO<br>SAN ASPRENATO DE NÁPOLES</h3>
+                      <p class="card-text">Hoy conmemoramos a San Asprenato, uno de los
+                        santos más antiguos de la región de Nápoles y que,
+                        según la leyenda, tuvo la oportunidad de conocer a
+                        San Pedro, del que se dice que incluso llegó a catequizarlo
+                        y bautizarlo...</p>
+                  </div>
+                  <div><a href="./pages/3_agosto.html"><button class="button">Ver más</button></a></div>
+              </div>
+          </li>
+          <li>
+              <div class="card shadow h-100">
+                  <div class="ratio ratio-4x3">
+                      <img src="./imagenes/Santos/4 agosto 320 x 320.jpg" class="card-img-top" loading="lazy" alt="...">
+                  </div>
+                  <div class="card-body  p-3 p-xl-5">
+                      <h3 class="card-title h5">4 AGOSTO<br>SAN ALFONSO MARÍA DE LIGORIO</h3>
+                      <p class="card-text">Memoria de san Alfonso María de Ligorio, obispo y
+                        doctor de la Iglesia, que insigne por el celo de las
+                        almas, por sus escritos, por su palabra y ejemplo,
+                        trabajó infatigablemente predicando y escribiendo
+                        libros, en especial sobre teología moral...</p>
+                  </div>
+                  <div><a href="./pages/4_agosto.html"><button class="button">Ver más</button></a></div>
+              </div>
+          </li>
+          <li>
+              <div class="card shadow h-100">
+                  <div class="ratio ratio-4x3">
+                      <img src="./imagenes/Santos/5 agosto 320 x 320.jpg" class="card-img-top" loading="lazy" alt="...">
+                  </div>
+                  <div class="card-body  p-3 p-xl-5">
+                      <h3 class="card-title h5">5 AGOSTO<br>NUESTRA SEÑORA DE LOS ÁNGELES</h3>
+                      <p class="card-text">La Virgen María es la Madre de Jesucristo. Por esta
+                        razón, ha sido venerada siempre como la criatura
+                        más excelsa, por encima de todos los Santos y de los
+                        Ángeles. Por ser Madre de Dios es justamente Reina
+                        y Señora de los Ángeles...</p>
+                  </div>
+                  <div><a href="./pages/5_agosto.html"><button class="button">Ver más</button></a></div>
+              </div>
+          </li>
+          <li>
+              <div class="card shadow h-100">
+                  <div class="ratio ratio-4x3">
+                      <img src="./imagenes/Santos/6 Agosto 320 x 320.jpg" class="card-img-top" loading="lazy" alt="...">
+                  </div>
+                  <div class="card-body  p-3 p-xl-5">
+                      <h3 class="card-title h5">6 AGOSTO<br>SAN ASPRENATO DE NÁPOLES</h3>
+                      <p class="card-text">Hoy conmemoramos a San Asprenato, uno de los
+                        santos más antiguos de la región de Nápoles y que,
+                        según la leyenda, tuvo la oportunidad de conocer a
+                        San Pedro, del que se dice que incluso llegó a catequizarlo
+                        y bautizarlo...</p>
+                  </div>
+                  <div><a href="./pages/6_agosto.html"><button class="button">Ver más</button></a></div>
+              </div>
+          </li>
+      </ul>
+  
+      <button type="button" class="slider-nav" aria-label="Go left"></button>
+      <button type="button" class="slider-nav slider-nav-next" aria-label="Go left"></button>
+  
+      <div class="slider-indicators">
+          <button class="active" aria-label="Go to slide"></button>
+          <button aria-label="Go to slide"></button>
+          <button aria-label="Go to slide"></button>
+          <button aria-label="Go to slide"></button>
+          <button aria-label="Go to slide"></button>
       </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active" data-bs-interval="3000">
-          <div class="row mt-5 mb-5">
-            <div class="column">
-              <div class="card">
-                <img src="./imagenes/Santos/1 agosto 320 x 320.jpg" alt="Jane" style="width:100%">
-                <div class="container">
-                  <h2>1 AGOSTO</h2>
-                  <p class="title">SAN ALFONSO MARÍA DE LIGORIO</p>
-                  <p>Memoria de san Alfonso María de Ligorio, obispo y
-                    doctor de la Iglesia, que insigne por el celo de las
-                    almas, por sus escritos, por su palabra y ejemplo,
-                    trabajó infatigablemente predicando y escribiendo
-                    libros, en especial sobre teología moral...</p>
-                  <p><a href="./pages/1_agosto.html"><button class="button">Ver más</button></a></p>
-                </div>
-              </div>
-            </div>
-
-            <div class="column">
-              <div class="card">
-                <img src="./imagenes/Santos/2 agosto320 x 320.jpg" alt="Mike" style="width:100%">
-                <div class="container">
-                  <h2>2 AGOSTO</h2>
-                  <p class="title">NUESTRA SEÑORA DE LOS ÁNGELES</p>
-                  <p>La Virgen María es la Madre de Jesucristo. Por esta
-                    razón, ha sido venerada siempre como la criatura
-                    más excelsa, por encima de todos los Santos y de los
-                    Ángeles. Por ser Madre de Dios es justamente Reina
-                    y Señora de los Ángeles...</p>
-                  <p><a href="./pages/santos/agosto/2_agosto.html"><button class="button">Ver más</button></a></p>
-                </div>
-              </div>
-            </div>
-
-            <div class="column">
-              <div class="card">
-                <img src="./imagenes/Santos/3 agosto 320 x 320.jpg" alt="John" style="width:100%">
-                <div class="container">
-                  <h2>3 AGOSTO</h2>
-                  <p class="title">SAN ASPRENATO DE NÁPOLES</p>
-                  <p>Hoy conmemoramos a San Asprenato, uno de los
-                    santos más antiguos de la región de Nápoles y que,
-                    según la leyenda, tuvo la oportunidad de conocer a
-                    San Pedro, del que se dice que incluso llegó a catequizarlo
-                    y bautizarlo...</p>
-                  <p><a href="./pages/santos/agosto/3_agosto.html"><button class="button">Ver más</button></a></p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="carousel-item" data-bs-interval="3000">
-          <div class="row mt-5 mb-5">
-            <div class="column">
-              <div class="card">
-                <img src="./imagenes/Santos/4 agosto 320 x 320.jpg" alt="Jane" style="width:100%">
-                <div class="container">
-                  <h2>4 AGOSTO</h2>
-                  <p class="title">SAN ALFONSO MARÍA DE LIGORIO</p>
-                  <p>Memoria de san Alfonso María de Ligorio, obispo y
-                    doctor de la Iglesia, que insigne por el celo de las
-                    almas, por sus escritos, por su palabra y ejemplo,
-                    trabajó infatigablemente predicando y escribiendo
-                    libros, en especial sobre teología moral...</p>
-                  <p><a href="./imagenes/Santos/4 agosto 320 x 320.jpg"><button class="button">Ver más</button></a></p>
-                </div>
-              </div>
-            </div>
-
-            <div class="column">
-              <div class="card">
-                <img src="./imagenes/Santos/5 agosto 320 x 320.jpg" alt="Mike" style="width:100%">
-                <div class="container">
-                  <h2>5 AGOSTO</h2>
-                  <p class="title">NUESTRA SEÑORA DE LOS ÁNGELES</p>
-                  <p>La Virgen María es la Madre de Jesucristo. Por esta
-                    razón, ha sido venerada siempre como la criatura
-                    más excelsa, por encima de todos los Santos y de los
-                    Ángeles. Por ser Madre de Dios es justamente Reina
-                    y Señora de los Ángeles...</p>
-                  <p><button class="button">Ver más</button></p>
-                </div>
-              </div>
-            </div>
-
-            <div class="column">
-              <div class="card">
-                <img src="./imagenes/Santos/6 agosto 320 x 320.jpg" alt="John" style="width:100%">
-                <div class="container">
-                  <h2>6 AGOSTO</h2>
-                  <p class="title">SAN ASPRENATO DE NÁPOLES</p>
-                  <p>Hoy conmemoramos a San Asprenato, uno de los
-                    santos más antiguos de la región de Nápoles y que,
-                    según la leyenda, tuvo la oportunidad de conocer a
-                    San Pedro, del que se dice que incluso llegó a catequizarlo
-                    y bautizarlo...</p>
-                  <p><button class="button">Ver más</button></p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptionsNews"
-        data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Anterior</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptionsNews"
-        data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Siguiente</span>
-      </button>
-    </div>
+    </div>  
   </div>
   <!--Seccion: Fin Santos de la Semana-------------------------------------------------------------------------------------------------------------------------------->
 
   <!--Seccion: Boton "Ver más"-->
-  <div class="verMas">
+  <div class="verMas mt-5">
     <a href="./pages/muro_info_santos.html"><button class="botonVerMas">Ver Todos los Santos</button></a>
   </div>
 
-  <!--Seccion: Muro Informativo------------------------------------------------------------------------------------------------------------------------------------>
-  <div class="container-fluid">
-    <h2 id="muroInformativo">MURO INFORMATIVO</h2>
-    <div id="carouselExampleCaptionsNews2" class="carousel slide" data-bs-ride="carousel slide">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleCaptionsNews" data-bs-slide-to="0" class="active"
-          aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptionsNews" data-bs-slide-to="1"
-          aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptionsNews" data-bs-slide-to="2"
-          aria-label="Slide 3"></button>
+  <!--Seccion: Muro Informativo--------------------------------------------------------------------------------------------------------------------------------------->
+  <div class="container-lg">
+    <h2 id="muroInformativo" class="mb-5">MURO INFORMATIVO</h2>
+    <div class="swiffy-slider slider-item-show2 slider-item-reveal slider-nav-outside slider-nav-round slider-nav-visible slider-indicators-outside slider-indicators-round slider-indicators-dark slider-nav-animation slider-nav-animation-fadein slider-item-first-visible">
+      <ul class="slider-container py-4">
+          <li class="slide-visible">
+              <div class="card shadow h-100">
+                  <div class="ratio ratio-4x3">
+                      <img src="./imagenes/noticias/AGOSTO 15 - SEMANA ASUNCIONISTA.jpg" class="card-img-top" loading="lazy" alt="...">
+                  </div>
+                  <div class="card-body p-3 p-xl-5">
+                      <h3 class="card-title h5">15 AGOSTO<br> SEMANA ASUNCIONISTA </h3>
+                      <p class="card-text">Durante esta semana celebraremos la fiesta patronal
+                        asuncionista de nuestra congregación COMPLETAR</p>
+                  </div>
+                  <div><a href="#"><button class="button">Ver más</button></a></div>
+              </div>
+          </li>
+          <li class="slide-visible">
+              <div class="card shadow h-100">
+                  <div class="ratio ratio-4x3">
+                      <img src="./imagenes/noticias/SEPTIEMBRE 15 - CONCIERTO ORQUESTA Y CORO.jpg" class="card-img-top" loading="lazy" alt="...">
+                  </div>
+                  <div class="card-body p-3 p-xl-5">
+                      <h3 class="card-title h5">15 SEPTIEMBRE<br>CONCIERTO</h3>
+                      <p class="card-text">El domingo 15 de septiembre a las 15.00 hs en el
+                        templo inferior, podrás disfrutar en vivo el concierto
+                        de la orquesta sinfonica de la municipalidad y el
+                        coro de la escuela de musica de la municipalidad.
+                        Repertorio religioso. Entrada gratuita.</p>
+                  </div>
+                  <div><a href="#"><button class="button">Ver más</button></a></div>
+              </div>
+          </li>
+          <li>
+              <div class="card shadow h-100">
+                  <div class="ratio ratio-4x3">
+                      <img src="./imagenes/noticias/SEPTIEMBRE 22 -CONCIERTO CORAL.jpg" class="card-img-top" loading="lazy" alt="...">
+                  </div>
+                  <div class="card-body p-3 p-xl-5">
+                      <h3 class="card-title h5">22 SEPTIEMBRE<br>CONCIERTO</h3>
+                      <p class="card-text">El domingo 22 de septiembre a las 15.00 hs en el
+                        templo inferior, podrás disfrutar en vivo el concierto
+                        coral de la escuela de musica de la municipalidad.
+                        Repertorio religioso. Entrada gratuita...</p>
+                  </div>
+                  <div><a href="#"><button class="button">Ver más</button></a></div>
+              </div>
+          </li>
+          <li>
+              <div class="card shadow h-100">
+                  <div class="ratio ratio-4x3">
+                      <img src="./imagenes/noticias/OCTUBRE 6 -  CONCIERTO CORAL.jpg" class="card-img-top" loading="lazy" alt="...">
+                  </div>
+                  <div class="card-body  p-3 p-xl-5">
+                      <h3 class="card-title h5">6 OCTUBRE<br>CONCIERTO</h3>
+                      <p class="card-text">El domingo 22 de septiembre a las 15.00 hs en el
+                        templo inferior, podrás disfrutar en vivo el concierto
+                        coral de la escuela de musica de la municipalidad.
+                        Repertorio religioso. Entrada gratuita...</p>
+                  </div>
+                  <div><a href="#"><button class="button">Ver más</button></a></div>
+              </div>
+          </li>
+          <li>
+              <div class="card shadow h-100">
+                  <div class="ratio ratio-4x3">
+                      <img src="./imagenes/noticias/2025 1RA COMUNION ADULTOS.jpg" class="card-img-top" loading="lazy" alt="...">
+                  </div>
+                  <div class="card-body  p-3 p-xl-5">
+                      <h3 class="card-title h5">2025<br>INCRIPCIÓN CATEQUESIS PRIMERA COMUNIÓN
+                        Y CONFIRMACIÓN CHICOS</h3>
+                      <p class="card-text">A principios del 2025 estaremos abriendo las inscripciones
+                        para la catequesis de 1ra comunión y
+                        confirmación para chicos. Una vez esté confirmada
+                        la fecha, será publicada.</p>
+                  </div>
+                  <div><a href="#"><button class="button">Ver más</button></a></div>
+              </div>
+          </li>
+          <li>
+              <div class="card shadow h-100">
+                  <div class="ratio ratio-4x3">
+                      <img src="./imagenes/noticias/2025 1RA COMUNION CHICOS.jpg" class="card-img-top" loading="lazy" alt="...">
+                  </div>
+                  <div class="card-body  p-3 p-xl-5">
+                      <h3 class="card-title h5">2025<br>INCRIPCIÓN CATEQUESIS PRIMERA COMUNIÓN
+                        Y CONFIRMACIÓN ADULTOS</h3>
+                      <p class="card-text">A principios del 2025 estaremos abriendo las inscripciones
+                        para la catequesis de 1ra comunión y
+                        confirmación de adultos. Una vez esté confirmada la
+                        fecha, será publicada.</p>
+                  </div>
+                  <div><a href="#"><button class="button">Ver más</button></a></div>
+              </div>
+          </li>
+      </ul>
+  
+      <button type="button" class="slider-nav" aria-label="Go left"></button>
+      <button type="button" class="slider-nav slider-nav-next" aria-label="Go left"></button>
+  
+      <div class="slider-indicators">
+          <button class="active" aria-label="Go to slide"></button>
+          <button aria-label="Go to slide"></button>
+          <button aria-label="Go to slide"></button>
+          <button aria-label="Go to slide"></button>
+          <button aria-label="Go to slide"></button>
       </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active" data-bs-interval="3000">
-          <div class="row mt-5 mb-5">
-            <div class="column">
-              <div class="card">
-                <img src="./imagenes/Pagina Inicial/Braking News.jpg" alt="Jane" style="width:100%">
-                <div class="container">
-                  <h2>1 AGOSTO</h2>
-                  <p class="title">Art Director</p>
-                  <p>Some text that describes me lorem ipsum ipsum lorem</p>
-                  <p><button class="button">Ver más...</button></p>
-                </div>
-              </div>
-            </div>
-
-            <div class="column">
-              <div class="card">
-                <img src="./imagenes/Pagina Inicial/Braking News.jpg" alt="Mike" style="width:100%">
-                <div class="container">
-                  <h2>Mike Ross</h2>
-                  <p class="title">Art Director</p>
-                  <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-                  <p><button class="button">Contact</button></p>
-                </div>
-              </div>
-            </div>
-
-            <div class="column">
-              <div class="card">
-                <img src="./imagenes/Pagina Inicial/Braking News.jpg" alt="John" style="width:100%">
-                <div class="container">
-                  <h2>John Doe</h2>
-                  <p class="title">Designer</p>
-                  <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-                  <p><button class="button">Contact</button></p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptionsNews2"
-        data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Anterior</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptionsNews2"
-        data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Siguiente</span>
-      </button>
-    </div>
+    </div>  
   </div>
-  <!--Seccion: Muro Informativo-------------------------------------------------------------------------------------------------------------------------------->
 
   <!--Seccion: Boton "Ver más"-->
   <div class="verMas">
-    <button class="botonVerMas">Ver más</button>
+    <button class="botonVerMas mt-5">Ver todas las noticias</button>
   </div>
 
   <!--Seccion: imagen separador-->
