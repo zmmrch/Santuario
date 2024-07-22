@@ -79,9 +79,9 @@ header {
   }
   
   /* On hover, add a black background color with a little bit see-through */
-  /* .prev:hover, .next:hover {
+  .prev:hover, .next:hover {
     background-color: rgba(0,0,0,0.8);
-  } */
+  }
   
   /* Caption text */
   .text {
@@ -135,14 +135,14 @@ header {
 /* Slideshow container ------------------------*/
 
 
-.textoBanner,
+/* .textoBanner,
 .textoBanner1 {
     font-size: 32px !important;
     text-align: start !important;
     margin-bottom: 8% !important;
     margin-right: 35% !important;
     color: white !important;
-}
+} */
 
 .imagenProvinciaAndina {
     display: flex;
@@ -489,6 +489,11 @@ iframe {
     color: #25295A !important;
 }
 
+.nav-link:hover {
+    background-color: #ACA7CF;
+    color: white !important;
+}
+
 a {
     color: #25295A;
 }
@@ -559,10 +564,6 @@ a {
 #navbarHorarios {
     font-size: 1.2rem;
 }
-
-/*Slideshow---*/
-
-/*FIN Slideshow--*/
 
 .form-control {
     border-color: #25295A;
