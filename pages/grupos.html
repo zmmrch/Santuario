@@ -19,6 +19,8 @@
     />
     <!-- link con el archivo de estilos de CSS-->
     <link rel="stylesheet" href="../styles/styles.css" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.3.2/mdb.min.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -26,69 +28,44 @@
         <!--Navbar------------------------------------------------------------------------------------------------------------------------------------------------------>
         <nav class="navbar bg-body-tertiary">
           <div class="container-fluid">
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="offcanvas"
-              data-bs-target="#offcanvasNavbar"
-              aria-controls="offcanvasNavbar"
-              aria-label="Toggle navigation"
-            >
+            <button data-mdb-button-init class="navbar-toggler" type="button" data-mdb-collapse-init
+              data-mdb-target="#navbarToggleExternalContent2" aria-controls="navbarToggleExternalContent2"
+              aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div
-              class="offcanvas offcanvas-end"
-              tabindex="-1"
-              id="offcanvasNavbar"
-              aria-labelledby="offcanvasNavbarLabel"
-            >
-              <div class="offcanvas-header">
-                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
-                  SANTUARIO DE LOURDES
-                </h5>
-                <button
-                  type="button"
-                  class="btn-close"
-                  data-bs-dismiss="offcanvas"
-                  aria-label="Close"
-                ></button>
-              </div>
-              <div class="offcanvas-body">
-                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                  <li class="nav-item">
-                    <a class="nav-link" href="./bienvenidos.html">BIENVENIDOS AL SANTUARIO</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./vida_de_fe.html">VIDA DE FE</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./grupos.html">GRUPOS PASTORALES</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">GRUPOS DE LABOR SOCIAL</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./horarios.html">HORARIOS Y CONTACTO</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./radio_parroquial.html">RADIO PARROQUIAL</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <a href="../index.html" id="logo"
-              ><img
-                src="../imagenes/LOGO NSL 238.5664 X 133.2427.png"
-                alt=""
-                class="img-fluid"
-            /></a>
-            <div class="d-flex justify-content-end gap-4 mt-3">
-              <a class="" href="#!"><i class="bi bi-facebook"></i></a>
-              <a class="" href="#!"><i class="bi bi-instagram"></i></a>
-              <a class="" href="#!"><i class="bi bi-youtube"></i></a>
-            </div>
+            <a href="../index.html" id="logo"><img src="../imagenes/LOGO NSL 238.5664 X 133.2427.png" alt="logoSantuario" class="img-fluid"></a>
+              <div class="d-flex justify-content-end gap-4 mt-3">
+                <a href="#" alt="logoFacebook"><i class="bi bi-facebook"></i></a>
+                <a href="#" alt="logoInstagram"><i class="bi bi-instagram"></i></a>
+                <a href="#" alt="logoFacebook"><i class="bi bi-youtube"></i></a>
+            </div>  
           </div>
         </nav>
+    
+        <div class="collapse" id="navbarToggleExternalContent2">
+          <div class="bg-body-tertiary shadow-3 p-4">
+            <ul class="navbar-nav text-center">
+              <li class="nav-item">
+                  <a class="nav-link" href="../pages/bienvenidos.html">BIENVENIDOS AL SANTUARIO</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="../pages/vida_de_fe.html">VIDA DE FE</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="../pages/grupos.html">GRUPOS PASTORALES</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="../pages/grupos.html">GRUPOS DE LABOR SOCIAL</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="../pages/horarios.html">HORARIOS Y CONTACTO</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="../pages/radio_parroquial.html">RADIO PARROQUIAL</a>
+              </li>
+            </ul>
+          </div>
+        </div>
         <!--Fin Navbar------------------------------------------------------------------------------------------------------------------------------------------------>
       </header>
 
@@ -100,10 +77,10 @@
         <div class="navbar">
           <div class="list">
             <li class="list-item">
-              <a href="javascript:void(0);"  onclick="message(); openPage('grupoPastoral')"><strong>GRUPOS PASTORALES</strong></a>
+              <a href="javascript:void(0);"  onclick="message(); openPage('grupoPastoral')" style="color: #25295A;"><strong>GRUPOS PASTORALES</strong></a>
             </li>
             <li class="list-item">
-              <a href="javascript:void(0);"  onclick="openPage('grupoLaborSocial')"><strong>GRUPOS DE LABOR SOCIAL</strong></a>
+              <a href="javascript:void(0);"  onclick="openPage('grupoLaborSocial')" style="color: #25295A;"><strong>GRUPOS DE LABOR SOCIAL</strong></a>
             </li>
           </div>
         </div>
@@ -124,38 +101,16 @@
             <div class="navbar">
               <div class="list">
                 <li class="list-item text-center">
-                  <a href="javascript:void(0);" onclick="gruposPastorales(); openPage2('AccCatol')">ACCIÓN CATÓLICA</a>
+                  <a href="javascript:void(0);" onclick="gruposPastorales(); openPage2('AccCatol')" style="color: #25295A;">ACCIÓN CATÓLICA</a>
                 </li>
                 <li class="list-item text-center">
-                  <a href="javascript:void(0);" onclick="openPage2('PastCarcel')">PASTORAL CARCELARIA</a>
+                  <a href="javascript:void(0);" onclick="openPage2('PastCarcel')" style="color: #25295A;">PASTORAL CARCELARIA</a>
                 </li>
                 <li class="list-item text-center">
-                  <a href="javascript:void(0);" onclick="openPage2('AdulJov')">ADULTOS JÓVENES DE ACCIÓN CATÓLICA ARGENTINA</a>
+                  <a href="javascript:void(0);" onclick="openPage2('AdulJov')" style="color: #25295A;">ADULTOS JÓVENES DE ACCIÓN CATÓLICA ARGENTINA</a>
                 </li>
                 <li class="list-item text-center">
-                  <a href="javascript:void(0);" onclick="openPage2('Coro')">CORO PARROQUIAL NUESTRA SEÑORA DE LOURDES</a>
-                </li>
-              </div>
-            </div>
-          </div>
-
-          <div class="container-fluid">
-            <div class="navbar">
-              <div class="list">
-                <li class="list-item text-center">
-                  <a href="javascript:void(0);" onclick="openPage2('Adoracion')">ADORACIÓN AL SANTÍSIMO SACRAMENTO</a>
-                </li>
-                <li class="list-item text-center">
-                    <a href="javascript:void(0);" onclick="openPage2('Huella')">HUELLA JOVEN</a>
-                </li>
-                <li class="list-item text-center">
-                    <a href="javascript:void(0);" onclick="openPage2('Ministros')">MINISTROS DE LA EUCARISTÍA</a>
-                </li>
-                <li class="list-item text-center">
-                    <a href="javascript:void(0);" onclick="openPage2('Colectores')">COLECTORES DEL SANTUARIO</a>
-                </li>
-                <li class="list-item text-center">
-                    <a href="javascript:void(0);" onclick="openPage2('Servidores')">SERVIDORES DEL SANTURARIO</a>
+                  <a href="javascript:void(0);" onclick="openPage2('Coro')" style="color: #25295A;">CORO PARROQUIAL NUESTRA SEÑORA DE LOURDES</a>
                 </li>
               </div>
             </div>
@@ -165,7 +120,29 @@
             <div class="navbar">
               <div class="list">
                 <li class="list-item text-center">
-                    <a href="javascript:void(0);" onclick="openPage2('GrupoBau')">GRUPO DE BAUTISMO</a>
+                  <a href="javascript:void(0);" onclick="openPage2('Adoracion')" style="color: #25295A;">ADORACIÓN AL SANTÍSIMO SACRAMENTO</a>
+                </li>
+                <li class="list-item text-center">
+                    <a href="javascript:void(0);" onclick="openPage2('Huella')" style="color: #25295A;">HUELLA JOVEN</a>
+                </li>
+                <li class="list-item text-center">
+                    <a href="javascript:void(0);" onclick="openPage2('Ministros')" style="color: #25295A;">MINISTROS DE LA EUCARISTÍA</a>
+                </li>
+                <li class="list-item text-center">
+                    <a href="javascript:void(0);" onclick="openPage2('Colectores')" style="color: #25295A;">COLECTORES DEL SANTUARIO</a>
+                </li>
+                <li class="list-item text-center">
+                    <a href="javascript:void(0);" onclick="openPage2('Servidores')" style="color: #25295A;">SERVIDORES DEL SANTURARIO</a>
+                </li>
+              </div>
+            </div>
+          </div>
+
+          <div class="container-fluid">
+            <div class="navbar">
+              <div class="list">
+                <li class="list-item text-center">
+                    <a href="javascript:void(0);" onclick="openPage2('GrupoBau')" style="color: #25295A;">GRUPO DE BAUTISMO</a>
                 </li>
               </div>
             </div>
@@ -179,14 +156,10 @@
                 Somos un grupo comprometido en la propagación del mensaje del Evangelio y en el apoyo activo a nuestro querido Párroco en una variedad de iniciativas. Nuestra labor se
                 centra en nutrir la fe en un ambiente de cercanía y devoción, cultivando así una comunidad vibrante y unida en el amor de Cristo. Nos esforzamos por ser instrumentos de paz
                 y luz de nuestro Santuario, respondiendo al llamado de Dios con humildad y entrega.</p>
-              <p>Nos encontramos todos los sábados de 18 a 20 hs.
-                Los primeros sabados de cada mes hacemos la hora santa, rezamos el santo Rosario.</p>
-              <p><strong>Si quieres ser parte de nuestro grupo de acción católica, da click al botón contacto.</strong></p>  
+              <p><strong>Nos encontramos todos los sábados de 18 a 20 hs.
+                Los primeros sabados de cada mes hacemos la hora santa, rezamos el santo Rosario.</strong></p>
             </div>
             <div class="col"></div> 
-            <div class="btnInicio">
-              <a href=""><button class="botonInicio">Contactanos</button></a>
-            </div>
             <div class="row">
               <img src="../imagenes/grupos/ACCION CATOLICA 1049 X 590.jpg" class="img-fluid align-items-center" alt=""> 
             </div>   
@@ -253,14 +226,10 @@
               <p>Adorar en espíritu y en verdad significa abriendo nuestros corazones a Jesús, permitiendo que Su presencia real nos envuelva y transforme. En este espacio sagrado, estamos
                 llamados a adorar, reparar, interceder y acompañar, reconociendo la infinita bondad y misericordia de nuestro Señor. Al dejarnos amar por Jesús, encontramos consuelo y
                 fortaleza, profundizando nuestra relación con Él y renovando nuestro compromiso de vivir según Su voluntad.</p>
-              <p>Nos encontramos todos los días (de lunes a domingo) de 8.30 a 19 hs.
-                Lugar: Capilla de adoración.</p>  
-              <p><strong>Si quieres ser parte de nuestro grupo de adoración al santisimo sacramento, da click al botón contacto.</strong></p>  
+              <p><strong>Nos encontramos todos los días (de lunes a domingo) de 8.30 a 19 hs.
+                Lugar: Capilla de adoración.</strong></p>  
             </div>
             <div class="col"></div> 
-            <div class="btnInicio">
-              <a href=""><button class="botonInicio">Contactanos</button></a>
-            </div>  
           </div> 
 
           <div id="Huella" class="tabcontent2">
@@ -332,27 +301,24 @@
               <p><strong>Los interesados en dicho sacramento, deben dirigirse a secretaría parroquial en el horario correspondiente.</strong></p>   
             </div>
             <div class="col"></div> 
-            <div class="btnInicio">
-              <a href=""><button class="botonInicio">Ver horario</button></a>
-            </div>
           </div>
         </div>
 
-        <div id="grupoLaborSocial" class="tabcontent">
+        <div id="grupoLaborSocial" class="tabcontent"> 
           <div class="container-fluid">
             <div class="navbar">
               <div class="list">
                 <li class="list-item text-center">
-                  <a href="javascript:void(0);" onclick="openPage2('AccCatol')">CÁRITAS</a>
+                  <a href="javascript:void(0);" onclick="openPage2('AccCatol')" style="color: #25295A;">CÁRITAS</a>
                 </li>
                 <li class="list-item text-center">
-                  <a href="javascript:void(0);" onclick="openPage2('PastCarcel')">BOY SCOUTS</a>
+                  <a href="javascript:void(0);" onclick="openPage2('PastCarcel')" style="color: #25295A;">BOY SCOUTS</a>
                 </li>
                 <li class="list-item text-center">
-                  <a href="javascript:void(0);" onclick="openPage2('AdulJov')">MI HOGAR ASUNCIONISTA</a>
+                  <a href="javascript:void(0);" onclick="openPage2('AdulJov')" style="color: #25295A;">MI HOGAR ASUNCIONISTA</a>
                 </li>
                 <li class="list-item text-center">
-                  <a href="javascript:void(0);" onclick="openPage2('Coro')">MIGRANTES</a>
+                  <a href="javascript:void(0);" onclick="openPage2('Coro')" style="color: #25295A;">MIGRANTES</a>
                 </li>
               </div>
             </div>
@@ -395,6 +361,8 @@
         integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
         crossorigin="anonymous"
       ></script>
+      <!-- MDB -->
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.3.2/mdb.umd.min.js" ></script>    
 
       <script>
 

@@ -134,16 +134,6 @@ header {
 
 /* Slideshow container ------------------------*/
 
-
-/* .textoBanner,
-.textoBanner1 {
-    font-size: 32px !important;
-    text-align: start !important;
-    margin-bottom: 8% !important;
-    margin-right: 35% !important;
-    color: white !important;
-} */
-
 .imagenProvinciaAndina {
     display: flex;
     padding-top: 5%;
@@ -469,19 +459,21 @@ iframe {
 
 .tabcontent,
 .tabcontent2 {
-    color:#25295A;
     display: none;
     padding: 100px 20px;
     height: 100%;
+    align-items: center;
 }
 
 /*--------------------*/
 
 .navbar {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 1rem !important;
+    color: #25295A !important;
+    border: none !important; box-shadow: none !important;
 }
 
 .nav-link,
@@ -499,15 +491,16 @@ a {
 }
 
 .list {
-    display: flex;
-    gap: 1rem;
-    list-style: none;
+    display: flex !important;
+    gap: 1rem !important;
+    list-style: none !important;
+    color: #25295A !important;
 }
 
 .list-item {
-    color:#ACA7CF;
-    padding: .5rem;
-    position: relative;
+    color:#ACA7CF !important;
+    padding: .5rem !important;
+    position: relative !important;
 }
 
 .list-item::after {
@@ -527,8 +520,6 @@ a {
 .list-item:hover::after {
     transform: scaleX(1);
 }
-
-
 /*--------------------*/
 
 #Home,
