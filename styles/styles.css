@@ -240,6 +240,10 @@ header {
     margin-bottom: 2%;
 }
 
+#imgSlideshow {
+    width: 100%;
+} 
+
 .card-img-top {
     width: 100%;
     object-fit: fill;
