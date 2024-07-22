@@ -13,6 +13,8 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
   <!-- link con el archivo de estilos de CSS-->
   <link rel="stylesheet" href="../styles/styles.css" />
+  <!-- MDB -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.3.2/mdb.min.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -20,47 +22,44 @@
     <!--Navbar------------------------------------------------------------------------------------------------------------------------------------------------------>
     <nav class="navbar bg-body-tertiary">
       <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
-          aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <button data-mdb-button-init class="navbar-toggler" type="button" data-mdb-collapse-init
+          data-mdb-target="#navbarToggleExternalContent2" aria-controls="navbarToggleExternalContent2"
+          aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-          <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">SANTUARIO DE LOURDES</h5>
-            <button type="button" class="btn-close" data-bs-dimdi4s="offcanvas" aria-label="Close"></button>
-          </div>
-          <div class="offcanvas-body">
-            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-              <li class="nav-item">
-                <a class="nav-link" href="./bienvenidos.html">BIENVENIDOS AL SANTUARIO</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./vida_de_fe.html">VIDA DE FE</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./grupos.html">GRUPOS PASTORALES</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">GRUPOS DE LABOR SOCIAL</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./horarios.html">HORARIOS Y CONTACTO</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./radio_parroquial.html">RADIO PARROQUIAL</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <a href="../index.html" id="logo"><img src="../imagenes/LOGO NSL 238.5664 X 133.2427.png" alt=""
-            class="img-fluid"></a>
-        <div class="d-flex justify-content-end gap-4 mt-3">
-          <a class="" href="#!"><i class="bi bi-facebook"></i></a>
-          <a class="" href="#!"><i class="bi bi-instagram"></i></a>
-          <a class="" href="#!"><i class="bi bi-youtube"></i></a>
-        </div>
+        <a href="../index.html" id="logo"><img src="../imagenes/LOGO NSL 238.5664 X 133.2427.png" alt="logoSantuario" class="img-fluid"></a>
+          <div class="d-flex justify-content-end gap-4 mt-3">
+            <a href="#" alt="logoFacebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" alt="logoInstagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" alt="logoFacebook"><i class="bi bi-youtube"></i></a>
+        </div>  
       </div>
     </nav>
+
+    <div class="collapse" id="navbarToggleExternalContent2">
+      <div class="bg-body-tertiary shadow-3 p-4">
+        <ul class="navbar-nav text-center">
+          <li class="nav-item">
+              <a class="nav-link" href="../pages/bienvenidos.html">BIENVENIDOS AL SANTUARIO</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="../pages/vida_de_fe.html">VIDA DE FE</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="../pages/grupos.html">GRUPOS PASTORALES</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="../pages/grupos.html">GRUPOS DE LABOR SOCIAL</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="../pages/horarios.html">HORARIOS Y CONTACTO</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="../pages/radio_parroquial.html">RADIO PARROQUIAL</a>
+          </li>
+        </ul>
+      </div>
+    </div>
     <!--Fin Navbar------------------------------------------------------------------------------------------------------------------------------------------------>
   </header>
 
@@ -72,10 +71,10 @@
     <div class="navbar">
       <div class="list" id="listHorarios">
         <li class="list-item">
-          <a href="javascript:void(0);" onclick="openPage('Home')">SANTOS DEL MES</a>
+          <a href="javascript:void(0);" onclick="openPage('Home')" style="color: #25295A;">SANTOS DEL MES</a>
         </li>
         <li class="list-item">
-          <a href="javascript:void(0);" onclick="openPage('formContacto')">MURO INFORMATIVO</a>
+          <a href="javascript:void(0);" onclick="openPage('formContacto')" style="color: #25295A;">MURO INFORMATIVO</a>
         </li>
       </div>
     </div>
@@ -88,28 +87,28 @@
         <div class="navbar" id="navbarHorarios">
           <div class="list">
             <li class="list-item">
-              <a href="javascript:void(0);" onclick="openPage2('Home1')">ENERO</a>
+              <a href="javascript:void(0);" onclick="openPage2('Home1')" style="color: #25295A;">ENERO</a>
             </li>
             <li class="list-item">
-              <a href="javascript:void(0);" onclick="openPage2('News1')">FEBRERO</a>
+              <a href="javascript:void(0);" onclick="openPage2('News1')" style="color: #25295A;">FEBRERO</a>
             </li>
             <li class="list-item">
-              <a href="javascript:void(0);" onclick="openPage2('Contact1')">MARZO</a>
+              <a href="javascript:void(0);" onclick="openPage2('Contact1')" style="color: #25295A;">MARZO</a>
             </li>
             <li class="list-item">
-              <a href="javascript:void(0);" onclick="openPage2('Contact2')">ABRIL</a>
+              <a href="javascript:void(0);" onclick="openPage2('Contact2')" style="color: #25295A;">ABRIL</a>
             </li>
             <li class="list-item">
-              <a href="javascript:void(0);" onclick="openPage2('Contact3')">MAYO</a>
+              <a href="javascript:void(0);" onclick="openPage2('Contact3')" style="color: #25295A;">MAYO</a>
             </li>
             <li class="list-item">
-              <a href="javascript:void(0);" onclick="openPage2('Contact4')">JUNIO</a>
+              <a href="javascript:void(0);" onclick="openPage2('Contact4')" style="color: #25295A;">JUNIO</a>
             </li>
             <li class="list-item">
-              <a href="javascript:void(0);" onclick="openPage2('Contact5')">JULIO</a>
+              <a href="javascript:void(0);" onclick="openPage2('Contact5')" style="color: #25295A;">JULIO</a>
             </li>
             <li class="list-item">
-              <a href="javascript:void(0);" onclick="openPage2('Contact6')">AGOSTO</a>
+              <a href="javascript:void(0);" onclick="openPage2('Contact6')" style="color: #25295A;">AGOSTO</a>
             </li>
           </div>
         </div>
@@ -145,9 +144,9 @@
       </div>
 
       <div id="Contact6" class="tabcontent2">
-        <div class="row mb-3">
-          <div class="column">
-            <div class="card">
+        <div class="row mb-5">
+          <div class="col-sm-4">
+            <div class="card mt-5">
               <img src="../imagenes/Santos/1 agosto 320 x 320.jpg" alt="San Alfonso" style="width:100%">
               <div class="container">
                 <p class="title">1 AGOSTO <br>SAN ALFONSO MARÍA DE LIGORIO</p>
@@ -161,8 +160,8 @@
             </div>
           </div>
 
-          <div class="column">
-            <div class="card">
+          <div class="col-sm-4">
+            <div class="card mt-5">
               <img src="../imagenes/Santos/2 agosto320 x 320.jpg" alt="Nstra Sra de los Angeles" style="width:100%">
               <div class="container">
                 <p class="title">2 AGOSTO <br>NUESTRA SEÑORA DE LOS ÁNGELES</p>
@@ -176,8 +175,8 @@
             </div>
           </div>
 
-          <div class="column">
-            <div class="card">
+          <div class="col-sm-4">
+            <div class="card mt-5">
               <img src="../imagenes/Santos/3 agosto 320 x 320.jpg" alt="San Asprenato" style="width:100%">
               <div class="container">
                 <p class="title">3 AGOSTO <br>SAN ASPRENATO DE NÁPOLES</p>
@@ -191,8 +190,8 @@
             </div>
           </div>
 
-          <div class="column">
-            <div class="card">
+          <div class="col-sm-4">
+            <div class="card mt-5">
               <img src="../imagenes/Santos/4 agosto 320 x 320.jpg" alt="San juan Maria Vianney" style="width:100%">
               <div class="container">
                 <p class="title">4 AGOSTO <br>SAN JUAN MARÍA VIANNEY</p>
@@ -205,8 +204,8 @@
             </div>
           </div>
 
-          <div class="column">
-            <div class="card">
+          <div class="col-sm-4">
+            <div class="card mt-5">
               <img src="../imagenes/Santos/5 agosto 320 x 320.jpg" alt="Santa Maria de las Nieves" style="width:100%">
               <div class="container">
                 <p class="title">5 AGOSTO <br>SANTA MARÍA DE LAS NIEVES</p>
@@ -219,8 +218,8 @@
             </div>
           </div>
 
-          <div class="column">
-            <div class="card">
+          <div class="col-sm-4">
+            <div class="card mt-5">
               <img src="../imagenes/Santos/6 Agosto 320 x 320.jpg" alt="San Hormisda" style="width:100%">
               <div class="container">
                 <p class="title">6 AGOSTO <br>SAN HORMISDA PAPA</p>
@@ -239,8 +238,8 @@
 
     <!-- Sección:  CONTACTO------------------------------------------------------------------------------------------------->
     <div id="formContacto" class="tabcontent">
-      <div class="column">
-        <div class="card">
+      <div class="col-sm-4">
+        <div class="card mt-5">
           <img src="../imagenes/Pagina Inicial/Braking News.jpg" alt="John" style="width:100%">
           <div class="container">
             <h2>6 AGOSTO</h2>
@@ -253,8 +252,8 @@
           </div>
         </div>
       </div>
-      <div class="column">
-        <div class="card">
+      <div class="col-sm-4">
+        <div class="card mt-5">
           <img src="../imagenes/Pagina Inicial/Braking News.jpg" alt="John" style="width:100%">
           <div class="container">
             <h2>6 AGOSTO</h2>
@@ -267,8 +266,8 @@
           </div>
         </div>
       </div>
-      <div class="column">
-        <div class="card">
+      <div class="col-sm-4">
+        <div class="card mt-5">
           <img src="../imagenes/Pagina Inicial/Braking News.jpg" alt="John" style="width:100%">
           <div class="container">
             <h2>6 AGOSTO</h2>
@@ -312,7 +311,8 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
     integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
     crossorigin="anonymous"></script>
-
+  <!-- MDB -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.3.2/mdb.umd.min.js" ></script>     
   <script>
 
     function openPage(pageName, elmnt, color) {
