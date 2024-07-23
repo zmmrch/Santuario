@@ -654,7 +654,7 @@ a {
 
 
 /* Estilos para dispositivos móviles --------------------------------------------------------------------------------------------*/
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
     #logo {
         display: inline-block;
         width: 35%;
@@ -875,7 +875,8 @@ a {
        text-align: center;
     }
 
-    #vidaDeFe {
+    #vidaDeFe,
+    #donaciones {
         margin-bottom: 5%;
     }
 
