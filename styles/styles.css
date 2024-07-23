@@ -43,6 +43,13 @@ header {
     font-size: 25px;
 }
 
+iframe {
+    width: 80%;
+    margin: 0 auto;
+    border: none;
+    display: block;
+    margin-bottom: 5%;
+}
 
 /* Slideshow container ------------------------*/
 .slideshow-container {
