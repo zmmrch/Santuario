@@ -56,6 +56,7 @@ iframe {
     /*max-width: 1000px;*/
     position: relative;
     margin: auto;
+    width: 100%;
   }
   
   /* Hide the images by default */
@@ -654,7 +655,7 @@ a {
 
 
 /* Estilos para dispositivos móviles --------------------------------------------------------------------------------------------*/
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 768px) {
     #logo {
         display: inline-block;
         width: 35%;
