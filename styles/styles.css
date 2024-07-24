@@ -690,10 +690,11 @@ a {
 
     #textSlideshow {
         font-size: 14px !important; 
-        /*margin-right: 20%;*/ 
+        margin-top: 5% !important;
+        margin-right: 10% !important;  
         align-items: center !important; 
         background-color: rgba(0, 0, 0, 0.5) !important;
-        color: red !important;
+        color: wheat !important;
     }
 
     .dot {
