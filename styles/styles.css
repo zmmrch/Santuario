@@ -8,6 +8,10 @@ Tipografia: Times New Roman*/
     font-family: 'Times New Roman', Times, serif;
 }
 
+html {
+    box-sizing: border-box;
+  }
+
 h5{
     font-weight: bold;
 }
@@ -41,6 +45,20 @@ p {
     color: #25295A !important;
   }
 
+/*tarjetas de los religiosos*/
+.column-r {
+    float: left !important;
+    width: 33.3% !important;
+    margin-bottom: 16px !important;
+    padding: 0 8px !important;
+    text-align: center !important;
+  }
+  
+  .card-r {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) !important;
+    margin: 8px !important;
+  }
+  
 header {
     padding-bottom: 2%;
 }
@@ -65,6 +83,9 @@ iframe {
 
 #textSlideshow {
     background-color: rgba(0, 0, 0, 0.2) !important;
+    margin-left: 35% !important;
+    text-align: start !important;
+    font-size: 30px;
 }
 
 .imagenProvinciaAndina {
@@ -136,7 +157,7 @@ iframe {
 }
 
 .imagenPrincipalVidaDeFe {
-    background-image: url("../imagenes/vida_de_fe/BANNER\ VIDA\ DE\ FÉ\ 1967X312.jpg");
+    background-image: url("../imagenes/vida_de_fe/BANNER\ VIDA\ DE\ FE\ 1967X312.jpg");
     background-size: cover;
     height: 312px;
     margin-bottom: 2%;
@@ -169,7 +190,7 @@ iframe {
 
 .card-img-top {
     width: 100%;
-    object-fit: fill;
+    object-fit:contain;
 }
 
 .cruz {
@@ -393,7 +414,7 @@ iframe {
 .tabcontent,
 .tabcontent2 {
     display: none;
-    padding: 100px 20px;
+    padding: 5rem 20px;
     height: 100%;
     align-items: center;
 }
@@ -504,12 +525,12 @@ a {
   }
 
   /* Display the columns below each other instead of side by side on small screens */
-  @media screen and (max-width: 650px) {
+  /*@media screen and (max-width: 650px) {
     .column {
       width: 100%;
       display: block;
     }
-  }
+  }*/
 
   /* Add some shadows to create a card effect */
   .card {
@@ -704,7 +725,7 @@ a {
     }
 
     .imagenPrincipalVidaDeFe {
-        background-image: url("../imagenes/vida_de_fe/BANNER\ VIDA\ DE\ FÉ\ 1967X312.jpg");
+        background-image: url("../imagenes/vida_de_fe/BANNER\ VIDA\ DE\ FE\ 1967X312.jpg");
         background-size: cover;
         background-position: center;
         height: 150px;
@@ -866,7 +887,7 @@ a {
 
     #ServSacerd,
     #Cinerario {
-        margin-top: -20%;
+        margin-top: -15%;
     }
 
     #santosDeLaSemana {
@@ -887,6 +908,12 @@ a {
     #seccionAzulSantos {
         background-color: #25295A; color: white; border-radius: 10px; padding: 5%; line-height: 130%; font-size: 1.1rem;
     }
+
+    /*tarjetas religiosos*/
+    .column-r {
+        width: 100% !important;
+        display: block !important;
+      }
 }
 
 /* Estilos para dispositivos Laptop --------------------------------------------------------------------------------------------*/
@@ -941,7 +968,7 @@ a {
     }
 
     .card-title {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         font-weight: bold;
         color: #25295A;
         line-height: 100%;
@@ -1013,7 +1040,7 @@ a {
     }
 
     .imagenPrincipalVidaDeFe {
-        background-image: url("../imagenes/vida_de_fe/BANNER\ VIDA\ DE\ FÉ\ 1967X312.jpg");
+        background-image: url("../imagenes/vida_de_fe/BANNER\ VIDA\ DE\ FE\ 1967X312.jpg\ 1967X312.jpg");
         background-size: cover;
         background-position: center;
         height: 150px;
@@ -1186,4 +1213,11 @@ a {
     #seccionAzulSantos {
         background-color: #25295A; color: white; border-radius: 10px; padding: 5%; line-height: 130%; font-size: 1.1rem;
     }
+
+    /*tarjetas religiosos*/
+    .column-r {
+        width: 50% !important;
+        display: block !important;
+        text-align: center !important;
+      }
 }
