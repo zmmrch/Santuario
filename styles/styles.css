@@ -184,6 +184,13 @@ iframe {
     margin-bottom: 2%;
 }
 
+.imagenPrincipalAsuncionistas {
+    background-image: url("../imagenes/san\ y\ santa.jpg");
+    background-size: cover;
+    height: 312px;
+    margin-bottom: 2%;
+}
+
 #imgSlideshow {
     width: 100%;
 } 
