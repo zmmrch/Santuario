@@ -91,22 +91,22 @@
         <div class="navbar">
           <div class="list">
             <li class="list-item">
-              <a href="javascript:void(0);"  onclick="sacramentos(); openPage('Home')">HISTORIA ASUNCIONISTA</a>
+              <a href="">HISTORIA ASUNCIONISTA</a>
             </li>
             <li class="list-item">
-              <a href="javascript:void(0);"  onclick="servsac(); openPage('ServSacerd')" id="btnServSac">PROVINCIA ANDINA</a>
+              <a href="">PROVINCIA ANDINA</a>
             </li>
             <li class="list-item">
-              <a href="javascript:void(0);"  onclick="ciner(); openPage('Cinerario')" id="btnServSac">PROMOCIÓN VOCACIONAL</a>
+              <a href="">PROMOCIÓN VOCACIONAL</a>
             </li>
             <li class="list-item">
-                <a href="javascript:void(0);"  onclick="ciner(); openPage('Cinerario')" id="btnServSac">CIFA</a>
+                <a href="">CIFA</a>
             </li>
             <li class="list-item">
-                <a href="javascript:void(0);"  onclick="ciner(); openPage('Cinerario')" id="btnServSac">OBRAS ASUNCIONISTAS</a>
+                <a href="">OBRAS ASUNCIONISTAS</a>
             </li>
             <li class="list-item">
-                <a href="javascript:void(0);"  onclick="ciner(); openPage('Cinerario')" id="btnServSac">BEATIFICACIÓN DEL PADRE</a>
+                <a href="">BEATIFICACIÓN DEL PADRE</a>
             </li>
           </div>
         </div>
@@ -119,7 +119,7 @@
     </div>  
 
     <!--Seccion: Boton "Ver reformas del Santuario"-->
-    <div class="btnInicio">
+    <div class="btnInicio mt-5">
       <a href="../index.html"><button class="botonInicio">Inicio</button></a>
     </div>
 
@@ -161,57 +161,7 @@
     <!-- MDB -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.3.2/mdb.umd.min.js" ></script>     
 
-    <script>
-        function sacramentos() {
-            let v = document.getElementById("imagenPrincipal");
-            v.style.backgroundImage =
-            "url('../imagenes/vida_de_fe/BANNER VIDA DE FE 1967X312.jpg')";
-            v.style.transition = '.35s ease-in-out'
-        }
-
-        function bautismo() {
-            let y = document.getElementById("imagenPrincipal");
-            y.style.backgroundImage =
-            "url('../imagenes/vida_de_fe/BANNER BAUTISMO 1967X312.jpg')";
-        }
-
-        function Comunion() {
-            let y = document.getElementById("imagenPrincipal");
-            y.style.backgroundImage =
-            "url('../imagenes/vida_de_fe/BANNER PRIMERA COMUNION 1967X312.jpg')";
-        }
-
-        function Confirmacion() {
-            let y = document.getElementById("imagenPrincipal");
-            y.style.backgroundImage =
-            "url('../imagenes/vida_de_fe/BANNER CONFIRMACION 1967X312.jpg')";
-        }
-
-        function Matrimonio() {
-            let y = document.getElementById("imagenPrincipal");
-            y.style.backgroundImage =
-            "url('../imagenes/vida_de_fe/BANNER MATRIMONIO 1967X312.jpg')";
-        }
-
-        function Uncion(){
-            let y = document.getElementById("imagenPrincipal");
-            y.style.backgroundImage =
-            "url('../imagenes/vida_de_fe/BANNER UNCION DE LOS ENFERMOS 1967X312.jpg')";
-        }
-
-        function servsac(){
-            let y = document.getElementById("imagenPrincipal");
-            y.style.backgroundImage =
-            "url('../imagenes/vida_de_fe/BANNER SERVICIO SACERDOTAL 1967X312.jpg')";
-        }
-
-        function ciner(){
-            let y = document.getElementById("imagenPrincipal");
-            y.style.backgroundImage =
-            "url('../imagenes/vida_de_fe/BANNER CINERARIO 1967X312.jpg')";
-        }
-        
-
+    <script>     
         function openPage(pageName, elmnt, color) {
             // Hide all elements with class="tabcontent" by default */
             var i, tabcontent, tablinks;
