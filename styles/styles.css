@@ -500,21 +500,21 @@ a {
     margin-top: -3%;
 }
 
-#listHorarios {
+/* #listHorarios {
     font-size: 1.5rem;
 }
 
 #horarios {
     font-size: 1.2rem;
-}
+} */
 
 #titulosHorarios {
     color: #ACA7CF;
 }
 
-#navbarHorarios {
+/* #navbarHorarios {
     font-size: 1.2rem;
-}
+} */
 
 .form-control {
     border-color: #25295A;
@@ -759,6 +759,13 @@ a {
         margin-bottom: 2%;
     }
 
+    .imagenPrincipalAsuncionistas {
+        background-image: url("../imagenes/san\ y\ santa.jpg");
+        background-size: cover;
+        height: 150px;
+        margin-bottom: 2%;
+    }
+
     .textoBanner {
         font-size: 10px !important;
         text-align: start !important;
@@ -803,6 +810,10 @@ a {
         font-size: 90%;
         margin-right: 10%;
         padding-right: 5%;
+    }
+
+    .botonDatosBancarios {
+        margin-bottom: 5%;
     }
 
     .d-block {
@@ -876,7 +887,6 @@ a {
 
     #Home,
     #News,
-    #Home1,
     #News1,
     #Contact1,
     #Contact2,
@@ -886,7 +896,14 @@ a {
         text-align: left;
         margin-left: -4%;
         margin-right: -4%;
-        margin-top: -28%;
+        margin-top: -13%;
+    }
+
+    #Home1 {
+        text-align: left;
+        margin-left: -4%;
+        margin-right: -4%;
+        margin-top: -5%;
     }
 
     #grupoPastoral,
