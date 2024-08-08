@@ -90,7 +90,7 @@ iframe {
 
 .imagenProvinciaAndina {
     display: flex;
-    padding-top: 5%;
+    padding-top: 2%;
     justify-content: center;
     margin-left: 25%;
     margin-right: 25%;
@@ -99,6 +99,18 @@ iframe {
 .imagenParallax {
     background-image: url("../imagenes/Pagina Inicial/EFECTO\ PARALAJE\ IGLESIA\ \ -REFORMAS\ DEL\ SANTUARIO\ 1967X3158.jpg");
     height: 1000px;
+    /* Create a parallax effect */
+    background-attachment: fixed;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin-bottom: 2%;
+}
+
+.imagenParallaxHome {
+    background-image: url("../imagenes/PANORAMICA\ ATARDECER.jpg");
+    width: 100%;
+    height: auto;
     /* Create a parallax effect */
     background-attachment: fixed;
     background-position: bottom;
