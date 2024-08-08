@@ -96,21 +96,9 @@ iframe {
     margin-right: 25%;
 }
 
-.imagenParallax {
+#imagenParallax {
     background-image: url("../imagenes/Pagina Inicial/EFECTO\ PARALAJE\ IGLESIA\ \ -REFORMAS\ DEL\ SANTUARIO\ 1967X3158.jpg");
     height: 1000px;
-    /* Create a parallax effect */
-    background-attachment: fixed;
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size:cover;
-    margin-bottom: 2%;
-}
-
-.imagenParallaxHome {
-    background-image: url("../imagenes/PANORAMICA\ ATARDECER.jpg");
-    width: 100%;
-    height: auto;
     /* Create a parallax effect */
     background-attachment: fixed;
     background-position: bottom;
@@ -512,7 +500,6 @@ a {
     margin-top: -3%;
 }
 
-
 #listHorarios {
     font-size: 1.5rem;
 }
@@ -895,13 +882,19 @@ a {
     #Contact2,
     #Contact3,
     #Contact4,
-    #formContacto,
+    #formContacto {
+        text-align: left;
+        margin-left: -4%;
+        margin-right: -4%;
+        margin-top: -28%;
+    }
+
     #grupoPastoral,
     #grupoLaborSocial {
         text-align: left;
         margin-left: -4%;
         margin-right: -4%;
-        margin-top: -15%;
+        margin-top: -35%;
     }
 
     #ServSacerd,
@@ -1196,17 +1189,19 @@ a {
     #Contact2,
     #Contact3,
     #Contact4,
-    #formContacto,
-    #grupoPastoral,
-    #grupoLaborSocial {
-        /* text-align: left;
-        margin-left: -4%;
-        margin-right: -4%;
-        margin-top: -15%; */
+    #formContacto {
         text-align: left;
         margin-left: 15%;
         margin-right: 15%;
         margin-top: -3%;
+    }
+
+    #grupoPastoral,
+    #grupoLaborSocial {
+        text-align: left;
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-top: -35%;
     }
 
     #ServSacerd,

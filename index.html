@@ -5,6 +5,10 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1.0" />
   <title>Santuario de Lourdes</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="./imagenes/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./imagenes/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./imagenes/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
   <link rel="icon" type="image/x-icon" href="" />
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -69,7 +73,7 @@
   </header>
 
     <div class="contenido" oncontextmenu="return false" ondragstart="return false" onmousedown='return false' onselectstart='return false'>
-      <img class="img-fluid" src="./imagenes/PANORAMICA ATARDECER.jpg" alt="" width="100%">
+      <img src="./imagenes/PANORAMICA TAMAÑO CHICO.jpg" alt="" width="100%" id="#imgPrincipal">
     </div>
  
      <!--Seccion: imagen provincia andina-->
@@ -396,53 +400,11 @@
 
       <!--Seccion: Boton "Ver reformas del santuario"-->
       <div class="Donaciones">
-        <a href="./pages/donaciones.html"><button class="botonDonaciones">DONACIONES</button></a>
-      </div>
-
-      <!--Seccion: Voz del Alma--------------------------------------------------------------------------------------------------------------------------------->
-      <div class="container-fluid">
-        <h2 id="vozDelAlma">VOZ DEL ALMA EN EL CORAZÓN DE LA VIRGEN DE LOURDES</h2>
-        <div class="container text-center-left">
-          <div class="row">
-            <div class="col"></div>
-            <div class="col-12">
-              <p>Este es un lugar donde personas de cualquier parte del mundo pueden orar las unas por las otras. Aquí en
-                este espacio puedes compartir tu plegaria o intención personal.</p>
-              <p>Si necesitas ofrecer una misa por alguien, selecciona la opción <b>“INTENCIÓN”</b> y a continuación elige
-                el <b>“Horario”</b> de la misa en la que deseas hacer el ofrecimiento.
-                Tu intención será leída en la eucaristía que solicites y la ofrenda es voluntaria. Esta ayudará al
-                mantenimiento y sostenimiento del Santuario.
-                Ten en cuenta que las intenciones hechas no son publicadas en el muro.</p>
-              <p><b>IMPORTANTE:</b><br>
-                Si enviaste tu intención un Lunes, el ofrecimiento se hara el Jueves (en el horario de la misa que hayas
-                elegido).
-                Si la enviaste un Martes, el ofrecimiento se hará el Viernes (en el horario de la misa que hayas elegido).
-                Si la enviaste un Miércoles, el ofrecimiento se hará el Sábado (en el horario de la misa que hayas elegido).
-                Si la enviaste un Jueves, el ofrecimiento se hará el Domingo (en el horario de la misa que hayas elegido).
-                Si la enviaste un Viernes, el ofrecimiento se hará el Lunes (en el horario de la misa que hayas elegido).
-                Si la enviaste un Sábado, el ofrecimiento se hará el Martes (en el horario de la misa que hayas elegido).
-                Si la enviaste un Domingo, el ofrecimiento se hará el Miercoles (en el horario de la misa que hayas
-                elegido).</p>
-              <p>Si necesitas alzar tu voz pidiendo ayuda a Dios por una situación personal o de un tercero, selecciona la
-                opción <b>“PLEGARIA”</b>. Ten en cuenta que las plegarias son publicadas
-                en el muro en completo anonimato por un tiempo de 72 Hs, con el proposito de que toda la comunidad entremos
-                en oración por las peticiones de aquellos que piden
-                ayuda. Una vez cumplido este tiempo, damos lugar a que más hermanos tengan la posibilidad de compartir sus
-                peticiones.</p>
-            </div>
-            <!-- <div class="col mb-5">
-              <p class="botonReformasSantuario" ><b>PROXIMAMENTE. EN CONSTRUCCION</b></p>
-            </div> -->
-            <div class="alert alert-info align-items-center" role="alert">
-              <i class="bi bi-cone-striped"></i>
-              <b>PRÓXIMAMENTE. EN CONSTRUCCIÓN</b>
-            </div>
-          </div>
-        </div>
+        <a class="mt-5" href="./pages/donaciones.html"><button class="botonDonaciones">DONACIONES</button></a>
       </div>
 
       <!--Seccion: imagen provincia andina-->
-      <div class="imagenParallax">
+      <div class="contenido" oncontextmenu="return false" ondragstart="return false" onmousedown='return false' onselectstart='return false' id="imagenParallax">
       </div>
 
       <!--Seccion: Boton "Ver reformas del santuario"-->
