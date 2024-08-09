@@ -33,6 +33,11 @@ p {
     color: #25295A;
 }
 
+#subir {
+    font-size: 5rem !important;
+    position: fixed; right: 50px; bottom: 50px;
+}
+
 .contenido {
     background-image: url("../imagenes/PANORAMICA\ TAMAÑO\ CHICO.jpg");
     background-size: cover;
@@ -683,11 +688,10 @@ a {
       }
 
 
-    /* .imgPrincipal {
-        width: 180%;
-        height: 100%;
-        object-fit: contain;
-    }   */
+    #subir {
+        font-size: 3rem !important;
+        position: fixed; right: 50px; bottom: 50px;
+    }
 
     .contenido {
         background-image: url("../imagenes/PANORAMICA\ TAMAÑO\ CHICO.jpg");
@@ -925,7 +929,7 @@ a {
         text-align: left;
         margin-left: -4%;
         margin-right: -4%;
-        margin-top: -5%;
+        margin-top: -10%;
     }
 
     #grupoPastoral,
