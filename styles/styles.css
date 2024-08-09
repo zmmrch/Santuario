@@ -33,6 +33,14 @@ p {
     color: #25295A;
 }
 
+.contenido {
+    background-image: url("../imagenes/PANORAMICA\ TAMAÑO\ CHICO.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 800px;
+}
+
 .card-title {
     color: #25295A !important;
     font-weight: bold;
@@ -674,6 +682,20 @@ a {
         color: #25295A !important;
       }
 
+
+    /* .imgPrincipal {
+        width: 180%;
+        height: 100%;
+        object-fit: contain;
+    }   */
+
+    .contenido {
+        background-image: url("../imagenes/PANORAMICA\ TAMAÑO\ CHICO.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 400px;
+    }
 
     .imagenSeparador {
         background-image: url("../imagenes/Pagina Inicial/SEPARADOR\ 1967X139.jpg");
