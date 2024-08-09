@@ -988,6 +988,14 @@ a {
         font-size: 80%;
     }
 
+    .contenido {
+        background-image: url("../imagenes/PANORAMICA\ TAMAÑO\ CHICO.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 400px;
+    }
+
     .slideshow-container,
     #container1  {
         height: 250px;
