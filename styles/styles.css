@@ -997,7 +997,7 @@ a {
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
-        height: 800px;
+        height: 600px;
     }
 
     .slideshow-container,
@@ -1252,7 +1252,7 @@ a {
         text-align: left;
         margin-left: 15%;
         margin-right: 15%;
-        margin-top: -35%;
+        margin-top: -6%;
     }
 
     #ServSacerd,
