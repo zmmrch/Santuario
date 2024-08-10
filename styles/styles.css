@@ -6,22 +6,25 @@ Tipografia: Times New Roman*/
 
 * {
     font-family: 'Times New Roman', Times, serif;
+    font-display: swap;
 }
 
 html {
     box-sizing: border-box;
-  }
+}
 
-h5{
+h5 {
     font-weight: bold;
 }
 
-h2, h5, h6 {
+h2,
+h5,
+h6 {
     color: #25295A;
 }
 
 h6 {
-    align-items: center; 
+    align-items: center;
     text-align: justify;
 }
 
@@ -35,7 +38,9 @@ p {
 
 #subir {
     font-size: 5rem !important;
-    position: fixed; right: 50px; bottom: 50px;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
 }
 
 .contenido {
@@ -56,22 +61,21 @@ p {
 
 .card-body {
     color: #25295A !important;
-  }
+}
 
-/*tarjetas de los religiosos*/
 .column-r {
     float: left !important;
     width: 33.3% !important;
     margin-bottom: 16px !important;
     padding: 0 8px !important;
     text-align: center !important;
-  }
-  
-  .card-r {
+}
+
+.card-r {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) !important;
     margin: 8px !important;
-  }
-  
+}
+
 header {
     padding-bottom: 2%;
 }
@@ -112,11 +116,10 @@ iframe {
 #imagenParallax {
     background-image: url("../imagenes/Pagina Inicial/EFECTO\ PARALAJE\ IGLESIA\ \ -REFORMAS\ DEL\ SANTUARIO\ 1967X3158.jpg");
     height: 1000px;
-    /* Create a parallax effect */
     background-attachment: fixed;
     background-position: bottom;
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
     margin-bottom: 2%;
 }
 
@@ -206,11 +209,11 @@ iframe {
 
 #imgSlideshow {
     width: 100%;
-} 
+}
 
 .card-img-top {
     width: 100%;
-    object-fit:contain;
+    object-fit: contain;
 }
 
 .cruz {
@@ -234,7 +237,12 @@ iframe {
 }
 
 #seccionAzulSantos {
-    background-color: #25295A; color: white; border-radius: 10px; padding: 5%; line-height: 130%; font-size: 1.1rem;
+    background-color: #25295A;
+    color: white;
+    border-radius: 10px;
+    padding: 5%;
+    line-height: 130%;
+    font-size: 1.1rem;
 }
 
 #vozDelAlma,
@@ -276,7 +284,7 @@ iframe {
     height: 30px;
 }
 
-.botonReformasSantuario{
+.botonReformasSantuario {
     background-color: #25295A;
     color: white;
     width: 200px;
@@ -316,7 +324,6 @@ iframe {
     margin-bottom: 5%;
 }
 
-/*Animated transition tabs*/
 .made-with {
     background: #ACA7CF;
     color: #25295A;
@@ -337,21 +344,24 @@ button:focus,
 input:focus,
 textarea:focus,
 select:focus {
-  outline: none; }
+    outline: none;
+}
 
 .tabs {
-  display: block;
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: flex;
-  -webkit-flex-wrap: wrap;
-  -moz-flex-wrap: wrap;
-  flex-wrap: wrap;
-  margin-left: 30%;
-  margin-right: 30%;
-  overflow: hidden; }
-  .tabs [class^="tab"] label,
-  .tabs [class*=" tab"] label {
+    display: block;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-left: 30%;
+    margin-right: 30%;
+    overflow: hidden;
+}
+
+.tabs [class^="tab"] label,
+.tabs [class*=" tab"] label {
     color: #25295A;
     cursor: pointer;
     display: block;
@@ -359,9 +369,11 @@ select:focus {
     font-weight: bold;
     line-height: 1em;
     padding: 2rem 0;
-    text-align: center; }
-  .tabs [class^="tab"] [type="radio"],
-  .tabs [class*=" tab"] [type="radio"] {
+    text-align: center;
+}
+
+.tabs [class^="tab"] [type="radio"],
+.tabs [class*=" tab"] [type="radio"] {
     border-bottom: 1px solid rgba(239, 237, 239, 0.5);
     cursor: pointer;
     -webkit-appearance: none;
@@ -372,39 +384,58 @@ select:focus {
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out; }
-    .tabs [class^="tab"] [type="radio"]:hover, .tabs [class^="tab"] [type="radio"]:focus,
-    .tabs [class*=" tab"] [type="radio"]:hover,
-    .tabs [class*=" tab"] [type="radio"]:focus {
-      border-bottom: 1px solid #ACA7CF; }
-    .tabs [class^="tab"] [type="radio"]:checked,
-    .tabs [class*=" tab"] [type="radio"]:checked {
-      border-bottom: 2px solid #ACA7CF; }
-    .tabs [class^="tab"] [type="radio"]:checked + div,
-    .tabs [class*=" tab"] [type="radio"]:checked + div {
-      opacity: 1; }
-    .tabs [class^="tab"] [type="radio"] + div,
-    .tabs [class*=" tab"] [type="radio"] + div {
-      display: block;
-      opacity: 0;
-      padding: 2rem 0;
-      width: 90%;
-      -webkit-transition: all 0.3s ease-in-out;
-      -moz-transition: all 0.3s ease-in-out;
-      -o-transition: all 0.3s ease-in-out;
-      transition: all 0.3s ease-in-out; }
-  .tabs .tab-2 {
-    width: 50%;}
-    .tabs .tab-2 [type="radio"] + div {
-      width: 200%;
-      margin-left: 200%; }
-    .tabs .tab-2 [type="radio"]:checked + div {
-      margin-left: 0; }
-    .tabs .tab-2:last-child [type="radio"] + div {
-      margin-left: 100%; }
-    .tabs .tab-2:last-child [type="radio"]:checked + div {
-      margin-left: -100%; }
-/*FIN - Animated transition tabs*/
+    transition: all 0.3s ease-in-out;
+}
+
+.tabs [class^="tab"] [type="radio"]:hover,
+.tabs [class^="tab"] [type="radio"]:focus,
+.tabs [class*=" tab"] [type="radio"]:hover,
+.tabs [class*=" tab"] [type="radio"]:focus {
+    border-bottom: 1px solid #ACA7CF;
+}
+
+.tabs [class^="tab"] [type="radio"]:checked,
+.tabs [class*=" tab"] [type="radio"]:checked {
+    border-bottom: 2px solid #ACA7CF;
+}
+
+.tabs [class^="tab"] [type="radio"]:checked+div,
+.tabs [class*=" tab"] [type="radio"]:checked+div {
+    opacity: 1;
+}
+
+.tabs [class^="tab"] [type="radio"]+div,
+.tabs [class*=" tab"] [type="radio"]+div {
+    display: block;
+    opacity: 0;
+    padding: 2rem 0;
+    width: 90%;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.tabs .tab-2 {
+    width: 50%;
+}
+
+.tabs .tab-2 [type="radio"]+div {
+    width: 200%;
+    margin-left: 200%;
+}
+
+.tabs .tab-2 [type="radio"]:checked+div {
+    margin-left: 0;
+}
+
+.tabs .tab-2:last-child [type="radio"]+div {
+    margin-left: 100%;
+}
+
+.tabs .tab-2:last-child [type="radio"]:checked+div {
+    margin-left: -100%;
+}
 
 iframe {
     width: 1024px;
@@ -417,7 +448,7 @@ iframe {
 
 .botonSacramentos,
 .tablink,
-.tablink2{
+.tablink2 {
     display: inline-block;
     background-color: white;
     border: none;
@@ -439,15 +470,14 @@ iframe {
     align-items: center;
 }
 
-/*--------------------*/
-
 .navbar {
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
     gap: 1rem !important;
     color: #25295A !important;
-    border: none !important; box-shadow: none !important;
+    border: none !important;
+    box-shadow: none !important;
 }
 
 .nav-link,
@@ -472,7 +502,7 @@ a {
 }
 
 .list-item {
-    color:#ACA7CF !important;
+    color: #ACA7CF !important;
     padding: .5rem !important;
     position: relative !important;
 }
@@ -494,7 +524,6 @@ a {
 .list-item:hover::after {
     transform: scaleX(1);
 }
-/*--------------------*/
 
 #Home,
 #News,
@@ -513,79 +542,55 @@ a {
     margin-top: -3%;
 }
 
-/* #listHorarios {
-    font-size: 1.5rem;
-}
-
-#horarios {
-    font-size: 1.2rem;
-} */
-
 #titulosHorarios {
     color: #ACA7CF;
 }
-
-/* #navbarHorarios {
-    font-size: 1.2rem;
-} */
 
 .form-control {
     border-color: #25295A;
     border-radius: 0;
 }
 
-/*Formato de las tarjetas--------------------------------------------------------------*/
-/* Three columns side by side */
 .column {
     float: left;
     width: 33.3%;
     margin-bottom: 16px;
     padding: 20px 8px 20px 20px;
-  }
+}
 
-  /* Display the columns below each other instead of side by side on small screens */
-  /*@media screen and (max-width: 650px) {
-    .column {
-      width: 100%;
-      display: block;
-    }
-  }*/
-
-  /* Add some shadows to create a card effect */
-  .card {
+.card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     margin-left: 5%;
     margin-right: 5%;
-  }
+}
 
-  /* Some left and right padding inside the container */
-  .container {
+.container {
     padding: 0 16px;
-  }
+}
 
-  /* Clear floats */
-  .container::after, .row::after {
+.container::after,
+.row::after {
     content: "";
     clear: both;
     display: table;
-  }
+}
 
-  .title {
+.title {
     color: #25295A;
     font-size: 1.5rem;
     font-weight: bold;
     line-height: 90%;
     padding-top: 5%;
-  }
+}
 
-  .title2 {
+.title2 {
     color: #25295A;
     font-size: 1rem;
     line-height: 120%;
     margin-top: -3% !important;
-  }
+}
 
-  .button {
+.button {
     border: none;
     outline: 0;
     display: inline-block;
@@ -595,11 +600,11 @@ a {
     text-align: center;
     cursor: pointer;
     width: 100%;
-  }
+}
 
-  .button:hover {
+.button:hover {
     background-color: #ACA7CF;
-  }
+}
 
 
 .footer {
@@ -641,7 +646,7 @@ a {
     }
 
     .slideshow-container,
-    #container1  {
+    #container1 {
         height: 250px;
         position: relative;
     }
@@ -651,17 +656,17 @@ a {
         height: 250px;
         object-fit: cover;
         object-position: right;
-    } 
+    }
 
     #textSlideshow {
-        font-size: 14px !important;  
+        font-size: 14px !important;
         background-color: rgba(0, 0, 0, 0.5) !important;
     }
 
     .dot {
         height: 10px;
         width: 10px;
-      }
+    }
 
     .imagenProvinciaAndina {
         display: inline-block;
@@ -682,15 +687,17 @@ a {
         font-size: 80%;
         color: #25295A;
     }
-    
+
     .card-body {
         color: #25295A !important;
-      }
+    }
 
 
     #subir {
         font-size: 3rem !important;
-        position: fixed; right: 50px; bottom: 50px;
+        position: fixed;
+        right: 50px;
+        bottom: 50px;
     }
 
     .contenido {
@@ -703,7 +710,7 @@ a {
 
     .imagenSeparador {
         background-image: url("../imagenes/Pagina Inicial/SEPARADOR\ 1967X139.jpg");
-        background-size:cover;
+        background-size: cover;
         background-repeat: no-repeat;
         background-position: right;
         height: 75px;
@@ -848,28 +855,28 @@ a {
     }
 
     .container-fluid {
-       padding: 10px; /* Adjust padding for smaller screens */
+        padding: 10px;
     }
 
     .navbar .list {
-       display: flex; /* Make the list items display horizontally */
-       flex-wrap: wrap; /* Allow items to wrap onto multiple lines */
-       text-align: center;
-       justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
     }
 
     .list-item {
-       text-align: center; /* Center the text of list items */
-       flex-wrap: wrap;
+        text-align: center;
+        flex-wrap: wrap;
     }
 
     .footer {
-       position:relative;
-       left: 0;
-       bottom: 0;
-       width: 100%;
-       color: white;
-       text-align: center;
+        position: relative;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        color: white;
+        text-align: center;
     }
 
     #vidaDeFe,
@@ -878,12 +885,12 @@ a {
     }
 
     #imgFooter {
-       vertical-align: middle;
+        vertical-align: middle;
     }
 
     .footer {
-       font-size: 1.5vw;
-       margin-top: 1%;
+        font-size: 1.5vw;
+        margin-top: 1%;
     }
 
     .botonDonaciones {
@@ -955,20 +962,24 @@ a {
         text-decoration: underline #ACA7CF;
         text-underline-offset: 30px;
     }
-    
+
     #fichaSantos {
         align-items: center;
     }
-    
+
     #seccionAzulSantos {
-        background-color: #25295A; color: white; border-radius: 10px; padding: 5%; line-height: 130%; font-size: 1.1rem;
+        background-color: #25295A;
+        color: white;
+        border-radius: 10px;
+        padding: 5%;
+        line-height: 130%;
+        font-size: 1.1rem;
     }
 
-    /*tarjetas religiosos*/
     .column-r {
         width: 100% !important;
         display: block !important;
-      }
+    }
 }
 
 /* Estilos para dispositivos Laptop --------------------------------------------------------------------------------------------*/
@@ -1001,7 +1012,7 @@ a {
     }
 
     .slideshow-container,
-    #container1  {
+    #container1 {
         height: 250px;
         position: relative;
     }
@@ -1011,17 +1022,17 @@ a {
         height: 250px;
         object-fit: cover;
         object-position: right;
-    } 
+    }
 
     #textSlideshow {
-        font-size: 24px !important;  
+        font-size: 24px !important;
         background-color: rgba(0, 0, 0, 0.5) !important;
     }
 
     .dot {
         height: 10px;
         width: 10px;
-      }
+    }
 
     .imagenProvinciaAndina {
         display: inline-block;
@@ -1049,7 +1060,7 @@ a {
 
     .imagenSeparador {
         background-image: url("../imagenes/Pagina Inicial/SEPARADOR\ 1967X139.jpg");
-        background-size:cover;
+        background-size: cover;
         background-repeat: no-repeat;
         background-position: right;
         height: 75px;
@@ -1103,7 +1114,7 @@ a {
     }
 
     .imagenPrincipalVidaDeFe {
-        background-image: url("../imagenes/vida_de_fe/BANNER\ VIDA\ DE\ FE\ 1967X312.jpg\ 1967X312.jpg");
+        background-image: url("../imagenes/vida_de_fe/BANNER\ VIDA\ DE\ FE\ 1967X312.jpg");
         background-size: cover;
         background-position: center;
         height: 150px;
@@ -1169,28 +1180,28 @@ a {
     }
 
     .container-fluid {
-       padding: 10px; /* Adjust padding for smaller screens */
+        padding: 10px;/
     }
 
     .navbar .list {
-       display: flex; /* Make the list items display horizontally */
-       flex-wrap: wrap; /* Allow items to wrap onto multiple lines */
-       text-align: center;
-       justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
     }
 
     .list-item {
-       text-align: center; /* Center the text of list items */
-       flex-wrap: wrap;
+        text-align: center;
+        flex-wrap: wrap;
     }
 
     .footer {
-       position:relative;
-       left: 0;
-       bottom: 0;
-       width: 100%;
-       color: white;
-       text-align: center;
+        position: relative;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        color: white;
+        text-align: center;
     }
 
     #vidaDeFe,
@@ -1199,12 +1210,12 @@ a {
     }
 
     #imgFooter {
-       vertical-align: middle;
+        vertical-align: middle;
     }
 
     .footer {
-       font-size: 1vw;
-       margin-top: 1%;
+        font-size: 1vw;
+        margin-top: 1%;
     }
 
     .botonDonaciones {
@@ -1270,19 +1281,23 @@ a {
         text-decoration: underline #ACA7CF;
         text-underline-offset: 30px;
     }
-    
+
     #fichaSantos {
         align-items: center;
     }
-    
+
     #seccionAzulSantos {
-        background-color: #25295A; color: white; border-radius: 10px; padding: 5%; line-height: 130%; font-size: 1.1rem;
+        background-color: #25295A;
+        color: white;
+        border-radius: 10px;
+        padding: 5%;
+        line-height: 130%;
+        font-size: 1.1rem;
     }
 
-    /*tarjetas religiosos*/
     .column-r {
         width: 50% !important;
         display: block !important;
         text-align: center !important;
-      }
+    }
 }
