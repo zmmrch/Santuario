@@ -1,4 +1,3 @@
-// Funcionalidad para el slideshow
 let slideIndex = 1;
 showSlides();
 
@@ -14,7 +13,6 @@ function showSlides() {
     setTimeout(showSlides, 10000);
 }
 
-// Funcionalidad para mover slides
 let slideIndex1 = 1;
 moveSlides(slideIndex1);
 
@@ -41,8 +39,6 @@ function moveSlides(n) {
     slides[slideIndex1 - 1].style.display = "block";
     dots[slideIndex1 - 1].className += " active";
 }
-
-// Nuevas funciones agregadas
 
 function sacramentos() {
     let v = document.getElementById("imagenPrincipal");
@@ -131,7 +127,5 @@ function openPage2(pageName, elmnt, color) {
     elmnt.style.backgroundColor = color;
 }
 
-// Ejecutar cuando el DOM esté completamente cargado
 document.addEventListener('DOMContentLoaded', function() {
-    // Aquí puedes inicializar cualquier funcionalidad que necesite que el DOM esté listo
 });
