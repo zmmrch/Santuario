@@ -61,7 +61,7 @@
             <a class="nav-link" href="../pages/horarios.html">HORARIOS Y CONTACTO</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../pages/asuncionistas.html">ASUNCIÓN DE LOS AGUSTINOS</a>
+            <a class="nav-link" href="../pages/asuncionistas.html">AGUSTINOS DE LA ASUNCIÓN</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="../pages/radio_parroquial.html">RADIO PARROQUIAL</a>
@@ -73,7 +73,7 @@
 
   <div class="imagenPrincipalAsuncionistas" id="imagenPrincipal"></div>
 
-  <h2 id="donaciones">ASUNCIÓN DE LOS AGUSTINOS</h2>
+  <h2 id="donaciones">AGUSTINOS DE LA ASUNCIÓN</h2>
 
   <div class="container-fluid text-center">
     <div class="row">
@@ -89,16 +89,16 @@
           <a href="">HISTORIA ASUNCIONISTA</a>
         </li>
         <li class="list-item">
-          <a href="">PROVINCIA ANDINA</a>
+          <a href="javascript:void(0);" onclick="openPage('ProvAndina')">PROVINCIA ANDINA</a>
         </li>
         <li class="list-item">
-          <a href="">PROMOCIÓN VOCACIONAL</a>
+          <a href="javascript:void(0);" onclick="openPage('PromVocacional')">PROMOCIÓN VOCACIONAL</a>
         </li>
         <li class="list-item">
-          <a href="">CIFA</a>
+          <a href="javascript:void(0);" onclick="openPage('CIFA')">CIFA</a>
         </li>
         <li class="list-item">
-          <a href="">OBRAS ASUNCIONISTAS</a>
+          <a href="javascript:void(0);" onclick="openPage('obrasAsuncionistas')">OBRAS ASUNCIONISTAS</a>
         </li>
         <li class="list-item">
           <a href="">BEATIFICACIÓN DEL PADRE</a>
@@ -108,8 +108,46 @@
   </div>
 
   <div class="container-fluid text-center">
-    <div id="Home" class="tabcontent">
+    <div id="ProvAndina" class="tabcontent">
+      <div class="col"></div>
+      <div class="col-lg text-center">
+        <a href="https://soyasuncionista.cl/"><p style="color: blue; font-size: 20px; text-decoration: underline;">Página de la Provincia Andina</p></a>
+      </div>
+      <div class="col"></div>
+    </div>
 
+    <div id="PromVocacional" class="tabcontent">
+      <div class="row">
+        <div class="col"></div>
+        <div class="col-lg text-center">
+          <p>Los asuncionistas somos religiosos que vivimos en comunidad apostólica. Fieles a nuestro Fundador, el Padre d´Alzon, nos proponemos, 
+            ante todo, trabajar, por el amor de Cristo, en favor del advenimiento del Reino de Dios en nosotros y a nuestro alrededor.
+          </p>
+          <p> <strong> Contáctanos: vocacion@provandina.com</strong></p>
+        </div>
+        <div class="col"></div>
+      </div>
+    </div>
+
+    <div id="obrasAsuncionistas" class="tabcontent">
+      <div class="row">
+        <div class="col"></div>
+        <div class="col text-center">
+          <ul>
+            <li><a href="https://www.isr.edu.ar/" style="color: blue; font-size: 20px; text-decoration: underline;">INSTITUTO SAN ROMÁN</a></li>
+            <li><a href="http://nsl.edu.ar/" style="color: blue; font-size: 20px; text-decoration: underline;">INSTITUTO NUESTRA SEÑORA DE LOURDES</a></li>
+          </ul>
+        </div>
+        <div class="col"></div>
+      </div>
+    </div>
+
+    <div id="CIFA" class="tabcontent">
+      <div class="col"></div>
+      <div class="col-lg text-center">
+        <a href="https://sites.google.com/view/asuncionistas/home-page"><p style="color: blue; font-size: 20px; text-decoration: underline;">CIFA</p></a>
+      </div>
+      <div class="col"></div>
     </div>
 
     <div class="alert alert-info align-items-center" role="alert">
@@ -151,6 +189,7 @@
       crossorigin="anonymous"></script>
     <script type="text/javascript"
       src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.3.2/mdb.umd.min.js"></script>
+    <script src="../main.js" defer></script>
 
 </body>
 

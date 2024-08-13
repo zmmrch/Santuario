@@ -87,7 +87,7 @@ header {
 
 .bi {
     color: #ACA7CF !important;
-    font-size: 25px;
+    font-size: 32px;
 }
 
 iframe {
@@ -642,7 +642,7 @@ a {
     }
 
     .bi {
-        font-size: 80%;
+        font-size: 16px;
     }
 
     .slideshow-container,
@@ -1000,7 +1000,7 @@ a {
     }
 
     .bi {
-        font-size: 80%;
+        font-size: 24px;
     }
 
     .contenido {
