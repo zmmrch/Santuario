@@ -624,6 +624,41 @@ a {
     color: #ACA7CF;
 }
 
+/* accordion panel */
+.accordion_grupo {
+    background-color: #eee;
+    color: #25295a;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+  
+  .active, .accordion_grupo:hover {
+    background-color: #ACA7CF;
+  }
+  
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+  }
+
+  .accordion_grupo:after {
+    content: '\02795'; /* sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active_1:after {
+    content: "\2796"; /* sign (-) */
+  }
 
 /* Estilos para dispositivos móviles --------------------------------------------------------------------------------------------*/
 @media only screen and (max-width: 768px) {

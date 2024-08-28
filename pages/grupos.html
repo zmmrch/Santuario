@@ -95,63 +95,8 @@
   </div>
   <div class="container-fluid text-center">
     <div id="grupoPastoral" class="tabcontent">
-      <div class="container-fluid">
-        <div class="navbar">
-          <div class="list">
-            <li class="list-item text-center">
-              <a href="javascript:void(0);" onclick="gruposPastorales(); openPage2('AccCatol')"
-                style="color: #25295a">ACCIÓN CATÓLICA</a>
-            </li>
-            <li class="list-item text-center">
-              <a href="javascript:void(0);" onclick="openPage2('PastCarcel')" style="color: #25295a">PASTORAL
-                CARCELARIA</a>
-            </li>
-            <li class="list-item text-center">
-              <a href="javascript:void(0);" onclick="openPage2('AdulJov')" style="color: #25295a">ADULTOS JÓVENES DE
-                ACCIÓN CATÓLICA ARGENTINA</a>
-            </li>
-            <li class="list-item text-center">
-              <a href="javascript:void(0);" onclick="openPage2('Coro')" style="color: #25295a">CORO PARROQUIAL NUESTRA
-                SEÑORA DE LOURDES</a>
-            </li>
-          </div>
-        </div>
-      </div>
-      <div class="container-fluid">
-        <div class="navbar">
-          <div class="list">
-            <li class="list-item text-center">
-              <a href="javascript:void(0);" onclick="openPage2('Adoracion')" style="color: #25295a">ADORACIÓN AL
-                SANTÍSIMO SACRAMENTO</a>
-            </li>
-            <li class="list-item text-center">
-              <a href="javascript:void(0);" onclick="openPage2('Huella')" style="color: #25295a">HUELLA JOVEN</a>
-            </li>
-            <li class="list-item text-center">
-              <a href="javascript:void(0);" onclick="openPage2('Ministros')" style="color: #25295a">MINISTROS DE LA
-                EUCARISTÍA</a>
-            </li>
-            <li class="list-item text-center">
-              <a href="javascript:void(0);" onclick="openPage2('Colectores')" style="color: #25295a">COLECTORES DEL
-                SANTUARIO</a>
-            </li>
-            <li class="list-item text-center">
-              <a href="javascript:void(0);" onclick="openPage2('Servidores')" style="color: #25295a">SERVIDORES DEL
-                SANTURARIO</a>
-            </li>
-          </div>
-        </div>
-      </div>
-      <div class="container-fluid">
-        <div class="navbar">
-          <div class="list">
-            <li class="list-item text-center">
-              <a href="javascript:void(0);" onclick="openPage2('GrupoBau')" style="color: #25295a">GRUPO DE BAUTISMO</a>
-            </li>
-          </div>
-        </div>
-      </div>
-      <div id="AccCatol" class="tabcontent2">
+      <button class="accordion_grupo">ACCIÓN CATÓLICA</button>
+      <div class="panel mb-5 mt-3">
         <div class="col"></div>
         <div class="col-lg">
           <p>
@@ -177,7 +122,8 @@
         </div>
       </div>
 
-      <div id="PastCarcel" class="tabcontent2">
+      <button class="accordion_grupo">PASTORAL CARCELARIA</button>
+      <div class="panel mb-5 mt-3">
         <div class="col"></div>
         <div class="col-lg">
           <p>
@@ -210,7 +156,9 @@
             loading="lazy" />
         </div>
       </div>
-      <div id="AdulJov" class="tabcontent2">
+
+      <button class="accordion_grupo">ADULTOS JÓVENES DE ACCIÓN CATÓLICA ARGENTINA</button>
+      <div class="panel mb-5 mt-3">
         <div class="col"></div>
         <div class="col-lg">
           <p>
@@ -238,7 +186,9 @@
             loading="lazy" />
         </div>
       </div>
-      <div id="Coro" class="tabcontent2">
+
+      <button class="accordion_grupo">CORO PARROQUIAL NUESTRA SEÑORA DE LOURDES</button>
+      <div class="panel mb-5 mt-3">
         <div class="col"></div>
         <div class="col-lg">
           <p>
@@ -267,7 +217,8 @@
           <img src="" class="img-fluid align-items-center" alt="" loading="lazy" />
         </div>
       </div>
-      <div id="Adoracion" class="tabcontent2">
+      <button class="accordion_grupo">ADORACIÓN AL SANTÍSIMO SACRAMENTO</button>
+      <div class="panel mb-5 mt-3">
         <div class="col"></div>
         <div class="col-lg">
           <p>
@@ -286,7 +237,8 @@
         </div>
         <div class="col"></div>
       </div>
-      <div id="Huella" class="tabcontent2">
+      <button class="accordion_grupo">HUELLA JOVEN</button>
+      <div class="panel mb-5 mt-3">
         <div class="col"></div>
         <div class="col-lg">
           <p>
@@ -305,12 +257,13 @@
         </div>
         <div class="col"></div>
         <p>
-          <strong>CONTACTO GRUPO Servidores del santuario Mail:
-            garyedgardo@gmail.com
+          <strong>Contacto:
+            +54 9 113842-4123 (Iara)
           </strong>
         </p>
       </div>
-      <div id="Ministros" class="tabcontent2">
+      <button class="accordion_grupo">MINISTROS DE LA EUCARISTÍA</button>
+      <div class="panel mb-5 mt-3">
         <div class="col"></div>
         <div class="col-lg">
           <p>
@@ -332,7 +285,8 @@
         </div>
         <div class="col"></div>
       </div>
-      <div id="Colectores" class="tabcontent2">
+      <button class="accordion_grupo">COLECTORES DEL SANTUARIO</button>
+      <div class="panel mb-5 mt-3">
         <div class="col"></div>
         <div class="col-lg">
           <p>
@@ -356,7 +310,8 @@
         </div>
         <div class="col"></div>
       </div>
-      <div id="Servidores" class="tabcontent2">
+      <button class="accordion_grupo">SERVIDORES DEL SANTURARIO</button>
+      <div class="panel mb-5 mt-3">
         <div class="col"></div>
         <div class="col-lg">
           <p>
@@ -386,7 +341,8 @@
         </div>
         <div class="col"></div>
       </div>
-      <div id="GrupoBau" class="tabcontent2">
+      <button class="accordion_grupo">GRUPO DE BAUTISMO</button>
+      <div class="panel mb-5 mt-3">
         <div class="col"></div>
         <div class="col-lg">
           <p>
@@ -416,37 +372,37 @@
       </div>
     </div>
     <div id="grupoLaborSocial" class="tabcontent">
-      <div class="container-fluid">
-        <div class="navbar">
-          <div class="list">
-            <li class="list-item text-center">
-              <a href="javascript:void(0);" onclick="openPage2('Caritas')" style="color: #25295a">CÁRITAS</a>
-            </li>
-            <li class="list-item text-center">
-              <a href="javascript:void(0);" onclick="openPage2('BoyScouts')" style="color: #25295a">BOY SCOUTS</a>
-            </li>
-            <li class="list-item text-center">
-              <a href="javascript:void(0);" onclick="openPage2('HogarAsu')" style="color: #25295a">MI HOGAR
-                ASUNCIONISTA</a>
-            </li>
-            <li class="list-item text-center">
-              <a href="javascript:void(0);" onclick="openPage2('Migran')" style="color: #25295a">MIGRANTES</a>
-            </li>
-          </div>
+      <button class="accordion_grupo">CÁRITAS</button>
+      <div class="panel mb-5 mt-3">
+        <div class="col"></div>
+        <div class="col-lg"></div>
+        <div class="col"></div>
+      </div>
+      <button class="accordion_grupo">BOY SCOUTS</button>
+      <div class="panel mb-5 mt-3">
+        <div class="col"></div>
+        <div class="col-lg"></div>
+        <div class="col"></div>
+      </div>
+      <button class="accordion_grupo">MI HOGAR ASUNCIONISTA</button>
+      <div class="panel mb-5 mt-3">
+        <div class="col"></div>
+        <div class="col-lg">
+          <p>
+            <strong>Acercate a Padre Silberman 1565 Santos Lugares, todos los jueves
+              de 8 a 14 hs.
+            </strong>
+          </p>
         </div>
+        <div class="col"></div>
       </div>
-    </div>
-    <div id="HogarAsu" class="tabcontent2">
-      <div class="col"></div>
-      <div class="col-lg">
-        <p>
-          <strong>Acercate a Padre Silberman 1565 Santos Lugares, todos los jueves
-            de 8 a 14 hs.
-          </strong>
-        </p>
+      <button class="accordion_grupo">MIGRANTES</button>
+      <div class="panel mb-5 mt-3">
+        <div class="col"></div>
+        <div class="col-lg"></div>
+        <div class="col"></div>
       </div>
-      <div class="col"></div>
-    </div>
+    </div>  
   </div>
   <div class="btnInicio">
     <a href="../index.html"><button class="botonInicio">Inicio</button></a>
@@ -482,6 +438,23 @@
     crossorigin="anonymous"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.3.2/mdb.umd.min.js"></script>
   <script src="../main.js" defer></script>
+
+  <script>
+    var acc = document.getElementsByClassName("accordion_grupo");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+     acc[i].addEventListener("click", function() {
+     this.classList.toggle("active_1");
+     var panel = this.nextElementSibling;
+     if (panel.style.display === "block") {
+     panel.style.display = "none";
+     } else {
+     panel.style.display = "block";
+     }
+     });
+    }
+  </script>
 </body>
 
 </html>
