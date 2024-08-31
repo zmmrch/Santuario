@@ -601,6 +601,7 @@ a {
     text-align: center;
     cursor: pointer;
     width: 100%;
+    font-size: 18px;
 }
 
 .button:hover {
@@ -635,30 +636,44 @@ a {
     border: none;
     outline: none;
     transition: 0.4s;
-  }
-  
-  .active, .accordion_grupo:hover {
+}
+
+.active,
+.accordion_grupo:hover {
     background-color: #ACA7CF;
-  }
-  
-  .panel {
+}
+
+.panel {
     padding: 0 18px;
     background-color: white;
     display: none;
     overflow: hidden;
-  }
+}
 
-  .accordion_grupo:after {
-    content: '\02795'; /* sign (+) */
+.accordion_grupo:after {
+    content: '\02795';
+    /* sign (+) */
     font-size: 13px;
     color: #777;
     float: right;
     margin-left: 5px;
-  }
-  
-  .active_1:after {
-    content: "\2796"; /* sign (-) */
-  }
+}
+
+.active_1:after {
+    content: "\2796";
+    /* sign (-) */
+}
+
+.modal-title,
+.modal-body,
+.modal-footer,
+.modal-header {
+    color: #25295a !important;
+}
+
+#saludoPadre {
+    padding-top: 1%;
+}
 
 /* Estilos para dispositivos móviles --------------------------------------------------------------------------------------------*/
 @media only screen and (max-width: 768px) {
@@ -669,8 +684,12 @@ a {
     }
 
     iframe {
-        width: 600px;
-        height: 300px;
+        width: 450px;
+        height: 600px;
+    }
+
+    #saludoPadre {
+        padding-top: 10%;
     }
 
     p {
