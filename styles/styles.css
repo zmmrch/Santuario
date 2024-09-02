@@ -700,6 +700,11 @@ a {
         font-size: 16px;
     }
 
+    #facebook,
+    #whatsapp {
+        font-size: 36px;
+    }
+
     .slideshow-container,
     #container1 {
         height: 250px;
