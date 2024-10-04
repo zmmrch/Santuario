@@ -627,7 +627,7 @@ a {
 
 /* accordion panel */
 .accordion_grupo {
-    background-color: #eee;
+    background-color: white;
     color: #25295a;
     cursor: pointer;
     padding: 18px;
